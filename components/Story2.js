@@ -5,7 +5,7 @@ import Main from './Main';
 class Story2 extends Component {
   render() {
     return (
-      <Main text={"On your way home from work, you are stopped by a member of " + randomNum + " and propositioned to be a member of their gang. Young women are valuable assets to gangs—inconspicuous foot soldiers, and excellent cannon fodder."} imgUrl="../assets/ms13.png" nextLink={randomNum.replace(/\s/g, '')}/>
+      <Main text={"On your way home one day, you are stopped by a man. A man with tattoos all over his face and body. He followed you."} imgUrl="../assets/ms13.png" nextLink={randomNum.replace(/\s/g, '')}/>
     );
   }
 }
