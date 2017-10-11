@@ -1,7 +1,24 @@
 <!doctype html public "storage">
 <html>
 <meta charset=utf-8/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="index.css" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 <title>My First React Router App</title>
-<div id=app></div>
+<div class="container text-center page">
+  <div id="app" class=""></div>
+</div>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="bundle.js"></script>
+<script>
+function getHeight(){
+    var h = $(window).height();
+    console.log(h)
+    $('.page').css('height', h)
+  }
+  	getHeight();
+  	$(window).resize(function () {
+  		getHeight();
+  	});
+
+</script>

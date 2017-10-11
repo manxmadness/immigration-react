@@ -2,11 +2,22 @@ import React from 'react'
 import { render } from 'react-dom'
 import { Router, Route, hashHistory } from 'react-router'
 import App from './components/App'
-import About from './components/About'
+import Story2 from './components/Story2'
+import Guatemala from './components/Guatemala'
+import Honduras from './components/Honduras'
+import ElSalvador from './components/ElSalvador'
+import MS13 from './components/MS13'
+import Member from './components/Member'
 
 render((
   <Router history={hashHistory}>
     <Route path="/" component={App}/>
-    <Route path="/about" component={About}/>
+    <Route path="/Story2" component={Story2}/>
+    <Route path="/Honduras" component={Honduras}/>
+    <Route path="/ElSalvador" component={ElSalvador}/>
+    <Route path="/Guatemala" component={Guatemala}/>
+    <Route path="/Honduras" component={Honduras}/>
+    <Route path="/MS13" component={MS13}/>
+    <Route path="/Member" component={Member}/>
   </Router>
 ), document.getElementById('app'))
