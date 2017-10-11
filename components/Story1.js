@@ -1,14 +1,12 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router'
+import Main from './Main';
 
 class Story1 extends Component {
 
   render() {
     return (
-      <div className="col-12">
-        <p>Hello, Kelly. You are a 25 y.o. female living in {randomNum}.</p>
-        <Link to={randomNum.replace(/\s/g, '')}>Continue</Link>
-      </div>
+      <Main text={"Hello, Kelly. You are a 25 y.o. female living in " + randomNum} imgUrl="../assets/ph.png" nextLink={randomNum.replace(/\s/g, '')}/>
     );
   }
 }
@@ -33,7 +31,7 @@ var generateWeighedList = function(list, weight) {
 };
 
 var list = ['El Salvador', 'Honduras', 'Guatemala'];
-var weight = [0.8, 0.1, 0.1];
+var weight = [1, 0, 0];
 var weighed_list = generateWeighedList(list, weight);
 
 var random_num = rand(0, weighed_list.length-1);
