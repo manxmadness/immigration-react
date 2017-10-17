@@ -31,8 +31,6 @@ import Story5 from './components/Story5'
 import Story6 from './components/Story6'
 import Story7 from './components/Story7'
 import Traffick from './components/Traffick'
-import Form from './components/Form'
-import Form1 from './components/Form1'
 import Woman from './components/Woman'
 import Hop from './components/Hop'
 import Safe from './components/Safe'
@@ -76,8 +74,6 @@ render((
     <Route path="/Story6" component={Story6}/>
     <Route path="/Story7" component={Story7}/>
     <Route path="/Traffick" component={Traffick}/>
-    <Route path="/Form" component={Form}/>
-    <Route path="/Form1" component={Form1}/>
     <Route path="/Woman" component={Woman}/>
     <Route path="/Hop" component={Hop}/>
     <Route path="/Safe" component={Safe}/>
