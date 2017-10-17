@@ -1,6 +1,8 @@
 body{
   background: url(assets/paper.jpg);
-  /*background-size: cover;*/
+  text-align: center;
+  font-family: 'EB Garamond', serif;
+  font-size: 1rem;
 }
 
 .thumb{
@@ -9,5 +11,23 @@ body{
 
 .page {
   height: 100%;
-  /*position: fixed;*/
+  /*width: 100%;*/
+  padding: 30px;
+  position: fixed;
+  left: 0;
+}
+
+img {
+  max-height: 300px;
+  /*width:auto;*/
+  max-width: 100%;
+}
+
+.img-container{
+  height:50vh;
+  width:100%;
+}
+
+.text-container{
+  height:20vh;
 }
