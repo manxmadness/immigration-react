@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router'
 import Main from './Main';
+
 class Story1 extends Component {
 
   render() {

@@ -5,7 +5,7 @@ import Main from './Main';
 class Story2 extends Component {
   render() {
     return (
-      <Main text={"On your way home one day, you are stopped by a few men. Men with tattoos all over their face and body. They followed you. Based on their tattoos, you guess they're members of MS13, or Mara Salvatrucha."} imgUrl="../assets/001a_confront.png" nextLink={randomNum.replace(/\s/g, '')}/>
+      <Main text={"On your way home one day, you are stopped by a man. A man with tattoos all over his face and body. He followed you."} imgUrl="../assets/ms13.png" nextLink={randomNum.replace(/\s/g, '')}/>
     );
   }
 }

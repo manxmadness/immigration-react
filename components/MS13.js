@@ -5,7 +5,7 @@ import MainTwo from './MainTwo';
 class MS13 extends Component {
   render() {
     return (
-      <MainTwo text="One of them harasses you, demands you be his girlfriend. He is relentless." imgUrl="../assets/ms13.png" cta1="Run home" oneLink="/Phone"/>
+      <MainTwo text="Based on his tattoos, you guess he's a member of MS13, or Mara Salvatrucha. He harasses you, demands you be his girlfriend. He is relentless." imgUrl="../assets/ms13.png" cta1="Run home" oneLink="/Phone"/>
     );
   }
 }

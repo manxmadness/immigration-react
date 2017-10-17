@@ -5,7 +5,7 @@ import Main from './Main';
 class Brother extends Component {
   render() {
     return (
-      <Main text="A week later, your brother comes home, bruised and beaten by the same men that followed you. He managed to fight them off, this time." imgUrl="../assets/003_brotherbeat.png" nextLink="/Threat"/>
+      <Main text="A week later, your brother comes home, bruised and beaten by the same men that followed you. He managed to fight them off, this time." imgUrl="../assets/ph.png" nextLink="/Threat"/>
     );
   }
 }
