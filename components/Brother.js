@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router'
-import Main from './Main';
+import MainTwo from './MainTwo';
 
 class Brother extends Component {
   render() {
     return (
-      <Main text="A week later, your brother comes home, bruised and beaten by the same men that followed you. He managed to fight them off, this time." imgUrl="../assets/003_brotherbeat.png" nextLink="/Threat"/>
+      <MainTwo text={"A week later " + window.name1 + " comes home, bruised and beaten by the same men that followed him. He managed to fight them off, this time. How do you respond?"} imgUrl="../assets/003_brotherbeat.png" cta1="You ignore" cta2="You call the police" oneLink="/Threat" twoLink="/Death3"/>
     );
   }
 }
