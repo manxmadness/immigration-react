@@ -18,15 +18,17 @@ import Pill from './components/Pill'
 import Story3 from './components/Story3'
 import Money from './components/Money'
 import Taxi from './components/Taxi'
+import Bus from './components/Bus'
 import Mid from './components/Mid'
 import Man from './components/Man'
 import Submit from './components/Submit'
+import Continue from './components/Continue'
 import Walk from './components/Walk'
 import River from './components/River'
 import Story4 from './components/Story4'
 import Raft from './components/Raft'
 import Swim from './components/Swim'
-import Row from './components/Row'
+import Mexico from './components/Mexico'
 import Hike from './components/Hike'
 import Encounter from './components/Encounter'
 import Story5 from './components/Story5'
@@ -64,16 +66,18 @@ render((
     <Route path="/Pill" component={Pill}/>
     <Route path="/Story3" component={Story3}/>
     <Route path="/Money" component={Money}/>
+    <Route path="/Bus" component={Bus}/>
     <Route path="/Taxi" component={Taxi}/>
     <Route path="/Mid" component={Mid}/>
     <Route path="/Man" component={Man}/>
     <Route path="/Submit" component={Submit}/>
+    <Route path="/Continue" component={Continue}/>
     <Route path="/Walk" component={Walk}/>
     <Route path="/River" component={River}/>
     <Route path="/Story4" component={Story4}/>
     <Route path="/Raft" component={Raft}/>
     <Route path="/Swim" component={Swim}/>
-    <Route path="/Row" component={Row}/>
+    <Route path="/Mexico" component={Mexico}/>
     <Route path="/Hike" component={Hike}/>
     <Route path="/Encounter" component={Encounter}/>
     <Route path="/Story5" component={Story5}/>
