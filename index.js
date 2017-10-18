@@ -40,6 +40,8 @@ import Take from './components/Take'
 import Take2 from './components/Take2'
 import Coyote from './components/Coyote'
 import Deal from './components/Deal'
+import Form from './components/Form'
+import Form2 from './components/Form2'
 
 render((
   <Router history={hashHistory}>
@@ -83,5 +85,7 @@ render((
     <Route path="/Take2" component={Take2}/>
     <Route path="/Coyote" component={Coyote}/>
     <Route path="/Deal" component={Deal}/>
+    <Route path="/Form" component={Form}/>
+    <Route path="/Form2" component={Form2}/>
   </Router>
 ), document.getElementById('app'))
