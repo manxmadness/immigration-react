@@ -11,6 +11,8 @@ import Phone from './components/Phone'
 import Brother from './components/Brother'
 import Threat from './components/Threat'
 import Decision from './components/Decision'
+import Death from './components/Death'
+import Decision2 from './components/Decision2'
 import Flee from './components/Flee'
 import Pill from './components/Pill'
 import Story3 from './components/Story3'
@@ -56,6 +58,8 @@ render((
     <Route path="/Brother" component={Brother}/>
     <Route path="/Threat" component={Threat}/>
     <Route path="/Decision" component={Decision}/>
+    <Route path="/Death" component={Death}/>
+    <Route path="/Decision2" component={Decision2}/>
     <Route path="/Flee" component={Flee}/>
     <Route path="/Pill" component={Pill}/>
     <Route path="/Story3" component={Story3}/>

@@ -6,7 +6,9 @@ class Main extends Component {
     return (
       <div>
         <div className="col-12">
-          <img className="img-fluid thumb" src={this.props.imgUrl}/>
+
+            <img className="img thumb" src={this.props.imgUrl}/>
+
         </div>
         <div className="col-12 text-container">
           <p>{this.props.text}</p>
