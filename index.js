@@ -2,6 +2,7 @@ import React from 'react'
 import { render } from 'react-dom'
 import { Router, Route, hashHistory } from 'react-router'
 import App from './components/App'
+import Story1 from './components/Story1'
 import Story2 from './components/Story2'
 import Guatemala from './components/Guatemala'
 import Honduras from './components/Honduras'
@@ -44,12 +45,15 @@ import Take from './components/Take'
 import Take2 from './components/Take2'
 import Coyote from './components/Coyote'
 import Deal from './components/Deal'
+import Coyote2 from './components/Coyote2'
 import Form from './components/Form'
 import Form2 from './components/Form2'
+import GameOver from './components/GameOver'
 
 render((
   <Router history={hashHistory}>
     <Route path="/" component={App}/>
+    <Route path="/Story1" component={Story1}/>
     <Route path="/Story2" component={Story2}/>
     <Route path="/Honduras" component={Honduras}/>
     <Route path="/ElSalvador" component={ElSalvador}/>
@@ -93,7 +97,9 @@ render((
     <Route path="/Take2" component={Take2}/>
     <Route path="/Coyote" component={Coyote}/>
     <Route path="/Deal" component={Deal}/>
+    <Route path="/Coyote2" component={Coyote2}/>
     <Route path="/Form" component={Form}/>
     <Route path="/Form2" component={Form2}/>
+    <Route path="/GameOver" component={GameOver}/>
   </Router>
 ), document.getElementById('app'))

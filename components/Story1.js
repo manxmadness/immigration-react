@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router'
 import Main from './Main';
-class Story1 extends Component {
 
+class Story1 extends Component {
   render() {
     return (
       <Main text={"Hello, "+ window.name + ". You are a " + window.age + " y.o. " + window.gender + " living in " + randomNum} imgUrl="../assets/ph.png" nextLink={randomNum.replace(/\s/g, '')}/>

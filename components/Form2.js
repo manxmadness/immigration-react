@@ -47,7 +47,7 @@ class Form2 extends Component {
             </div>
           </div>
         <div className="col-12">
-          <Link to="/" onClick={captureNames}>Continue</Link>
+          <Link to="/Story1" onClick={captureNames}>Continue</Link>
         </div>
 
       </div>
