@@ -45,6 +45,18 @@ class Form2 extends Component {
                 <option>Dad</option>
               </select>
             </div>
+            <div className="col-6 text-left">
+              <input type="text" className="form-control" id="theirName4"/>
+            </div>
+            <div className="col-6 text-left">
+              <select id="rel4" className="form-control">
+                <option>Brother</option>
+                <option>Sister</option>
+                <option>Friend</option>
+                <option>Mom</option>
+                <option>Dad</option>
+              </select>
+            </div>
           </div>
         <div className="col-12">
           <Link to="/Story1" onClick={captureNames}>Continue</Link>
@@ -57,14 +69,21 @@ class Form2 extends Component {
 
 
 export default Form2;
-
+  if ($('#theirName1').val() == null) {
+    console.log("kelly")
+  }
+  else if ($('#theirName1').change()){
+    console.log("prudente")
+  }
   function captureNames() {
     window.name1 = $('#theirName1').val();
     window.name2 = $('#theirName2').val();
     window.name3 = $('#theirName3').val();
+    window.name3 = $('#theirName4').val();
     window.rel1 = $('#rel1').val();
     window.rel2 = $('#rel2').val();
     window.rel3 = $('#rel3').val();
+    window.rel3 = $('#rel4').val();
     console.log(window.rel1)
     console.log(window.rel2)
     console.log(window.rel3)

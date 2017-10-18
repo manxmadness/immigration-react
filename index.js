@@ -55,6 +55,10 @@ import GameOver from './components/GameOver'
 import Death1 from './components/Death1'
 import Death2 from './components/Death2'
 import Death3 from './components/Death3'
+import Death4 from './components/Death4'
+import Death5 from './components/Death5'
+import Death6 from './components/Death6'
+import Dad from './components/Dad'
 
 render((
   <Router history={hashHistory}>
@@ -113,5 +117,9 @@ render((
     <Route path="/Death1" component={Death1}/>
     <Route path="/Death2" component={Death2}/>
     <Route path="/Death3" component={Death3}/>
+    <Route path="/Death4" component={Death4}/>
+    <Route path="/Death5" component={Death5}/>
+    <Route path="/Death6" component={Death6}/>
+    <Route path="/Dad" component={Dad}/>
   </Router>
 ), document.getElementById('app'))
