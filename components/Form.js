@@ -21,15 +21,16 @@ class Form extends Component {
               <label className="form-check-label">
                 <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="male"/> M
               </label>
-
+              </div>
+              <div className="form-check form-check-inline">
               <label className="form-check-label">
                 <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="female"/> F
               </label>
             </div>
             </div>
         </div>
-        <div className="col-12">
-          <Link to="/Form2" onClick={captureNameAge}>Continue</Link>
+        <div className="col-5 m-auto">
+          <Link className="btn btn-dark btn-block" to="/Form2" onClick={captureNameAge}>Continue</Link>
         </div>
 
       </div>

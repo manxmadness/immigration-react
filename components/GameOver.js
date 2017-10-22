@@ -11,7 +11,9 @@ class GameOver extends Component {
         <div className="col-12 text-container">
           <p>{this.props.text}</p>
         </div>
-          <Link to={this.props.nextLink}>Read more about the Northern Triangle</Link>
+        <div className="col-6 m-auto">
+          <Link className="btn btn-dark btn-block" to={this.props.nextLink}>Read more about the Northern Triangle</Link>
+      </div>
       </div>
     );
   }

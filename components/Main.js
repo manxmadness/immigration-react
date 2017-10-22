@@ -6,14 +6,14 @@ class Main extends Component {
     return (
       <div>
         <div className="col-12">
-
             <img className="img thumb" src={this.props.imgUrl}/>
-
         </div>
         <div className="col-12 text-container">
           <p>{this.props.text}</p>
         </div>
-          <Link to={this.props.nextLink}>Continue</Link>
+        <div className="col-5 m-auto">
+          <Link className="btn btn-dark btn-block" to={this.props.nextLink}>Continue</Link>
+        </div>
       </div>
     );
   }
