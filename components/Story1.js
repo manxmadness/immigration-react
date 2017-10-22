@@ -1,11 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router'
 import Main from './Main';
-<<<<<<< HEAD
-
-class Story1 extends Component {
-=======
->>>>>>> my-temporary-work
 
 class Story1 extends Component {
   render() {
