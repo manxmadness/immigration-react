@@ -110,21 +110,51 @@ $(function() {
     $('input').change(buttonState);
 })
 
+function returnPronoun(reference, rel){
+  const rels = {
+    her:{
+      brother:'him',
+      sister:'her',
+      friend:'them',
+      cousin:'them',
+      mom:'her',
+      dad:'him'
+    },
+    she:{
+      brother:'he',
+      sister:'she',
+      friend:'they',
+      cousin:'they',
+      mom:'she',
+      dad:'he'
+    }
+
+  }
+  return rels[reference][rel]
+}
+
+
+var sentence = `${returnPronoun('she', 'brother')} gave ${returnPronoun('her', 'friend')} an apple.`
+
+console.log(sentence)
 function captureNames() {
-    window.name1 = $('#theirName1').val();
-    window.rel1 = $('#rel1').val();
-    window.name2 = $('#theirName2').val();
-    window.rel2 = $('#rel2').val();
-    window.name3 = $('#theirName3').val();
-    window.rel3 = $('#rel3').val();
-    window.name4 = $('#theirName4').val();
-    window.rel4 = $('#rel4').val();
+    window.people = {}
 
-    // window["objectName1"] = {name:name1, rel:rel1}
-    // window["objectName2"] = {name:name2, rel:rel2}
-    // window["objectName3"] = {name:name3, rel:rel3}
-    // window["objectName4"] = {name:name4, rel:rel4}
+    for(let i = 1; i < 5; i++){
+      window.people[`name${i}`] = $(`#theirName${i}`).val()
+      window.people[`rel${i}`] = $(`#rel${i}`).val()
+    }
+    //
+    // window.name1 = $('#theirName1').val();
+    // window.rel1 = $('#rel1').val();
+    // window.name2 = $('#theirName2').val();
+    // window.rel2 = $('#rel2').val();
+    // window.name3 = $('#theirName3').val();
+    // window.rel3 = $('#rel3').val();
+    // window.name4 = $('#theirName4').val();
+    // window.rel4 = $('#rel4').val();
 
+    console.log(window.people)
   }
 
 function generateNames() {
