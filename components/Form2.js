@@ -5,64 +5,73 @@ class Form2 extends Component {
   render() {
     return (
       <div>
-        <p className="text-center">{"Thanks " + window.name +", just one more step. Please enter the names of a few people who you are close to"}</p>
-        <div className="row">
+
+        <p className="text-center">{"Thanks " + window.name + ", just one more step. Please enter the names of a few people who you are close to"}</p>
+          <div className="row">
             <div className="col-6 text-left">
               <label htmlFor="theirName1">Relative</label>
-              <input type="text" className="form-control" id="theirName1"/>
+              <input type="text" className="form-control name" id="theirName1"/>
             </div>
             <div className="col-6 text-left">
               <label htmlFor="option1">Relationship</label>
-              <select id="rel1" className="form-control">
-                <option hidden>Choose relationship</option>
-                <option>Dad</option>
-                <option>Mom</option>
-                <option>Brother</option>
-                <option>Sister</option>
-                <option>Son</option>
-                <option>Daughter</option>
+              <select id="rel1" className="form-control relation">
+                  <option hidden>Choose relationship</option>
+                  <option>Friend</option>
+                  <option>Brother</option>
+                  <option>Sister</option>
+                  <option>Cousin</option>
+                  <option>Son</option>
+                  <option>Daughter</option>
+                  <option>Dad</option>
+                  <option>Mom</option>
               </select>
             </div>
             <div className="col-6 text-left">
-              <input type="text" className="form-control" id="theirName2"/>
+              <input type="text" className="form-control name" id="theirName2"/>
             </div>
             <div className="col-6 text-left">
-              <select id="rel2" className="form-control">
-                <option hidden>Choose relationship</option>
-                <option>Dad</option>
-                <option>Mom</option>
-                <option>Brother</option>
-                <option>Sister</option>
-                <option>Son</option>
-                <option>Daughter</option>
+              <select id="rel2" className="form-control relation">
+                  <option hidden>Choose relationship</option>
+                  <option>Friend</option>
+                  <option>Brother</option>
+                  <option>Sister</option>
+                  <option>Cousin</option>
+                  <option>Son</option>
+                  <option>Daughter</option>
+                  <option>Dad</option>
+                  <option>Mom</option>
               </select>
             </div>
             <div className="col-6 text-left">
-              <input type="text" className="form-control" id="theirName3"/>
+              <input type="text" className="form-control name" id="theirName3"/>
             </div>
             <div className="col-6 text-left">
-              <select id="rel3" className="form-control">
+              <select id="rel3" className="form-control relation">
                 <option hidden>Choose relationship</option>
-                <option>Dad</option>
-                <option>Mom</option>
+                <option>Friend</option>
                 <option>Brother</option>
                 <option>Sister</option>
+                <option>Cousin</option>
                 <option>Son</option>
                 <option>Daughter</option>
+                <option>Dad</option>
+                <option>Mom</option>
               </select>
             </div>
             <div className="col-6 text-left">
-              <input type="text" className="form-control" id="theirName4"/>
+              <input type="text" className="form-control name" id="theirName4"/>
             </div>
             <div className="col-6 text-left">
-              <select id="rel4" className="form-control">
+              <select id="rel4" className="form-control relation">
                 <option hidden>Choose relationship</option>
-                <option>Dad</option>
-                <option>Mom</option>
+                <option>Friend</option>
                 <option>Brother</option>
                 <option>Sister</option>
+                <option>Cousin</option>
                 <option>Son</option>
                 <option>Daughter</option>
+                <option>Dad</option>
+                <option>Mom</option>
               </select>
             </div>
           </div>
@@ -80,30 +89,45 @@ class Form2 extends Component {
 
 export default Form2;
 
-    function buttonState(){
-        $("input").each(function(){
-            $('#continue').addClass('disabled');
-            if($(this).val() == "" ) return false;
-            $('#continue').removeClass('disabled');
-        })
-    }
-
-    $(function(){
+function buttonState() {
+    $("input").each(function() {
         $('#continue').addClass('disabled');
-        $('input').change(buttonState);
+        if ($(this).val() == "") return false;
+        $('#continue').removeClass('disabled');
     })
+    // $("#theirName1").genderApi({
+    //     key: 'epHoxmloSHGQKzuWbW'
+    // }).on('gender-found', function(e, result) {
+    //
+    //     if (result.accuracy >= 60) {
+    //         alert('Gender found: ' + result.gender);
+    //     }
+    // });
+}
 
-  function captureNames() {
+$(function() {
+    $('#continue').addClass('disabled');
+    $('input').change(buttonState);
+})
+
+function captureNames() {
     window.name1 = $('#theirName1').val();
-    window.name2 = $('#theirName2').val();
-    window.name3 = $('#theirName3').val();
-    window.name4 = $('#theirName4').val();
     window.rel1 = $('#rel1').val();
+    window.name2 = $('#theirName2').val();
     window.rel2 = $('#rel2').val();
+    window.name3 = $('#theirName3').val();
     window.rel3 = $('#rel3').val();
+    window.name4 = $('#theirName4').val();
     window.rel4 = $('#rel4').val();
+
+    // window["objectName1"] = {name:name1, rel:rel1}
+    // window["objectName2"] = {name:name2, rel:rel2}
+    // window["objectName3"] = {name:name3, rel:rel3}
+    // window["objectName4"] = {name:name4, rel:rel4}
+
   }
-  function generateNames() {
+
+function generateNames() {
     $('#theirName1').val("Mark");
     $('#theirName2').val("Joyce");
     $('#theirName3').val("Julian");
@@ -113,4 +137,4 @@ export default Form2;
     $('#rel3').val("Brother");
     $('#rel4').val("Sister");
     $('#continue').removeClass('disabled');
-  }
+}

@@ -5,7 +5,7 @@ import Main from './Main';
 class Deal extends Component {
   render() {
     return (
-      <Main text={"You have no money, but "+ window.name2+" is able to strike up a deal. The coyote approves of the deal and you successfully cross the border, except for, "+ window.name2+". To uphold the deal he must stay behind, to live the rest of his life in servitude."} imgUrl="/assets/Deal.png" nextLink="/Coyote2"/>
+      <Main text={"You have no money, but " + window.name2 + " is able to strike up a deal. The coyote approves of the deal and you successfully cross the border, without " + window.name2+ ". To uphold the deal she is taken away to pay the coyote’s debt. She will live the rest of her life in sexual servitude."} imgUrl="/assets/Deal.png" nextLink="/Coyote2"/>
     );
   }
 }

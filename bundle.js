@@ -94,155 +94,155 @@
 
 	var _Response4 = _interopRequireDefault(_Response3);
 
-	var _Phone3 = __webpack_require__(235);
+	var _Phone3 = __webpack_require__(236);
 
 	var _Phone4 = _interopRequireDefault(_Phone3);
 
-	var _Brother = __webpack_require__(236);
+	var _Brother = __webpack_require__(237);
 
 	var _Brother2 = _interopRequireDefault(_Brother);
 
-	var _Threat = __webpack_require__(237);
+	var _Threat = __webpack_require__(238);
 
 	var _Threat2 = _interopRequireDefault(_Threat);
 
-	var _Decision = __webpack_require__(238);
+	var _Decision = __webpack_require__(239);
 
 	var _Decision2 = _interopRequireDefault(_Decision);
 
-	var _Death = __webpack_require__(239);
+	var _Death = __webpack_require__(240);
 
 	var _Death2 = _interopRequireDefault(_Death);
 
-	var _Decision3 = __webpack_require__(240);
+	var _Decision3 = __webpack_require__(241);
 
 	var _Decision4 = _interopRequireDefault(_Decision3);
 
-	var _Flee = __webpack_require__(241);
+	var _Flee = __webpack_require__(242);
 
 	var _Flee2 = _interopRequireDefault(_Flee);
 
-	var _Pill = __webpack_require__(242);
+	var _Pill = __webpack_require__(243);
 
 	var _Pill2 = _interopRequireDefault(_Pill);
 
-	var _Story5 = __webpack_require__(243);
+	var _Story5 = __webpack_require__(244);
 
 	var _Story6 = _interopRequireDefault(_Story5);
 
-	var _Money = __webpack_require__(244);
+	var _Money = __webpack_require__(245);
 
 	var _Money2 = _interopRequireDefault(_Money);
 
-	var _Taxi = __webpack_require__(245);
+	var _Taxi = __webpack_require__(246);
 
 	var _Taxi2 = _interopRequireDefault(_Taxi);
 
-	var _Bus = __webpack_require__(246);
+	var _Bus = __webpack_require__(247);
 
 	var _Bus2 = _interopRequireDefault(_Bus);
 
-	var _Mid = __webpack_require__(247);
+	var _Mid = __webpack_require__(248);
 
 	var _Mid2 = _interopRequireDefault(_Mid);
 
-	var _Man = __webpack_require__(248);
+	var _Man = __webpack_require__(249);
 
 	var _Man2 = _interopRequireDefault(_Man);
 
-	var _Submit = __webpack_require__(249);
+	var _Submit = __webpack_require__(250);
 
 	var _Submit2 = _interopRequireDefault(_Submit);
 
-	var _Continue = __webpack_require__(250);
+	var _Continue = __webpack_require__(251);
 
 	var _Continue2 = _interopRequireDefault(_Continue);
 
-	var _Walk = __webpack_require__(251);
+	var _Walk = __webpack_require__(252);
 
 	var _Walk2 = _interopRequireDefault(_Walk);
 
-	var _River = __webpack_require__(252);
+	var _River = __webpack_require__(253);
 
 	var _River2 = _interopRequireDefault(_River);
 
-	var _Story7 = __webpack_require__(253);
+	var _Story7 = __webpack_require__(254);
 
 	var _Story8 = _interopRequireDefault(_Story7);
 
-	var _Raft = __webpack_require__(254);
+	var _Raft = __webpack_require__(255);
 
 	var _Raft2 = _interopRequireDefault(_Raft);
 
-	var _Swim = __webpack_require__(255);
+	var _Swim = __webpack_require__(256);
 
 	var _Swim2 = _interopRequireDefault(_Swim);
 
-	var _Mexico = __webpack_require__(256);
+	var _Mexico = __webpack_require__(257);
 
 	var _Mexico2 = _interopRequireDefault(_Mexico);
 
-	var _Hike = __webpack_require__(257);
+	var _Hike = __webpack_require__(258);
 
 	var _Hike2 = _interopRequireDefault(_Hike);
 
-	var _Encounter = __webpack_require__(258);
+	var _Encounter = __webpack_require__(259);
 
 	var _Encounter2 = _interopRequireDefault(_Encounter);
 
-	var _Story9 = __webpack_require__(259);
+	var _Story9 = __webpack_require__(260);
 
 	var _Story10 = _interopRequireDefault(_Story9);
 
-	var _Story11 = __webpack_require__(260);
+	var _Story11 = __webpack_require__(261);
 
 	var _Story12 = _interopRequireDefault(_Story11);
 
-	var _Story13 = __webpack_require__(261);
+	var _Story13 = __webpack_require__(262);
 
 	var _Story14 = _interopRequireDefault(_Story13);
 
-	var _Traffick = __webpack_require__(262);
+	var _Traffick = __webpack_require__(263);
 
 	var _Traffick2 = _interopRequireDefault(_Traffick);
 
-	var _Woman = __webpack_require__(263);
+	var _Woman = __webpack_require__(264);
 
 	var _Woman2 = _interopRequireDefault(_Woman);
 
-	var _Hop = __webpack_require__(264);
+	var _Hop = __webpack_require__(265);
 
 	var _Hop2 = _interopRequireDefault(_Hop);
 
-	var _Safe = __webpack_require__(265);
+	var _Safe = __webpack_require__(266);
 
 	var _Safe2 = _interopRequireDefault(_Safe);
 
-	var _Fall = __webpack_require__(266);
+	var _Fall = __webpack_require__(267);
 
 	var _Fall2 = _interopRequireDefault(_Fall);
 
-	var _Zetas = __webpack_require__(267);
+	var _Zetas = __webpack_require__(268);
 
 	var _Zetas2 = _interopRequireDefault(_Zetas);
 
-	var _Take = __webpack_require__(268);
+	var _Take = __webpack_require__(269);
 
 	var _Take2 = _interopRequireDefault(_Take);
 
-	var _Take3 = __webpack_require__(269);
+	var _Take3 = __webpack_require__(270);
 
 	var _Take4 = _interopRequireDefault(_Take3);
 
-	var _Coyote = __webpack_require__(270);
+	var _Coyote = __webpack_require__(271);
 
 	var _Coyote2 = _interopRequireDefault(_Coyote);
 
-	var _Deal = __webpack_require__(271);
+	var _Deal = __webpack_require__(272);
 
 	var _Deal2 = _interopRequireDefault(_Deal);
 
-	var _Coyote3 = __webpack_require__(272);
+	var _Coyote3 = __webpack_require__(273);
 
 	var _Coyote4 = _interopRequireDefault(_Coyote3);
 
@@ -250,41 +250,77 @@
 
 	var _Form2 = _interopRequireDefault(_Form);
 
-	var _Form3 = __webpack_require__(273);
+	var _Form3 = __webpack_require__(274);
 
 	var _Form4 = _interopRequireDefault(_Form3);
 
-	var _GameOver = __webpack_require__(274);
+	var _GameOver = __webpack_require__(275);
 
 	var _GameOver2 = _interopRequireDefault(_GameOver);
 
-	var _Death3 = __webpack_require__(275);
+	var _Death3 = __webpack_require__(276);
 
 	var _Death4 = _interopRequireDefault(_Death3);
 
-	var _Death5 = __webpack_require__(276);
+	var _Death5 = __webpack_require__(277);
 
 	var _Death6 = _interopRequireDefault(_Death5);
 
-	var _Death7 = __webpack_require__(277);
+	var _Death7 = __webpack_require__(278);
 
 	var _Death8 = _interopRequireDefault(_Death7);
 
-	var _Death9 = __webpack_require__(278);
+	var _Death9 = __webpack_require__(279);
 
 	var _Death10 = _interopRequireDefault(_Death9);
 
-	var _Death11 = __webpack_require__(279);
+	var _Death11 = __webpack_require__(280);
 
 	var _Death12 = _interopRequireDefault(_Death11);
 
-	var _Death13 = __webpack_require__(280);
+	var _Death13 = __webpack_require__(281);
 
 	var _Death14 = _interopRequireDefault(_Death13);
 
-	var _Dad = __webpack_require__(281);
+	var _Dad = __webpack_require__(282);
 
 	var _Dad2 = _interopRequireDefault(_Dad);
+
+	var _All = __webpack_require__(283);
+
+	var _All2 = _interopRequireDefault(_All);
+
+	var _Immigration = __webpack_require__(284);
+
+	var _Immigration2 = _interopRequireDefault(_Immigration);
+
+	var _Hieleras = __webpack_require__(285);
+
+	var _Hieleras2 = _interopRequireDefault(_Hieleras);
+
+	var _Customs = __webpack_require__(286);
+
+	var _Customs2 = _interopRequireDefault(_Customs);
+
+	var _Across = __webpack_require__(287);
+
+	var _Across2 = _interopRequireDefault(_Across);
+
+	var _Drop = __webpack_require__(288);
+
+	var _Drop2 = _interopRequireDefault(_Drop);
+
+	var _Wait = __webpack_require__(289);
+
+	var _Wait2 = _interopRequireDefault(_Wait);
+
+	var _Ice = __webpack_require__(290);
+
+	var _Ice2 = _interopRequireDefault(_Ice);
+
+	var _Sent = __webpack_require__(291);
+
+	var _Sent2 = _interopRequireDefault(_Sent);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -349,7 +385,16 @@
 	  _react2.default.createElement(_reactRouter.Route, { path: '/Death4', component: _Death10.default }),
 	  _react2.default.createElement(_reactRouter.Route, { path: '/Death5', component: _Death12.default }),
 	  _react2.default.createElement(_reactRouter.Route, { path: '/Death6', component: _Death14.default }),
-	  _react2.default.createElement(_reactRouter.Route, { path: '/Dad', component: _Dad2.default })
+	  _react2.default.createElement(_reactRouter.Route, { path: '/Dad', component: _Dad2.default }),
+	  _react2.default.createElement(_reactRouter.Route, { path: '/All', component: _All2.default }),
+	  _react2.default.createElement(_reactRouter.Route, { path: '/Immigration', component: _Immigration2.default }),
+	  _react2.default.createElement(_reactRouter.Route, { path: '/Hieleras', component: _Hieleras2.default }),
+	  _react2.default.createElement(_reactRouter.Route, { path: '/Customs', component: _Customs2.default }),
+	  _react2.default.createElement(_reactRouter.Route, { path: '/Across', component: _Across2.default }),
+	  _react2.default.createElement(_reactRouter.Route, { path: '/Drop', component: _Drop2.default }),
+	  _react2.default.createElement(_reactRouter.Route, { path: '/Ice', component: _Ice2.default }),
+	  _react2.default.createElement(_reactRouter.Route, { path: '/Sent', component: _Sent2.default }),
+	  _react2.default.createElement(_reactRouter.Route, { path: '/Wait', component: _Wait2.default })
 	), document.getElementById('app'));
 
 /***/ }),
@@ -25839,7 +25884,11 @@
 	                { className: 'form-check-label' },
 	                _react2.default.createElement('input', { className: 'form-check-input', type: 'radio', name: 'inlineRadioOptions', id: 'inlineRadio1', value: 'male' }),
 	                ' M'
-	              ),
+	              )
+	            ),
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'form-check form-check-inline' },
 	              _react2.default.createElement(
 	                'label',
 	                { className: 'form-check-label' },
@@ -25851,10 +25900,10 @@
 	        ),
 	        _react2.default.createElement(
 	          'div',
-	          { className: 'col-12' },
+	          { className: 'col-5 m-auto' },
 	          _react2.default.createElement(
 	            _reactRouter.Link,
-	            { to: '/Form2', onClick: captureNameAge },
+	            { className: 'btn btn-dark btn-block', to: '/Form2', onClick: captureNameAge },
 	            'Continue'
 	          )
 	        )
@@ -26012,9 +26061,13 @@
 	          )
 	        ),
 	        _react2.default.createElement(
-	          _reactRouter.Link,
-	          { to: this.props.nextLink },
-	          'Continue'
+	          'div',
+	          { className: 'col-5 m-auto' },
+	          _react2.default.createElement(
+	            _reactRouter.Link,
+	            { className: 'btn btn-dark btn-block', to: this.props.nextLink },
+	            'Continue'
+	          )
 	        )
 	      );
 	    }
@@ -26235,26 +26288,26 @@
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-	var Mid = function (_Component) {
-	  _inherits(Mid, _Component);
+	var Response = function (_Component) {
+	  _inherits(Response, _Component);
 
-	  function Mid() {
-	    _classCallCheck(this, Mid);
+	  function Response() {
+	    _classCallCheck(this, Response);
 
-	    return _possibleConstructorReturn(this, (Mid.__proto__ || Object.getPrototypeOf(Mid)).apply(this, arguments));
+	    return _possibleConstructorReturn(this, (Response.__proto__ || Object.getPrototypeOf(Response)).apply(this, arguments));
 	  }
 
-	  _createClass(Mid, [{
+	  _createClass(Response, [{
 	    key: 'render',
 	    value: function render() {
 	      return _react2.default.createElement(_MainTwo2.default, { text: 'How do you respond?', imgUrl: '../assets/ph.png', cta1: 'You brush it off.', cta2: 'You confront the men.', oneLink: '/Phone', twoLink: '/Death1' });
 	    }
 	  }]);
 
-	  return Mid;
+	  return Response;
 	}(_react.Component);
 
-	exports.default = Mid;
+	exports.default = Response;
 
 /***/ }),
 /* 230 */
@@ -26313,29 +26366,20 @@
 	        ),
 	        _react2.default.createElement(
 	          'div',
-	          { className: 'col-12' },
+	          { className: 'col-5 m-auto' },
 	          _react2.default.createElement(
 	            _reactRouter.Link,
-	            { to: this.props.oneLink },
+	            { className: 'btn btn-dark btn-block', to: this.props.oneLink },
 	            this.props.cta1
 	          )
 	        ),
 	        _react2.default.createElement(
 	          'div',
-	          { className: 'col-12' },
+	          { className: 'col-5 m-auto' },
 	          _react2.default.createElement(
 	            _reactRouter.Link,
-	            { to: this.props.twoLink },
+	            { className: 'btn btn-dark btn-block', to: this.props.twoLink },
 	            this.props.cta2
-	          )
-	        ),
-	        _react2.default.createElement(
-	          'div',
-	          { className: 'col-12' },
-	          _react2.default.createElement(
-	            _reactRouter.Link,
-	            { to: this.props.threeLink },
-	            this.props.cta3
 	          )
 	        )
 	      );
@@ -26389,7 +26433,7 @@
 	  _createClass(Elsalvador, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_Main2.default, { text: 'As you know, El Salvador has the highest murder rate in the world. It is also the epicenter of a gang crisis, along with Guatemala and Honduras', imgUrl: '../assets/elsalvador.png', nextLink: '/Story2' });
+	      return _react2.default.createElement(_Main2.default, { text: 'Organized crime, gang violence, and poverty have erupted in your country, a country that you once loved but now fear. A nation that now has one of the highest homicide rates in the world. As these problems have strengthened, you\u2019ve seen a number of your family and friends fall victim to the gang, to Mara Salvatrucha or MS-13, the tattoo-garnished gang responsible for rape, murder, and drug trafficking in your once beloved country. No one is safe. There seems to be no other way than to leave everything you know behind.', imgUrl: '../assets/elsalvador.png', nextLink: '/Story2' });
 	    }
 	  }]);
 
@@ -26518,9 +26562,9 @@
 
 	var _reactRouter = __webpack_require__(159);
 
-	var _MainTwo = __webpack_require__(230);
+	var _MainThree = __webpack_require__(235);
 
-	var _MainTwo2 = _interopRequireDefault(_MainTwo);
+	var _MainThree2 = _interopRequireDefault(_MainThree);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -26530,29 +26574,120 @@
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-	var Mid = function (_Component) {
-	  _inherits(Mid, _Component);
+	var Response2 = function (_Component) {
+	  _inherits(Response2, _Component);
 
-	  function Mid() {
-	    _classCallCheck(this, Mid);
+	  function Response2() {
+	    _classCallCheck(this, Response2);
 
-	    return _possibleConstructorReturn(this, (Mid.__proto__ || Object.getPrototypeOf(Mid)).apply(this, arguments));
+	    return _possibleConstructorReturn(this, (Response2.__proto__ || Object.getPrototypeOf(Response2)).apply(this, arguments));
 	  }
 
-	  _createClass(Mid, [{
+	  _createClass(Response2, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_MainTwo2.default, { text: 'How do you respond?', imgUrl: '../assets/002_phonecalls.png', cta1: 'You ignore the threats.', cta2: 'You pay up.', cta3: 'You change your number', oneLink: '/Brother', twoLink: '/', threeLink: '/Phone2' });
+	      return _react2.default.createElement(_MainThree2.default, { text: 'How do you respond?', imgUrl: '../assets/002_phonecalls.png', cta1: 'You ignore the threats.', cta2: 'You pay up.', cta3: 'You change your number', oneLink: '/Brother', twoLink: '/', threeLink: '/Phone2' });
 	    }
 	  }]);
 
-	  return Mid;
+	  return Response2;
 	}(_react.Component);
 
-	exports.default = Mid;
+	exports.default = Response2;
 
 /***/ }),
 /* 235 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(1);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	var _reactRouter = __webpack_require__(159);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var MainTwo = function (_Component) {
+	  _inherits(MainTwo, _Component);
+
+	  function MainTwo() {
+	    _classCallCheck(this, MainTwo);
+
+	    return _possibleConstructorReturn(this, (MainTwo.__proto__ || Object.getPrototypeOf(MainTwo)).apply(this, arguments));
+	  }
+
+	  _createClass(MainTwo, [{
+	    key: 'render',
+	    value: function render() {
+	      return _react2.default.createElement(
+	        'div',
+	        null,
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'col-12' },
+	          _react2.default.createElement('img', { className: 'img thumb', src: this.props.imgUrl })
+	        ),
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'col-12 text-container' },
+	          _react2.default.createElement(
+	            'p',
+	            null,
+	            this.props.text
+	          )
+	        ),
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'col-5 m-auto' },
+	          _react2.default.createElement(
+	            _reactRouter.Link,
+	            { className: 'btn btn-dark btn-block', to: this.props.oneLink },
+	            this.props.cta1
+	          )
+	        ),
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'col-5 m-auto' },
+	          _react2.default.createElement(
+	            _reactRouter.Link,
+	            { className: 'btn btn-dark btn-block', to: this.props.twoLink },
+	            this.props.cta2
+	          )
+	        ),
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'col-5 m-auto' },
+	          _react2.default.createElement(
+	            _reactRouter.Link,
+	            { className: 'btn btn-dark btn-block', to: this.props.threeLink },
+	            this.props.cta3
+	          )
+	        )
+	      );
+	    }
+	  }]);
+
+	  return MainTwo;
+	}(_react.Component);
+
+	exports.default = MainTwo;
+
+/***/ }),
+/* 236 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -26603,7 +26738,7 @@
 	exports.default = Phone2;
 
 /***/ }),
-/* 236 */
+/* 237 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -26620,9 +26755,9 @@
 
 	var _reactRouter = __webpack_require__(159);
 
-	var _MainTwo = __webpack_require__(230);
+	var _MainThree = __webpack_require__(235);
 
-	var _MainTwo2 = _interopRequireDefault(_MainTwo);
+	var _MainThree2 = _interopRequireDefault(_MainThree);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -26644,7 +26779,7 @@
 	  _createClass(Brother, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_MainTwo2.default, { text: "A week later " + window.name1 + " comes home, bruised and beaten by the same men that followed him. He managed to fight them off, this time. How do you respond?", imgUrl: '../assets/003_brotherbeat.png', cta1: 'You ignore', cta2: 'You ask your dad to confront them', cta3: 'You call the police', oneLink: '/Threat', twoLink: '/Dad', threeLink: '/Death3' });
+	      return _react2.default.createElement(_MainThree2.default, { text: "A week later " + window.name1 + " comes home, bruised and beaten by the same men that followed him. He managed to fight them off, this time. How do you respond?", imgUrl: '../assets/003_brotherbeat.png', cta1: 'You ignore', cta2: 'You ask your dad to confront them', cta3: 'You call the police', oneLink: '/Threat', twoLink: '/Dad', threeLink: '/Death3' });
 	    }
 	  }]);
 
@@ -26654,7 +26789,7 @@
 	exports.default = Brother;
 
 /***/ }),
-/* 237 */
+/* 238 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -26671,9 +26806,9 @@
 
 	var _reactRouter = __webpack_require__(159);
 
-	var _MainTwo = __webpack_require__(230);
+	var _MainThree = __webpack_require__(235);
 
-	var _MainTwo2 = _interopRequireDefault(_MainTwo);
+	var _MainThree2 = _interopRequireDefault(_MainThree);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -26695,7 +26830,7 @@
 	  _createClass(Threat, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_MainTwo2.default, { text: 'Three days go by. A dead body of a boy your brother\u2019s age and height is left outside the front of your home. A warning.', imgUrl: '../assets/004_body.png', cta1: 'It\'s time to leave.', cta2: 'You ignore', cta3: 'You pay', oneLink: '/Flee', twoLink: '/Death', threeLink: '/Death2' });
+	      return _react2.default.createElement(_MainThree2.default, { text: "Three days go by. A dead body of a boy " + window.name1 + "’s age and height is left outside the front of your home. A warning.", imgUrl: '../assets/004_body.png', cta1: 'It\'s time to leave.', cta2: 'You ignore', cta3: 'You pay', oneLink: '/Flee', twoLink: '/Death', threeLink: '/Death2' });
 	    }
 	  }]);
 
@@ -26705,7 +26840,7 @@
 	exports.default = Threat;
 
 /***/ }),
-/* 238 */
+/* 239 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -26722,9 +26857,9 @@
 
 	var _reactRouter = __webpack_require__(159);
 
-	var _MainTwo = __webpack_require__(230);
+	var _MainThree = __webpack_require__(235);
 
-	var _MainTwo2 = _interopRequireDefault(_MainTwo);
+	var _MainThree2 = _interopRequireDefault(_MainThree);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -26746,7 +26881,7 @@
 	  _createClass(Decision, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_MainTwo2.default, { text: 'This event leaves you at a crossroads. What will you do?', imgUrl: '../assets/ph.png', cta1: 'Ignore', cta2: 'Join', cta3: 'Flee', oneLink: '/', twoLink: '/', threeLink: '/Flee' });
+	      return _react2.default.createElement(_MainThree2.default, { text: 'This event leaves you at a crossroads. What will you do?', imgUrl: '../assets/ph.png', cta1: 'Ignore', cta2: 'Join', cta3: 'Flee', oneLink: '/', twoLink: '/', threeLink: '/Flee' });
 	    }
 	  }]);
 
@@ -26756,7 +26891,7 @@
 	exports.default = Decision;
 
 /***/ }),
-/* 239 */
+/* 240 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -26797,7 +26932,7 @@
 	  _createClass(Death, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_Main2.default, { text: 'Your brother is murdered.', imgUrl: '../assets/004_body.png', nextLink: '/Decision2' });
+	      return _react2.default.createElement(_Main2.default, { text: window.name1 + " is murdered.", imgUrl: '../assets/004_body.png', nextLink: '/Decision2' });
 	    }
 	  }]);
 
@@ -26807,7 +26942,7 @@
 	exports.default = Death;
 
 /***/ }),
-/* 240 */
+/* 241 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -26858,7 +26993,7 @@
 	exports.default = Decision2;
 
 /***/ }),
-/* 241 */
+/* 242 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -26909,7 +27044,7 @@
 	exports.default = Flee;
 
 /***/ }),
-/* 242 */
+/* 243 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -26950,7 +27085,7 @@
 	  _createClass(Pill, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_Main2.default, { text: 'Before you leave you take the pill. During your travels you may come across bad men that want more from you than you want to give. They may choose force, but that is part of the cost to a safe place.', imgUrl: '../assets/005a_birthcontrol.png', nextLink: '/Story3' });
+	      return _react2.default.createElement(_Main2.default, { text: "Before you leave you, " + window.name2 + ", and " + window.name4 + " take the pill. During your travels you may come across bad men that want more from you than you want to give. They may choose force, but that is part of the cost to a safe place.", imgUrl: '../assets/005a_birthcontrol.png', nextLink: '/Story3' });
 	    }
 	  }]);
 
@@ -26960,7 +27095,7 @@
 	exports.default = Pill;
 
 /***/ }),
-/* 243 */
+/* 244 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -26977,9 +27112,9 @@
 
 	var _reactRouter = __webpack_require__(159);
 
-	var _MainTwo = __webpack_require__(230);
+	var _MainThree = __webpack_require__(235);
 
-	var _MainTwo2 = _interopRequireDefault(_MainTwo);
+	var _MainThree2 = _interopRequireDefault(_MainThree);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -27001,7 +27136,7 @@
 	  _createClass(Story3, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_MainTwo2.default, { text: 'How would you like to proceed?', imgUrl: '../assets/ph.png', cta1: 'Hire a coyote', cta2: 'Get a taxi', cta3: 'Take the bus to save money', oneLink: '/Money', twoLink: '/Taxi', threeLink: '/Bus' });
+	      return _react2.default.createElement(_MainThree2.default, { text: 'How would you like to proceed?', imgUrl: '../assets/ph.png', cta1: 'Hire a coyote', cta2: 'Get a taxi', cta3: 'Take the bus to save money', oneLink: '/Money', twoLink: '/Taxi', threeLink: '/Bus' });
 	    }
 	  }]);
 
@@ -27011,7 +27146,7 @@
 	exports.default = Story3;
 
 /***/ }),
-/* 244 */
+/* 245 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -27052,7 +27187,7 @@
 	  _createClass(Money, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_MainTwo2.default, { text: 'You don\'t have enough money for a coyote, but you have enough to see how far a taxi will get you. How would you like to proceed?', imgUrl: '../assets/ph.png', cta1: 'Get a taxi', cta2: 'Take the bus to save money', oneLink: '/Taxi', twoLink: '/Bus' });
+	      return _react2.default.createElement(_MainTwo2.default, { text: 'You don\'t have enough money for a coyote, but you have enough to see how far a taxi will get you. How would you like to proceed?', imgUrl: '../assets/money.png', cta1: 'Get a taxi', cta2: 'Take the bus to save money', oneLink: '/Taxi', twoLink: '/Bus' });
 	    }
 	  }]);
 
@@ -27062,7 +27197,7 @@
 	exports.default = Money;
 
 /***/ }),
-/* 245 */
+/* 246 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -27113,7 +27248,7 @@
 	exports.default = Taxi;
 
 /***/ }),
-/* 246 */
+/* 247 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -27164,7 +27299,7 @@
 	exports.default = Bus;
 
 /***/ }),
-/* 247 */
+/* 248 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -27215,7 +27350,7 @@
 	exports.default = Mid;
 
 /***/ }),
-/* 248 */
+/* 249 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -27266,7 +27401,7 @@
 	exports.default = Man;
 
 /***/ }),
-/* 249 */
+/* 250 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -27307,7 +27442,7 @@
 	  _createClass(Submit, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_Main2.default, { text: 'He leaves with your bag.', imgUrl: '../assets/ph.png', nextLink: '/Walk' });
+	      return _react2.default.createElement(_Main2.default, { text: 'He leaves with your bag.', imgUrl: '../assets/submit.png', nextLink: '/Walk' });
 	    }
 	  }]);
 
@@ -27317,7 +27452,7 @@
 	exports.default = Submit;
 
 /***/ }),
-/* 250 */
+/* 251 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -27368,7 +27503,7 @@
 	exports.default = Continue;
 
 /***/ }),
-/* 251 */
+/* 252 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -27409,7 +27544,7 @@
 	  _createClass(Walk, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_Main2.default, { text: 'You keep walking. The sun is hot. Your party is thirsty and tired. You are all growing weary.', imgUrl: '../assets/ph.png', nextLink: '/River' });
+	      return _react2.default.createElement(_Main2.default, { text: 'You keep walking. The sun is hot. Your party is thirsty and tired. You are all growing weary.', imgUrl: '../assets/walk.png', nextLink: '/River' });
 	    }
 	  }]);
 
@@ -27419,7 +27554,7 @@
 	exports.default = Walk;
 
 /***/ }),
-/* 252 */
+/* 253 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -27470,7 +27605,7 @@
 	exports.default = River;
 
 /***/ }),
-/* 253 */
+/* 254 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -27521,7 +27656,7 @@
 	exports.default = Story4;
 
 /***/ }),
-/* 254 */
+/* 255 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -27572,7 +27707,7 @@
 	exports.default = Raft;
 
 /***/ }),
-/* 255 */
+/* 256 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -27623,7 +27758,7 @@
 	exports.default = Swim;
 
 /***/ }),
-/* 256 */
+/* 257 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -27664,7 +27799,7 @@
 	  _createClass(Mexico, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_Main2.default, { text: 'Your party has reached the Mexican side of the Suchiate River.', imgUrl: '../assets/ph.png', nextLink: '/Hike' });
+	      return _react2.default.createElement(_Main2.default, { text: 'Your party has reached the Mexican side of the Suchiate River.', imgUrl: '../assets/Mexico.png', nextLink: '/Hike' });
 	    }
 	  }]);
 
@@ -27674,7 +27809,7 @@
 	exports.default = Mexico;
 
 /***/ }),
-/* 257 */
+/* 258 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -27715,7 +27850,7 @@
 	  _createClass(Hike, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_Main2.default, { text: 'For the next three days you hike with little sleep. You trudge about 250 km.', imgUrl: '../assets/ph.png', nextLink: '/Encounter' });
+	      return _react2.default.createElement(_Main2.default, { text: 'For the next three days you hike with little sleep. You trudge about 250 km.', imgUrl: '../assets/Hike.png', nextLink: '/Encounter' });
 	    }
 	  }]);
 
@@ -27725,7 +27860,7 @@
 	exports.default = Hike;
 
 /***/ }),
-/* 258 */
+/* 259 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -27776,7 +27911,7 @@
 	exports.default = Encounter;
 
 /***/ }),
-/* 259 */
+/* 260 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -27827,7 +27962,7 @@
 	exports.default = Story5;
 
 /***/ }),
-/* 260 */
+/* 261 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -27878,7 +28013,7 @@
 	exports.default = Story6;
 
 /***/ }),
-/* 261 */
+/* 262 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -27919,7 +28054,7 @@
 	  _createClass(Story7, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_Main2.default, { text: 'A member is thrown off. You are unable to stop the train and you never see them again.', imgUrl: '../assets/011a_Thrown.png', nextLink: '/Hop' });
+	      return _react2.default.createElement(_Main2.default, { text: window.name1 + " is thrown off. You are unable to stop the train and you never see them again.", imgUrl: '../assets/011a_Thrown.png', nextLink: '/Hop' });
 	    }
 	  }]);
 
@@ -27929,7 +28064,7 @@
 	exports.default = Story7;
 
 /***/ }),
-/* 262 */
+/* 263 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -27980,7 +28115,7 @@
 	exports.default = Traffick;
 
 /***/ }),
-/* 263 */
+/* 264 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -28031,7 +28166,7 @@
 	exports.default = Woman;
 
 /***/ }),
-/* 264 */
+/* 265 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -28072,7 +28207,7 @@
 	    _createClass(Woman, [{
 	        key: 'render',
 	        value: function render() {
-	            return _react2.default.createElement(_Main2.default, { text: 'You hold on tight to ________. They hold on tight to_______. For the 1450-mile undertaking you all jump from one moving train to another to another to another. Growing tired you lose count, but it\u2019s somewhere between 10 and 15.', imgUrl: '../assets/012a_trainjump.png', nextLink: "/" + weighed_list[random_num] });
+	            return _react2.default.createElement(_Main2.default, { text: "You hold on tight to " + window.name2 + ". They hold on tight to " + window.name3 + ". For the 1450-mile undertaking you all jump from one moving train to another to another to another. Growing tired you lose count, but it’s somewhere between 10 and 15.", imgUrl: '../assets/hop.png', nextLink: "/" + weighed_list[random_num] });
 	        }
 	    }]);
 
@@ -28109,7 +28244,7 @@
 	exports.default = Woman;
 
 /***/ }),
-/* 265 */
+/* 266 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -28160,7 +28295,7 @@
 	exports.default = Safe;
 
 /***/ }),
-/* 266 */
+/* 267 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -28211,7 +28346,7 @@
 	exports.default = Fall;
 
 /***/ }),
-/* 267 */
+/* 268 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -28288,57 +28423,6 @@
 	exports.default = Zetas;
 
 /***/ }),
-/* 268 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	'use strict';
-
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-
-	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-	var _react = __webpack_require__(1);
-
-	var _react2 = _interopRequireDefault(_react);
-
-	var _reactRouter = __webpack_require__(159);
-
-	var _Main = __webpack_require__(225);
-
-	var _Main2 = _interopRequireDefault(_Main);
-
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-	var Take = function (_Component) {
-	  _inherits(Take, _Component);
-
-	  function Take() {
-	    _classCallCheck(this, Take);
-
-	    return _possibleConstructorReturn(this, (Take.__proto__ || Object.getPrototypeOf(Take)).apply(this, arguments));
-	  }
-
-	  _createClass(Take, [{
-	    key: 'render',
-	    value: function render() {
-	      return _react2.default.createElement(_Main2.default, { text: 'The train slows down. Your group does not hide. Two members of Los Zetas board the train and take________________.', imgUrl: '../assets/ph.png', nextLink: '/Coyote' });
-	    }
-	  }]);
-
-	  return Take;
-	}(_react.Component);
-
-	exports.default = Take;
-
-/***/ }),
 /* 269 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -28380,7 +28464,7 @@
 	  _createClass(Take, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_Main2.default, { text: 'The train slows down. Your group hides. Two members of Los Zetas board but did not find you, but has taken five teen girls.', imgUrl: '../assets/ph.png', nextLink: '/Coyote' });
+	      return _react2.default.createElement(_Main2.default, { text: "The train slows down. Your group does not hide. Two members of Los Zetas board the train and take " + window.name4 + ".", imgUrl: '../assets/Take.png', nextLink: '/Coyote' });
 	    }
 	  }]);
 
@@ -28391,6 +28475,57 @@
 
 /***/ }),
 /* 270 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(1);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	var _reactRouter = __webpack_require__(159);
+
+	var _Main = __webpack_require__(225);
+
+	var _Main2 = _interopRequireDefault(_Main);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var Take = function (_Component) {
+	  _inherits(Take, _Component);
+
+	  function Take() {
+	    _classCallCheck(this, Take);
+
+	    return _possibleConstructorReturn(this, (Take.__proto__ || Object.getPrototypeOf(Take)).apply(this, arguments));
+	  }
+
+	  _createClass(Take, [{
+	    key: 'render',
+	    value: function render() {
+	      return _react2.default.createElement(_Main2.default, { text: 'The train slows down. Your group hides. Two members of Los Zetas board but did not find you, but has taken five teen girls.', imgUrl: '../assets/Take.png', nextLink: '/Coyote' });
+	    }
+	  }]);
+
+	  return Take;
+	}(_react.Component);
+
+	exports.default = Take;
+
+/***/ }),
+/* 271 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -28431,7 +28566,7 @@
 	  _createClass(Coyote, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_MainTwo2.default, { text: 'The remains of your group arrive at the last train stop. You are approached by a coyote, also know as a human smuggler. That says he can help you cross the border, but for a price. You have no money.', imgUrl: '../assets/ph.png', cta1: 'You know you cannot afford the coyote and decline.', cta2: 'Try to strike up a deal', oneLink: '/', twoLink: '/Deal' });
+	      return _react2.default.createElement(_MainTwo2.default, { text: 'The remains of your group arrive at the last train stop. You are approached by a coyote, also know as a human smuggler, that says he can help you cross the border, but for a price. You have no money.', imgUrl: '../assets/Coyote.png', cta1: 'You know you cannot afford the coyote and decline.', cta2: 'Try to strike up a deal', oneLink: '/', twoLink: '/Deal' });
 	    }
 	  }]);
 
@@ -28441,7 +28576,7 @@
 	exports.default = Coyote;
 
 /***/ }),
-/* 271 */
+/* 272 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -28482,7 +28617,7 @@
 	  _createClass(Deal, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_Main2.default, { text: "You have no money, but " + window.name2 + " is able to strike up a deal. The coyote approves of the deal and you successfully cross the border, except for, " + window.name2 + ". To uphold the deal he must stay behind, to live the rest of his life in servitude.", imgUrl: '/assets/ph.png', nextLink: '/Coyote2' });
+	      return _react2.default.createElement(_Main2.default, { text: "You have no money, but " + window.name2 + " is able to strike up a deal. The coyote approves of the deal and you successfully cross the border, without " + window.name2 + ". To uphold the deal she is taken away to pay the coyote’s debt. She will live the rest of her life in sexual servitude.", imgUrl: '/assets/Deal.png', nextLink: '/Coyote2' });
 	    }
 	  }]);
 
@@ -28492,7 +28627,7 @@
 	exports.default = Deal;
 
 /***/ }),
-/* 272 */
+/* 273 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -28521,29 +28656,29 @@
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-	var Coyote = function (_Component) {
-	  _inherits(Coyote, _Component);
+	var Coyote2 = function (_Component) {
+	  _inherits(Coyote2, _Component);
 
-	  function Coyote() {
-	    _classCallCheck(this, Coyote);
+	  function Coyote2() {
+	    _classCallCheck(this, Coyote2);
 
-	    return _possibleConstructorReturn(this, (Coyote.__proto__ || Object.getPrototypeOf(Coyote)).apply(this, arguments));
+	    return _possibleConstructorReturn(this, (Coyote2.__proto__ || Object.getPrototypeOf(Coyote2)).apply(this, arguments));
 	  }
 
-	  _createClass(Coyote, [{
+	  _createClass(Coyote2, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_MainTwo2.default, { text: 'Your party jumps in the back of the coyote\u2019s truck with others. It is important that you stay low so you are not seen. The coyote asks how far you would like to go?', imgUrl: '../assets/ph.png', cta1: 'All the way to the border', cta2: 'As far as he would recommend', oneLink: '/', twoLink: '/Deal' });
+	      return _react2.default.createElement(_MainTwo2.default, { text: 'You jump in the back of the coyote\u2019s truck with others. It is important that you stay low so you are not seen. The coyote asks how far you would like to go?', imgUrl: '../assets/Coyote2.png', cta1: 'All the way to the border', cta2: 'As far as he would recommend', oneLink: '/All', twoLink: '/Drop' });
 	    }
 	  }]);
 
-	  return Coyote;
+	  return Coyote2;
 	}(_react.Component);
 
-	exports.default = Coyote;
+	exports.default = Coyote2;
 
 /***/ }),
-/* 273 */
+/* 274 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -28599,7 +28734,7 @@
 	              { htmlFor: 'theirName1' },
 	              'Relative'
 	            ),
-	            _react2.default.createElement('input', { type: 'text', className: 'form-control', id: 'theirName1' })
+	            _react2.default.createElement('input', { type: 'text', className: 'form-control name', id: 'theirName1' })
 	          ),
 	          _react2.default.createElement(
 	            'div',
@@ -28611,7 +28746,17 @@
 	            ),
 	            _react2.default.createElement(
 	              'select',
-	              { id: 'rel1', className: 'form-control' },
+	              { id: 'rel1', className: 'form-control relation' },
+	              _react2.default.createElement(
+	                'option',
+	                { hidden: true },
+	                'Choose relationship'
+	              ),
+	              _react2.default.createElement(
+	                'option',
+	                null,
+	                'Friend'
+	              ),
 	              _react2.default.createElement(
 	                'option',
 	                null,
@@ -28625,31 +28770,51 @@
 	              _react2.default.createElement(
 	                'option',
 	                null,
-	                'Friend'
+	                'Cousin'
 	              ),
 	              _react2.default.createElement(
 	                'option',
 	                null,
-	                'Mom'
+	                'Son'
+	              ),
+	              _react2.default.createElement(
+	                'option',
+	                null,
+	                'Daughter'
 	              ),
 	              _react2.default.createElement(
 	                'option',
 	                null,
 	                'Dad'
+	              ),
+	              _react2.default.createElement(
+	                'option',
+	                null,
+	                'Mom'
 	              )
 	            )
 	          ),
 	          _react2.default.createElement(
 	            'div',
 	            { className: 'col-6 text-left' },
-	            _react2.default.createElement('input', { type: 'text', className: 'form-control', id: 'theirName2' })
+	            _react2.default.createElement('input', { type: 'text', className: 'form-control name', id: 'theirName2' })
 	          ),
 	          _react2.default.createElement(
 	            'div',
 	            { className: 'col-6 text-left' },
 	            _react2.default.createElement(
 	              'select',
-	              { id: 'rel2', className: 'form-control' },
+	              { id: 'rel2', className: 'form-control relation' },
+	              _react2.default.createElement(
+	                'option',
+	                { hidden: true },
+	                'Choose relationship'
+	              ),
+	              _react2.default.createElement(
+	                'option',
+	                null,
+	                'Friend'
+	              ),
 	              _react2.default.createElement(
 	                'option',
 	                null,
@@ -28663,31 +28828,51 @@
 	              _react2.default.createElement(
 	                'option',
 	                null,
-	                'Friend'
+	                'Cousin'
 	              ),
 	              _react2.default.createElement(
 	                'option',
 	                null,
-	                'Mom'
+	                'Son'
+	              ),
+	              _react2.default.createElement(
+	                'option',
+	                null,
+	                'Daughter'
 	              ),
 	              _react2.default.createElement(
 	                'option',
 	                null,
 	                'Dad'
+	              ),
+	              _react2.default.createElement(
+	                'option',
+	                null,
+	                'Mom'
 	              )
 	            )
 	          ),
 	          _react2.default.createElement(
 	            'div',
 	            { className: 'col-6 text-left' },
-	            _react2.default.createElement('input', { type: 'text', className: 'form-control', id: 'theirName3' })
+	            _react2.default.createElement('input', { type: 'text', className: 'form-control name', id: 'theirName3' })
 	          ),
 	          _react2.default.createElement(
 	            'div',
 	            { className: 'col-6 text-left' },
 	            _react2.default.createElement(
 	              'select',
-	              { id: 'rel3', className: 'form-control' },
+	              { id: 'rel3', className: 'form-control relation' },
+	              _react2.default.createElement(
+	                'option',
+	                { hidden: true },
+	                'Choose relationship'
+	              ),
+	              _react2.default.createElement(
+	                'option',
+	                null,
+	                'Friend'
+	              ),
 	              _react2.default.createElement(
 	                'option',
 	                null,
@@ -28701,31 +28886,51 @@
 	              _react2.default.createElement(
 	                'option',
 	                null,
-	                'Friend'
+	                'Cousin'
 	              ),
 	              _react2.default.createElement(
 	                'option',
 	                null,
-	                'Mom'
+	                'Son'
+	              ),
+	              _react2.default.createElement(
+	                'option',
+	                null,
+	                'Daughter'
 	              ),
 	              _react2.default.createElement(
 	                'option',
 	                null,
 	                'Dad'
+	              ),
+	              _react2.default.createElement(
+	                'option',
+	                null,
+	                'Mom'
 	              )
 	            )
 	          ),
 	          _react2.default.createElement(
 	            'div',
 	            { className: 'col-6 text-left' },
-	            _react2.default.createElement('input', { type: 'text', className: 'form-control', id: 'theirName4' })
+	            _react2.default.createElement('input', { type: 'text', className: 'form-control name', id: 'theirName4' })
 	          ),
 	          _react2.default.createElement(
 	            'div',
 	            { className: 'col-6 text-left' },
 	            _react2.default.createElement(
 	              'select',
-	              { id: 'rel4', className: 'form-control' },
+	              { id: 'rel4', className: 'form-control relation' },
+	              _react2.default.createElement(
+	                'option',
+	                { hidden: true },
+	                'Choose relationship'
+	              ),
+	              _react2.default.createElement(
+	                'option',
+	                null,
+	                'Friend'
+	              ),
 	              _react2.default.createElement(
 	                'option',
 	                null,
@@ -28739,27 +28944,46 @@
 	              _react2.default.createElement(
 	                'option',
 	                null,
-	                'Friend'
+	                'Cousin'
 	              ),
 	              _react2.default.createElement(
 	                'option',
 	                null,
-	                'Mom'
+	                'Son'
+	              ),
+	              _react2.default.createElement(
+	                'option',
+	                null,
+	                'Daughter'
 	              ),
 	              _react2.default.createElement(
 	                'option',
 	                null,
 	                'Dad'
+	              ),
+	              _react2.default.createElement(
+	                'option',
+	                null,
+	                'Mom'
 	              )
 	            )
 	          )
 	        ),
 	        _react2.default.createElement(
 	          'div',
-	          { className: 'col-12' },
+	          { className: 'col-6 m-auto' },
+	          _react2.default.createElement(
+	            'button',
+	            { className: 'btn btn-dark btn-block', onClick: generateNames },
+	            'Randomly Generate'
+	          )
+	        ),
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'col-6 m-auto' },
 	          _react2.default.createElement(
 	            _reactRouter.Link,
-	            { to: '/Story1', onClick: captureNames },
+	            { id: 'continue', className: 'btn btn-dark btn-block disabled', to: '/Story1', onClick: captureNames },
 	            'Continue'
 	          )
 	        )
@@ -28772,27 +28996,58 @@
 
 	exports.default = Form2;
 
-	if ($('#theirName1').val() == null) {
-	  console.log("kelly");
-	} else if ($('#theirName1').change()) {
-	  console.log("prudente");
+
+	function buttonState() {
+	  $("input").each(function () {
+	    $('#continue').addClass('disabled');
+	    if ($(this).val() == "") return false;
+	    $('#continue').removeClass('disabled');
+	  });
+	  // $("#theirName1").genderApi({
+	  //     key: 'epHoxmloSHGQKzuWbW'
+	  // }).on('gender-found', function(e, result) {
+	  //
+	  //     if (result.accuracy >= 60) {
+	  //         alert('Gender found: ' + result.gender);
+	  //     }
+	  // });
 	}
+
+	$(function () {
+	  $('#continue').addClass('disabled');
+	  $('input').change(buttonState);
+	});
+
 	function captureNames() {
 	  window.name1 = $('#theirName1').val();
-	  window.name2 = $('#theirName2').val();
-	  window.name3 = $('#theirName3').val();
-	  window.name3 = $('#theirName4').val();
 	  window.rel1 = $('#rel1').val();
+	  window.name2 = $('#theirName2').val();
 	  window.rel2 = $('#rel2').val();
+	  window.name3 = $('#theirName3').val();
 	  window.rel3 = $('#rel3').val();
-	  window.rel3 = $('#rel4').val();
-	  console.log(window.rel1);
-	  console.log(window.rel2);
-	  console.log(window.rel3);
+	  window.name4 = $('#theirName4').val();
+	  window.rel4 = $('#rel4').val();
+
+	  // window["objectName1"] = {name:name1, rel:rel1}
+	  // window["objectName2"] = {name:name2, rel:rel2}
+	  // window["objectName3"] = {name:name3, rel:rel3}
+	  // window["objectName4"] = {name:name4, rel:rel4}
+	}
+
+	function generateNames() {
+	  $('#theirName1').val("Mark");
+	  $('#theirName2').val("Joyce");
+	  $('#theirName3').val("Julian");
+	  $('#theirName4').val("Deb");
+	  $('#rel1').val("Brother");
+	  $('#rel2').val("Sister");
+	  $('#rel3').val("Brother");
+	  $('#rel4').val("Sister");
+	  $('#continue').removeClass('disabled');
 	}
 
 /***/ }),
-/* 274 */
+/* 275 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -28847,9 +29102,13 @@
 	          )
 	        ),
 	        _react2.default.createElement(
-	          _reactRouter.Link,
-	          { to: this.props.nextLink },
-	          'Read more about the Northern Triangle'
+	          'div',
+	          { className: 'col-6 m-auto' },
+	          _react2.default.createElement(
+	            _reactRouter.Link,
+	            { className: 'btn btn-dark btn-block', to: this.props.nextLink },
+	            'Read more about the Northern Triangle'
+	          )
 	        )
 	      );
 	    }
@@ -28861,7 +29120,7 @@
 	exports.default = GameOver;
 
 /***/ }),
-/* 275 */
+/* 276 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -28878,7 +29137,7 @@
 
 	var _reactRouter = __webpack_require__(159);
 
-	var _GameOver = __webpack_require__(274);
+	var _GameOver = __webpack_require__(275);
 
 	var _GameOver2 = _interopRequireDefault(_GameOver);
 
@@ -28902,7 +29161,7 @@
 	  _createClass(Death1, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_GameOver2.default, { text: 'You are stabbed and left for dead.', imgUrl: '../assets/go.png', nextLink: '/' });
+	      return _react2.default.createElement(_GameOver2.default, { text: 'You are stabbed and left for dead.', imgUrl: '../assets/death1.png', nextLink: '/' });
 	    }
 	  }]);
 
@@ -28912,7 +29171,7 @@
 	exports.default = Death1;
 
 /***/ }),
-/* 276 */
+/* 277 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -28929,7 +29188,7 @@
 
 	var _reactRouter = __webpack_require__(159);
 
-	var _GameOver = __webpack_require__(274);
+	var _GameOver = __webpack_require__(275);
 
 	var _GameOver2 = _interopRequireDefault(_GameOver);
 
@@ -28963,7 +29222,7 @@
 	exports.default = Death2;
 
 /***/ }),
-/* 277 */
+/* 278 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -28980,7 +29239,7 @@
 
 	var _reactRouter = __webpack_require__(159);
 
-	var _GameOver = __webpack_require__(274);
+	var _GameOver = __webpack_require__(275);
 
 	var _GameOver2 = _interopRequireDefault(_GameOver);
 
@@ -29014,7 +29273,7 @@
 	exports.default = Death3;
 
 /***/ }),
-/* 278 */
+/* 279 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -29031,7 +29290,7 @@
 
 	var _reactRouter = __webpack_require__(159);
 
-	var _GameOver = __webpack_require__(274);
+	var _GameOver = __webpack_require__(275);
 
 	var _GameOver2 = _interopRequireDefault(_GameOver);
 
@@ -29065,7 +29324,7 @@
 	exports.default = Death4;
 
 /***/ }),
-/* 279 */
+/* 280 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -29082,7 +29341,7 @@
 
 	var _reactRouter = __webpack_require__(159);
 
-	var _GameOver = __webpack_require__(274);
+	var _GameOver = __webpack_require__(275);
 
 	var _GameOver2 = _interopRequireDefault(_GameOver);
 
@@ -29116,7 +29375,7 @@
 	exports.default = Death4;
 
 /***/ }),
-/* 280 */
+/* 281 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -29133,7 +29392,7 @@
 
 	var _reactRouter = __webpack_require__(159);
 
-	var _GameOver = __webpack_require__(274);
+	var _GameOver = __webpack_require__(275);
 
 	var _GameOver2 = _interopRequireDefault(_GameOver);
 
@@ -29167,7 +29426,7 @@
 	exports.default = Death4;
 
 /***/ }),
-/* 281 */
+/* 282 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -29208,7 +29467,7 @@
 	  _createClass(Dad, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_Main2.default, { text: 'Your dad never returns home.', imgUrl: '../assets/ph.png', nextLink: '/Threat' });
+	      return _react2.default.createElement(_Main2.default, { text: 'Your dad never returns home.', imgUrl: '../assets/dad.png', nextLink: '/Threat' });
 	    }
 	  }]);
 
@@ -29216,6 +29475,465 @@
 	}(_react.Component);
 
 	exports.default = Dad;
+
+/***/ }),
+/* 283 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(1);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	var _reactRouter = __webpack_require__(159);
+
+	var _Main = __webpack_require__(225);
+
+	var _Main2 = _interopRequireDefault(_Main);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var All = function (_Component) {
+	  _inherits(All, _Component);
+
+	  function All() {
+	    _classCallCheck(this, All);
+
+	    return _possibleConstructorReturn(this, (All.__proto__ || Object.getPrototypeOf(All)).apply(this, arguments));
+	  }
+
+	  _createClass(All, [{
+	    key: 'render',
+	    value: function render() {
+	      return _react2.default.createElement(_Main2.default, { text: 'The truck approaches the border. All of a sudden Immigration spots the truck. The coyote tries to lose them and flips the truck. It\u2019s one of the worst things you\u2019ve ever seen. People are hurt. People are bleeding. A pregnant woman is seen vomiting blood.', imgUrl: '../assets/ph.png', nextLink: '/Immigration' });
+	    }
+	  }]);
+
+	  return All;
+	}(_react.Component);
+
+	exports.default = All;
+
+/***/ }),
+/* 284 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(1);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	var _reactRouter = __webpack_require__(159);
+
+	var _GameOver = __webpack_require__(275);
+
+	var _GameOver2 = _interopRequireDefault(_GameOver);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var Immigration = function (_Component) {
+	  _inherits(Immigration, _Component);
+
+	  function Immigration() {
+	    _classCallCheck(this, Immigration);
+
+	    return _possibleConstructorReturn(this, (Immigration.__proto__ || Object.getPrototypeOf(Immigration)).apply(this, arguments));
+	  }
+
+	  _createClass(Immigration, [{
+	    key: 'render',
+	    value: function render() {
+	      return _react2.default.createElement(_GameOver2.default, { text: 'Immigration arrests all of you and you are sent back home.', imgUrl: '../assets/go.png', nextLink: '/' });
+	    }
+	  }]);
+
+	  return Immigration;
+	}(_react.Component);
+
+	exports.default = Immigration;
+
+/***/ }),
+/* 285 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(1);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	var _reactRouter = __webpack_require__(159);
+
+	var _GameOver = __webpack_require__(275);
+
+	var _GameOver2 = _interopRequireDefault(_GameOver);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var Hieleras = function (_Component) {
+	  _inherits(Hieleras, _Component);
+
+	  function Hieleras() {
+	    _classCallCheck(this, Hieleras);
+
+	    return _possibleConstructorReturn(this, (Hieleras.__proto__ || Object.getPrototypeOf(Hieleras)).apply(this, arguments));
+	  }
+
+	  _createClass(Hieleras, [{
+	    key: 'render',
+	    value: function render() {
+	      return _react2.default.createElement(_GameOver2.default, { text: 'You are arrested and sent to detainment cells called, \u201Chieleras\u201D or \u201Ciceboxes,\u201D where immigrants are locked until deported.', imgUrl: '../assets/go.png', nextLink: '/' });
+	    }
+	  }]);
+
+	  return Hieleras;
+	}(_react.Component);
+
+	exports.default = Hieleras;
+
+/***/ }),
+/* 286 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(1);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	var _reactRouter = __webpack_require__(159);
+
+	var _MainTwo = __webpack_require__(230);
+
+	var _MainTwo2 = _interopRequireDefault(_MainTwo);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var Customs = function (_Component) {
+	  _inherits(Customs, _Component);
+
+	  function Customs() {
+	    _classCallCheck(this, Customs);
+
+	    return _possibleConstructorReturn(this, (Customs.__proto__ || Object.getPrototypeOf(Customs)).apply(this, arguments));
+	  }
+
+	  _createClass(Customs, [{
+	    key: 'render',
+	    value: function render() {
+	      return _react2.default.createElement(_MainTwo2.default, { text: 'Immigration and Customs Enforcement meets your party at the border. What do you do?', imgUrl: '../assets/ph.png', cta1: 'You do not run.', cta2: 'You run.', oneLink: '/Hieleras', twoLink: '/' });
+	    }
+	  }]);
+
+	  return Customs;
+	}(_react.Component);
+
+	exports.default = Customs;
+
+/***/ }),
+/* 287 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(1);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	var _reactRouter = __webpack_require__(159);
+
+	var _Main = __webpack_require__(225);
+
+	var _Main2 = _interopRequireDefault(_Main);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var Across = function (_Component) {
+	  _inherits(Across, _Component);
+
+	  function Across() {
+	    _classCallCheck(this, Across);
+
+	    return _possibleConstructorReturn(this, (Across.__proto__ || Object.getPrototypeOf(Across)).apply(this, arguments));
+	  }
+
+	  _createClass(Across, [{
+	    key: 'render',
+	    value: function render() {
+	      return _react2.default.createElement(_Main2.default, { text: 'You have crossed the border.', imgUrl: '/assets/ph.png', nextLink: '/Customs' });
+	    }
+	  }]);
+
+	  return Across;
+	}(_react.Component);
+
+	exports.default = Across;
+
+/***/ }),
+/* 288 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(1);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	var _reactRouter = __webpack_require__(159);
+
+	var _MainTwo = __webpack_require__(230);
+
+	var _MainTwo2 = _interopRequireDefault(_MainTwo);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var Drop = function (_Component) {
+	  _inherits(Drop, _Component);
+
+	  function Drop() {
+	    _classCallCheck(this, Drop);
+
+	    return _possibleConstructorReturn(this, (Drop.__proto__ || Object.getPrototypeOf(Drop)).apply(this, arguments));
+	  }
+
+	  _createClass(Drop, [{
+	    key: 'render',
+	    value: function render() {
+	      return _react2.default.createElement(_MainTwo2.default, { text: 'The coyote leaves your party a mile from the border. He says another party will be there tomorrow with a raft. You can see the Rio Grande and America in the distance and walk to the river. It is not as big as you imagined. How will you proceed?', imgUrl: '../assets/ph.png', cta1: 'You walk across.', cta2: 'You decide to wait for the party.', oneLink: '/Across', twoLink: '/Wait' });
+	    }
+	  }]);
+
+	  return Drop;
+	}(_react.Component);
+
+	exports.default = Drop;
+
+/***/ }),
+/* 289 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(1);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	var _reactRouter = __webpack_require__(159);
+
+	var _Main = __webpack_require__(225);
+
+	var _Main2 = _interopRequireDefault(_Main);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var Wait = function (_Component) {
+	  _inherits(Wait, _Component);
+
+	  function Wait() {
+	    _classCallCheck(this, Wait);
+
+	    return _possibleConstructorReturn(this, (Wait.__proto__ || Object.getPrototypeOf(Wait)).apply(this, arguments));
+	  }
+
+	  _createClass(Wait, [{
+	    key: 'render',
+	    value: function render() {
+	      return _react2.default.createElement(_Main2.default, { text: 'The desert becomes cold in the evening and brings rain. You are without shelter. It is the coldest you have ever been.', imgUrl: '../assets/ph.png', nextLink: '/' });
+	    }
+	  }]);
+
+	  return Wait;
+	}(_react.Component);
+
+	exports.default = Wait;
+
+/***/ }),
+/* 290 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(1);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	var _reactRouter = __webpack_require__(159);
+
+	var _Main = __webpack_require__(225);
+
+	var _Main2 = _interopRequireDefault(_Main);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var Ice = function (_Component) {
+	  _inherits(Ice, _Component);
+
+	  function Ice() {
+	    _classCallCheck(this, Ice);
+
+	    return _possibleConstructorReturn(this, (Ice.__proto__ || Object.getPrototypeOf(Ice)).apply(this, arguments));
+	  }
+
+	  _createClass(Ice, [{
+	    key: 'render',
+	    value: function render() {
+	      return _react2.default.createElement(_Main2.default, { text: 'Immigration and Customs Enforcement comes are you are arrested.', imgUrl: '../assets/ph.png', nextLink: '/Sent' });
+	    }
+	  }]);
+
+	  return Ice;
+	}(_react.Component);
+
+	exports.default = Ice;
+
+/***/ }),
+/* 291 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(1);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	var _reactRouter = __webpack_require__(159);
+
+	var _GameOver = __webpack_require__(275);
+
+	var _GameOver2 = _interopRequireDefault(_GameOver);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var Sent = function (_Component) {
+	  _inherits(Sent, _Component);
+
+	  function Sent() {
+	    _classCallCheck(this, Sent);
+
+	    return _possibleConstructorReturn(this, (Sent.__proto__ || Object.getPrototypeOf(Sent)).apply(this, arguments));
+	  }
+
+	  _createClass(Sent, [{
+	    key: 'render',
+	    value: function render() {
+	      return _react2.default.createElement(_GameOver2.default, { text: 'You are sent back home.', imgUrl: '../assets/go.png', nextLink: '/' });
+	    }
+	  }]);
+
+	  return Sent;
+	}(_react.Component);
+
+	exports.default = Sent;
 
 /***/ })
 /******/ ]);

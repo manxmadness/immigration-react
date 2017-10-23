@@ -59,6 +59,15 @@ import Death4 from './components/Death4'
 import Death5 from './components/Death5'
 import Death6 from './components/Death6'
 import Dad from './components/Dad'
+import All from './components/All'
+import Immigration from './components/Immigration'
+import Hieleras from './components/Hieleras'
+import Customs from './components/Customs'
+import Across from './components/Across'
+import Drop from './components/Drop'
+import Wait from './components/Wait'
+import Ice from './components/Ice'
+import Sent from './components/Sent'
 
 render((
   <Router history={hashHistory}>
@@ -121,5 +130,14 @@ render((
     <Route path="/Death5" component={Death5}/>
     <Route path="/Death6" component={Death6}/>
     <Route path="/Dad" component={Dad}/>
+    <Route path="/All" component={All}/>
+    <Route path="/Immigration" component={Immigration}/>
+    <Route path="/Hieleras" component={Hieleras}/>
+    <Route path="/Customs" component={Customs}/>
+    <Route path="/Across" component={Across}/>
+    <Route path="/Drop" component={Drop}/>
+    <Route path="/Ice" component={Ice}/>
+    <Route path="/Sent" component={Sent}/>
+    <Route path="/Wait" component={Wait}/>
   </Router>
 ), document.getElementById('app'))
