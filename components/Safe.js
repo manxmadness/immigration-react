@@ -5,7 +5,7 @@ import Main from './Main';
 class Safe extends Component {
   render() {
     return (
-      <Main text="Your party is able to stay on the train without injury" imgUrl="../assets/ph.png" nextLink="/Zetas"/>
+      <Main text="Your party is able to stay on the train without injury" imgUrl="../assets/Safe.png" nextLink="/Zetas"/>
     );
   }
 }

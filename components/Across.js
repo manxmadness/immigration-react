@@ -5,7 +5,7 @@ import Main from './Main';
 class Across extends Component {
   render() {
     return (
-      <Main text="You have crossed the border." imgUrl="/assets/ph.png" nextLink="/Customs"/>
+      <Main text="You have crossed the border." imgUrl="/assets/Across.png" nextLink="/Customs"/>
     );
   }
 }

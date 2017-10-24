@@ -5,7 +5,7 @@ import Main from './Main';
 class Story2 extends Component {
   render() {
     return (
-      <Main text={window.name1 + " and "+window.name2 + " come to you one day and tell you about a few men they encountered on their walk home. Men with tattoos all over their face and bodies that followed them. Told "+window.name1+" how one day he would be one of them. Told "+window.name2+" that she would be his girlfriend."} imgUrl="../assets/001a_confront.png" nextLink="/Response"/>
+      <Main text={window.people.name1 + " and "+window.people.name2 + " come to you one day and tell you about a few men they encountered on their walk home. Men with tattoos all over their face and bodies that followed them. Told "+window.people.name1+" how one day he would be one of them. Told "+window.people.name2+" that she would be his girlfriend."} imgUrl="../assets/001a_confront.png" nextLink="/Response"/>
     );
   }
 }

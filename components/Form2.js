@@ -127,6 +127,14 @@ function returnPronoun(reference, rel){
       cousin:'they',
       mom:'she',
       dad:'he'
+    },
+    hers:{
+      brother:'his',
+      sister:'hers',
+      friend:'their',
+      cousin:'their',
+      mom:'hers',
+      dad:'his'
     }
 
   }
@@ -143,7 +151,10 @@ function captureNames() {
     for(let i = 1; i < 5; i++){
       window.people[`name${i}`] = $(`#theirName${i}`).val()
       window.people[`rel${i}`] = $(`#rel${i}`).val()
+      // window.people[`person${i}`]=[$(`#theirName${i}`).val(),$(`#rel${i}`).val()]
+
     }
+    console.log(window.people)
     //
     // window.name1 = $('#theirName1').val();
     // window.rel1 = $('#rel1').val();
@@ -154,7 +165,8 @@ function captureNames() {
     // window.name4 = $('#theirName4').val();
     // window.rel4 = $('#rel4').val();
 
-    console.log(window.people)
+    // console.log(window.people.name1)
+    console.log(returnPronoun('her', 'friend'))
   }
 
 function generateNames() {

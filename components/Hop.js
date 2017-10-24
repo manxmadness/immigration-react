@@ -5,7 +5,7 @@ import Main from './Main';
 class Woman extends Component {
   render() {
     return (
-      <Main text={"You hold on tight to " + window.name2 +". They hold on tight to "+ window.name3 +". For the 1450-mile undertaking you all jump from one moving train to another to another to another. Growing tired you lose count, but it’s somewhere between 10 and 15."} imgUrl="../assets/hop.png" nextLink={"/"+weighed_list[random_num]}/>
+      <Main text={"You hold on tight to " + window.people.name2 +". They hold on tight to "+ window.people.name3 +". For the 1450-mile undertaking you all jump from one moving train to another to another to another. Growing tired you lose count, but it’s somewhere between 10 and 15."} imgUrl="../assets/hop.png" nextLink={"/"+weighed_list[random_num]}/>
     );
   }
 }

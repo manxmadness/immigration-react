@@ -68,6 +68,7 @@ import Drop from './components/Drop'
 import Wait from './components/Wait'
 import Ice from './components/Ice'
 import Sent from './components/Sent'
+import Run from './components/Run'
 
 render((
   <Router history={hashHistory}>
@@ -139,5 +140,6 @@ render((
     <Route path="/Ice" component={Ice}/>
     <Route path="/Sent" component={Sent}/>
     <Route path="/Wait" component={Wait}/>
+    <Route path="/Run" component={Run}/>
   </Router>
 ), document.getElementById('app'))
