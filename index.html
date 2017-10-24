@@ -37,20 +37,33 @@ body{
   border-color: #646798 !important;
 }
 
+#icon {
+  width:16px;
+  height:16px;
+  border-radius: 100%;
+  background:#f5b55b;
+  /*padding:100px*/
+  margin:15px;
+  position: fixed; bottom: 0px; right: 0px;
+}
+
+
 </style>
 </head>
 <body>
-<nav class="navbar navbar-expand-md navbar-light fixed-top justify-content-center">
-   <a class="navbar-brand" href="#"><img src="./assets/000_Title.png" width="100"/></a>
-   <audio id="audio" autoplay muted>
-     <source src="/assets/TheFlowing.mp3" type="audio/mpeg">
-   Your browser does not support the audio element.
-   </audio>
-   <!-- <i class="fa fa-volume-up" aria-hidden="true"></i> -->
-</nav>
+  <nav class="navbar navbar-expand-md navbar-light fixed-top justify-content-center">
+       <a class="navbar-brand" href="#"><img src="./assets/000_Title.png" width="100"/></a>
+       <audio id="audio" autoplay>
+         <source src="/assets/TheFlowing.mp3" type="audio/mpeg">
+       Your browser does not support the audio element.
+       </audio>
+  </nav>
 
 <div class="container text-center page">
   <div id="app" class="row justify-content-center"></div>
+</div>
+<div>
+  <i id="icon" class="fa fa-volume-up float-right" aria-hidden="true"></i>
 </div>
 <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
@@ -62,6 +75,19 @@ body{
 
   var navHeight = $('.navbar').outerHeight();
   $('.page').css('padding-top', navHeight)
+  $('#icon').click(function()
+    {
+         $('#icon').toggleClass('fa-volume-up fa-volume-off'); //Adds 'a', removes 'b' and vice versa
+
+        if($('#icon').hasClass("fa-volume-up")){
+          $('#audio').trigger("play");
+         //  $('input').val('Unmute')
+        } else {
+          $('#audio').trigger("pause");
+         //  $('input').val('Mute')
+        }
+
+    });
 
   // var audio = document.getElementById("video1");
   // vid.muted = true;

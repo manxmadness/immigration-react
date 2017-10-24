@@ -5,7 +5,7 @@ import GameOver from './GameOver';
 class Death1 extends Component {
   render() {
     return (
-      <GameOver text="You are stabbed and left for dead." imgUrl="../assets/death1.png" nextLink="/"/>
+      <GameOver text="Suddenly you feel hot blow, another and then another. You feel tired and collapse to the ground. Stabbed, left on the corner. Slowly your vision fades to black." imgUrl="../assets/death1.png" nextLink="/"/>
     );
   }
 }

@@ -5,7 +5,7 @@ import MainThree from './MainThree';
 class Response2 extends Component {
   render() {
     return (
-      <MainThree text="How do you respond?" imgUrl="../assets/002_phonecalls.png" cta1="You ignore the threats." cta2="You pay up." cta3="You change your number" oneLink="/Brother" twoLink="/" threeLink="/Phone2"/>
+      <MainThree text="How do you respond?" imgUrl="../assets/002_phonecalls.png" cta1="You ignore the threats." cta2="You pay up." cta3="You change your number" oneLink="/Brother" twoLink="/Death2" threeLink="/Phone2"/>
     );
   }
 }

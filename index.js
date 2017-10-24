@@ -22,7 +22,9 @@ import Pill from './components/Pill'
 import Story3 from './components/Story3'
 import Money from './components/Money'
 import Taxi from './components/Taxi'
+import Rest from './components/Rest'
 import Bus from './components/Bus'
+import Stops from './components/Stops'
 import Mid from './components/Mid'
 import Man from './components/Man'
 import Submit from './components/Submit'
@@ -52,12 +54,16 @@ import Coyote2 from './components/Coyote2'
 import Form from './components/Form'
 import Form2 from './components/Form2'
 import GameOver from './components/GameOver'
+import Argument from './components/Argument'
 import Death1 from './components/Death1'
 import Death2 from './components/Death2'
+import Police from './components/Police'
 import Death3 from './components/Death3'
 import Death4 from './components/Death4'
 import Death5 from './components/Death5'
 import Death6 from './components/Death6'
+import Heat from './components/Heat'
+import Death7 from './components/Death7'
 import Dad from './components/Dad'
 import All from './components/All'
 import Immigration from './components/Immigration'
@@ -69,6 +75,10 @@ import Wait from './components/Wait'
 import Ice from './components/Ice'
 import Sent from './components/Sent'
 import Run from './components/Run'
+import America from './components/America'
+import Dust from './components/Dust'
+import Ice2 from './components/Ice2'
+import GoCoyote2 from './components/GoCoyote2'
 
 render((
   <Router history={hashHistory}>
@@ -87,12 +97,15 @@ render((
     <Route path="/Brother" component={Brother}/>
     <Route path="/Threat" component={Threat}/>
     <Route path="/Decision" component={Decision}/>
+    <Route path="/Argument" component={Argument}/>
     <Route path="/Death" component={Death}/>
     <Route path="/Decision2" component={Decision2}/>
     <Route path="/Flee" component={Flee}/>
     <Route path="/Pill" component={Pill}/>
     <Route path="/Story3" component={Story3}/>
     <Route path="/Money" component={Money}/>
+    <Route path="/Stops" component={Stops}/>
+    <Route path="/Rest" component={Rest}/>
     <Route path="/Bus" component={Bus}/>
     <Route path="/Taxi" component={Taxi}/>
     <Route path="/Mid" component={Mid}/>
@@ -126,10 +139,13 @@ render((
     <Route path="/GameOver" component={GameOver}/>
     <Route path="/Death1" component={Death1}/>
     <Route path="/Death2" component={Death2}/>
+    <Route path="/Police" component={Police}/>
     <Route path="/Death3" component={Death3}/>
     <Route path="/Death4" component={Death4}/>
     <Route path="/Death5" component={Death5}/>
     <Route path="/Death6" component={Death6}/>
+    <Route path="/Heat" component={Heat}/>
+    <Route path="/Death7" component={Death7}/>
     <Route path="/Dad" component={Dad}/>
     <Route path="/All" component={All}/>
     <Route path="/Immigration" component={Immigration}/>
@@ -141,5 +157,9 @@ render((
     <Route path="/Sent" component={Sent}/>
     <Route path="/Wait" component={Wait}/>
     <Route path="/Run" component={Run}/>
+    <Route path="/America" component={America}/>
+    <Route path="/Dust" component={Dust}/>
+    <Route path="/Ice2" component={Ice2}/>
+    <Route path="/GoCoyote2" component={GoCoyote2}/>
   </Router>
 ), document.getElementById('app'))

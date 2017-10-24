@@ -5,7 +5,7 @@ import Main from './Main';
 class Traffick extends Component {
   render() {
     return (
-      <Main text="They are now trafficking drugs for the man." imgUrl="../assets/004a_paymoney.png" nextLink="/Hop"/>
+      <Main text={window.nextDeath + " is now trafficking drugs for the man."} imgUrl="../assets/004a_paymoney.png" nextLink="/Hop"/>
     );
   }
 }

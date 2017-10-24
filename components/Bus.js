@@ -5,7 +5,8 @@ import Main from './Main';
 class Bus extends Component {
   render() {
     return (
-      <Main text="The tattooed men catch up to you. You are ambushed and killed." imgUrl="../assets/001a_confront.png" nextLink="/"/>
+      <GameOver text="The tattooed men catch up to you. You are ambushed and killed." imgUrl="../assets/001a_confront.png" nextLink="/"/>
+
     );
   }
 }

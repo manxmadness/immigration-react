@@ -322,6 +322,10 @@
 
 	var _Sent2 = _interopRequireDefault(_Sent);
 
+	var _Run = __webpack_require__(292);
+
+	var _Run2 = _interopRequireDefault(_Run);
+
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	(0, _reactDom.render)(_react2.default.createElement(
@@ -394,7 +398,8 @@
 	  _react2.default.createElement(_reactRouter.Route, { path: '/Drop', component: _Drop2.default }),
 	  _react2.default.createElement(_reactRouter.Route, { path: '/Ice', component: _Ice2.default }),
 	  _react2.default.createElement(_reactRouter.Route, { path: '/Sent', component: _Sent2.default }),
-	  _react2.default.createElement(_reactRouter.Route, { path: '/Wait', component: _Wait2.default })
+	  _react2.default.createElement(_reactRouter.Route, { path: '/Wait', component: _Wait2.default }),
+	  _react2.default.createElement(_reactRouter.Route, { path: '/Run', component: _Run2.default })
 	), document.getElementById('app'));
 
 /***/ }),
@@ -26120,7 +26125,7 @@
 	    _createClass(Story2, [{
 	        key: 'render',
 	        value: function render() {
-	            return _react2.default.createElement(_Main2.default, { text: window.name1 + " and " + window.name2 + " come to you one day and tell you about a few men they encountered on their walk home. Men with tattoos all over their face and bodies that followed them. Told " + window.name1 + " how one day he would be one of them. Told " + window.name2 + " that she would be his girlfriend.", imgUrl: '../assets/001a_confront.png', nextLink: '/Response' });
+	            return _react2.default.createElement(_Main2.default, { text: window.people.name1 + " and " + window.people.name2 + " come to you one day and tell you about a few men they encountered on their walk home. Men with tattoos all over their face and bodies that followed them. Told " + window.people.name1 + " how one day he would be one of them. Told " + window.people.name2 + " that she would be his girlfriend.", imgUrl: '../assets/001a_confront.png', nextLink: '/Response' });
 	        }
 	    }]);
 
@@ -26779,7 +26784,7 @@
 	  _createClass(Brother, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_MainThree2.default, { text: "A week later " + window.name1 + " comes home, bruised and beaten by the same men that followed him. He managed to fight them off, this time. How do you respond?", imgUrl: '../assets/003_brotherbeat.png', cta1: 'You ignore', cta2: 'You ask your dad to confront them', cta3: 'You call the police', oneLink: '/Threat', twoLink: '/Dad', threeLink: '/Death3' });
+	      return _react2.default.createElement(_MainThree2.default, { text: "A week later " + window.people.name1 + " comes home, bruised and beaten by the same men that followed him. He managed to fight them off, this time. How do you respond?", imgUrl: '../assets/003_brotherbeat.png', cta1: 'You ignore', cta2: 'You ask your dad to confront them', cta3: 'You call the police', oneLink: '/Threat', twoLink: '/Dad', threeLink: '/Death3' });
 	    }
 	  }]);
 
@@ -26830,7 +26835,7 @@
 	  _createClass(Threat, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_MainThree2.default, { text: "Three days go by. A dead body of a boy " + window.name1 + "’s age and height is left outside the front of your home. A warning.", imgUrl: '../assets/004_body.png', cta1: 'It\'s time to leave.', cta2: 'You ignore', cta3: 'You pay', oneLink: '/Flee', twoLink: '/Death', threeLink: '/Death2' });
+	      return _react2.default.createElement(_MainThree2.default, { text: "Three days go by. A dead body of a boy " + window.people.name1 + "’s age and height is left outside the front of your home. A warning.", imgUrl: '../assets/004_body.png', cta1: 'It\'s time to leave.', cta2: 'You ignore', cta3: 'You pay', oneLink: '/Flee', twoLink: '/Death', threeLink: '/Death2' });
 	    }
 	  }]);
 
@@ -26930,9 +26935,17 @@
 	  }
 
 	  _createClass(Death, [{
+	    key: 'componentDidMount',
+	    value: function componentDidMount() {
+	      console.log("kelly");
+	      delete window.people['name1'];
+	      delete window.people['rel1'];
+	      console.log(window.people);
+	    }
+	  }, {
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_Main2.default, { text: window.name1 + " is murdered.", imgUrl: '../assets/004_body.png', nextLink: '/Decision2' });
+	      return _react2.default.createElement(_Main2.default, { text: window.people.name1 + " is murdered.", imgUrl: '../assets/004_body.png', nextLink: '/Decision2' });
 	    }
 	  }]);
 
@@ -27085,7 +27098,7 @@
 	  _createClass(Pill, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_Main2.default, { text: "Before you leave you, " + window.name2 + ", and " + window.name4 + " take the pill. During your travels you may come across bad men that want more from you than you want to give. They may choose force, but that is part of the cost to a safe place.", imgUrl: '../assets/005a_birthcontrol.png', nextLink: '/Story3' });
+	      return _react2.default.createElement(_Main2.default, { text: "Before you leave you, " + window.people.name2 + ", and " + window.people.name4 + " take the pill. During your travels you may come across bad men that want more from you than you want to give. They may choose force, but that is part of the cost to a safe place.", imgUrl: '../assets/005a_birthcontrol.png', nextLink: '/Story3' });
 	    }
 	  }]);
 
@@ -27748,7 +27761,7 @@
 	  _createClass(Swim, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_Main2.default, { text: window.name1 + " is not a strong swimmer and is weak. The current takes them under. They do not return.", imgUrl: '../assets/008b_drowning.png', nextLink: '/Mexico' });
+	      return _react2.default.createElement(_Main2.default, { text: window.people.name1 + " is not a strong swimmer and is weak. The current takes them under. They do not return.", imgUrl: '../assets/008b_drowning.png', nextLink: '/Mexico' });
 	    }
 	  }]);
 
@@ -28054,7 +28067,7 @@
 	  _createClass(Story7, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_Main2.default, { text: window.name1 + " is thrown off. You are unable to stop the train and you never see them again.", imgUrl: '../assets/011a_Thrown.png', nextLink: '/Hop' });
+	      return _react2.default.createElement(_Main2.default, { text: window.people.name1 + " is thrown off. You are unable to stop the train and you never see them again.", imgUrl: '../assets/011a_Thrown.png', nextLink: '/Hop' });
 	    }
 	  }]);
 
@@ -28207,7 +28220,7 @@
 	    _createClass(Woman, [{
 	        key: 'render',
 	        value: function render() {
-	            return _react2.default.createElement(_Main2.default, { text: "You hold on tight to " + window.name2 + ". They hold on tight to " + window.name3 + ". For the 1450-mile undertaking you all jump from one moving train to another to another to another. Growing tired you lose count, but it’s somewhere between 10 and 15.", imgUrl: '../assets/hop.png', nextLink: "/" + weighed_list[random_num] });
+	            return _react2.default.createElement(_Main2.default, { text: "You hold on tight to " + window.people.name2 + ". They hold on tight to " + window.people.name3 + ". For the 1450-mile undertaking you all jump from one moving train to another to another to another. Growing tired you lose count, but it’s somewhere between 10 and 15.", imgUrl: '../assets/hop.png', nextLink: "/" + weighed_list[random_num] });
 	        }
 	    }]);
 
@@ -28285,7 +28298,7 @@
 	  _createClass(Safe, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_Main2.default, { text: 'Your party is able to stay on the train without injury', imgUrl: '../assets/ph.png', nextLink: '/Zetas' });
+	      return _react2.default.createElement(_Main2.default, { text: 'Your party is able to stay on the train without injury', imgUrl: '../assets/Safe.png', nextLink: '/Zetas' });
 	    }
 	  }]);
 
@@ -28617,7 +28630,7 @@
 	  _createClass(Deal, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_Main2.default, { text: "You have no money, but " + window.name2 + " is able to strike up a deal. The coyote approves of the deal and you successfully cross the border, without " + window.name2 + ". To uphold the deal she is taken away to pay the coyote’s debt. She will live the rest of her life in sexual servitude.", imgUrl: '/assets/Deal.png', nextLink: '/Coyote2' });
+	      return _react2.default.createElement(_Main2.default, { text: "You have no money, but " + window.people.name2 + " is able to strike up a deal. The coyote approves of the deal and you successfully cross the border, without " + window.people.name2 + ". To uphold the deal she is taken away to pay the coyote’s debt. She will live the rest of her life in sexual servitude.", imgUrl: '/assets/Deal.png', nextLink: '/Coyote2' });
 	    }
 	  }]);
 
@@ -29018,20 +29031,61 @@
 	  $('input').change(buttonState);
 	});
 
-	function captureNames() {
-	  window.name1 = $('#theirName1').val();
-	  window.rel1 = $('#rel1').val();
-	  window.name2 = $('#theirName2').val();
-	  window.rel2 = $('#rel2').val();
-	  window.name3 = $('#theirName3').val();
-	  window.rel3 = $('#rel3').val();
-	  window.name4 = $('#theirName4').val();
-	  window.rel4 = $('#rel4').val();
+	function returnPronoun(reference, rel) {
+	  var rels = {
+	    her: {
+	      brother: 'him',
+	      sister: 'her',
+	      friend: 'them',
+	      cousin: 'them',
+	      mom: 'her',
+	      dad: 'him'
+	    },
+	    she: {
+	      brother: 'he',
+	      sister: 'she',
+	      friend: 'they',
+	      cousin: 'they',
+	      mom: 'she',
+	      dad: 'he'
+	    },
+	    hers: {
+	      brother: 'his',
+	      sister: 'hers',
+	      friend: 'their',
+	      cousin: 'their',
+	      mom: 'hers',
+	      dad: 'his'
+	    }
 
-	  // window["objectName1"] = {name:name1, rel:rel1}
-	  // window["objectName2"] = {name:name2, rel:rel2}
-	  // window["objectName3"] = {name:name3, rel:rel3}
-	  // window["objectName4"] = {name:name4, rel:rel4}
+	  };
+	  return rels[reference][rel];
+	}
+
+	var sentence = returnPronoun('she', 'brother') + ' gave ' + returnPronoun('her', 'friend') + ' an apple.';
+
+	console.log(sentence);
+	function captureNames() {
+	  window.people = {};
+
+	  for (var i = 1; i < 5; i++) {
+	    window.people['name' + i] = $('#theirName' + i).val();
+	    window.people['rel' + i] = $('#rel' + i).val();
+	    // window.people[`person${i}`]=[$(`#theirName${i}`).val(),$(`#rel${i}`).val()]
+	  }
+	  console.log(window.people);
+	  //
+	  // window.name1 = $('#theirName1').val();
+	  // window.rel1 = $('#rel1').val();
+	  // window.name2 = $('#theirName2').val();
+	  // window.rel2 = $('#rel2').val();
+	  // window.name3 = $('#theirName3').val();
+	  // window.rel3 = $('#rel3').val();
+	  // window.name4 = $('#theirName4').val();
+	  // window.rel4 = $('#rel4').val();
+
+	  // console.log(window.people.name1)
+	  console.log(returnPronoun('her', 'friend'));
 	}
 
 	function generateNames() {
@@ -29518,7 +29572,7 @@
 	  _createClass(All, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_Main2.default, { text: 'The truck approaches the border. All of a sudden Immigration spots the truck. The coyote tries to lose them and flips the truck. It\u2019s one of the worst things you\u2019ve ever seen. People are hurt. People are bleeding. A pregnant woman is seen vomiting blood.', imgUrl: '../assets/ph.png', nextLink: '/Immigration' });
+	      return _react2.default.createElement(_Main2.default, { text: 'The truck approaches the border. All of a sudden Immigration spots the truck. The coyote tries to lose them and flips the truck. It\u2019s one of the worst things you\u2019ve ever seen. People are hurt. People are bleeding. A pregnant woman is seen vomiting blood.', imgUrl: '../assets/All.png', nextLink: '/Immigration' });
 	    }
 	  }]);
 
@@ -29671,7 +29725,7 @@
 	  _createClass(Customs, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_MainTwo2.default, { text: 'Immigration and Customs Enforcement meets your party at the border. What do you do?', imgUrl: '../assets/ph.png', cta1: 'You do not run.', cta2: 'You run.', oneLink: '/Hieleras', twoLink: '/' });
+	      return _react2.default.createElement(_MainTwo2.default, { text: 'Immigration and Customs Enforcement meets your party at the border. What do you do?', imgUrl: '../assets/Customs.png', cta1: 'You do not run.', cta2: 'You run.', oneLink: '/Hieleras', twoLink: '/' });
 	    }
 	  }]);
 
@@ -29722,7 +29776,7 @@
 	  _createClass(Across, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_Main2.default, { text: 'You have crossed the border.', imgUrl: '/assets/ph.png', nextLink: '/Customs' });
+	      return _react2.default.createElement(_Main2.default, { text: 'You have crossed the border.', imgUrl: '/assets/Across.png', nextLink: '/Customs' });
 	    }
 	  }]);
 
@@ -29773,7 +29827,7 @@
 	  _createClass(Drop, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_MainTwo2.default, { text: 'The coyote leaves your party a mile from the border. He says another party will be there tomorrow with a raft. You can see the Rio Grande and America in the distance and walk to the river. It is not as big as you imagined. How will you proceed?', imgUrl: '../assets/ph.png', cta1: 'You walk across.', cta2: 'You decide to wait for the party.', oneLink: '/Across', twoLink: '/Wait' });
+	      return _react2.default.createElement(_MainTwo2.default, { text: 'The coyote leaves your party a mile from the border. He says another party will be there tomorrow with a raft. You can see the Rio Grande and America in the distance and walk to the river. It is not as big as you imagined. How will you proceed?', imgUrl: '../assets/drop.png', cta1: 'You walk across.', cta2: 'You decide to wait for the party.', oneLink: '/Across', twoLink: '/Wait' });
 	    }
 	  }]);
 
@@ -29824,7 +29878,7 @@
 	  _createClass(Wait, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_Main2.default, { text: 'The desert becomes cold in the evening and brings rain. You are without shelter. It is the coldest you have ever been.', imgUrl: '../assets/ph.png', nextLink: '/' });
+	      return _react2.default.createElement(_Main2.default, { text: 'The desert becomes cold in the evening and brings rain. You are without shelter. It is the coldest you have ever been.', imgUrl: '../assets/Wait.png', nextLink: '/' });
 	    }
 	  }]);
 
@@ -29934,6 +29988,57 @@
 	}(_react.Component);
 
 	exports.default = Sent;
+
+/***/ }),
+/* 292 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(1);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	var _reactRouter = __webpack_require__(159);
+
+	var _Main = __webpack_require__(225);
+
+	var _Main2 = _interopRequireDefault(_Main);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var Run = function (_Component) {
+	  _inherits(Run, _Component);
+
+	  function Run() {
+	    _classCallCheck(this, Run);
+
+	    return _possibleConstructorReturn(this, (Run.__proto__ || Object.getPrototypeOf(Run)).apply(this, arguments));
+	  }
+
+	  _createClass(Run, [{
+	    key: 'render',
+	    value: function render() {
+	      return _react2.default.createElement(_Main2.default, { text: 'You are not caught, but _________ and ___________ are caught', imgUrl: '../assets/ph.png', nextLink: '/Zetas' });
+	    }
+	  }]);
+
+	  return Run;
+	}(_react.Component);
+
+	exports.default = Run;
 
 /***/ })
 /******/ ]);
