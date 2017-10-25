@@ -5,7 +5,7 @@ import GameOver from './GameOver';
 class Bus extends Component {
   render() {
     return (
-      <GameOver text="The tattooed men catch up to you. You are ambushed and killed." imgUrl="../assets/go.png" nextLink="/"/>
+      <GameOver text="The tattooed men catch up to you. You are ambushed and killed." imgUrl="../assets/go.png"/>
 
     );
   }

@@ -146,111 +146,111 @@
 
 	var _Bus2 = _interopRequireDefault(_Bus);
 
-	var _Stops = __webpack_require__(249);
+	var _Stops = __webpack_require__(250);
 
 	var _Stops2 = _interopRequireDefault(_Stops);
 
-	var _Mid = __webpack_require__(250);
+	var _Mid = __webpack_require__(251);
 
 	var _Mid2 = _interopRequireDefault(_Mid);
 
-	var _Man = __webpack_require__(251);
+	var _Man = __webpack_require__(252);
 
 	var _Man2 = _interopRequireDefault(_Man);
 
-	var _Submit = __webpack_require__(252);
+	var _Submit = __webpack_require__(253);
 
 	var _Submit2 = _interopRequireDefault(_Submit);
 
-	var _Continue = __webpack_require__(253);
+	var _Continue = __webpack_require__(254);
 
 	var _Continue2 = _interopRequireDefault(_Continue);
 
-	var _Walk = __webpack_require__(254);
+	var _Walk = __webpack_require__(255);
 
 	var _Walk2 = _interopRequireDefault(_Walk);
 
-	var _River = __webpack_require__(255);
+	var _River = __webpack_require__(256);
 
 	var _River2 = _interopRequireDefault(_River);
 
-	var _Story7 = __webpack_require__(256);
+	var _Story7 = __webpack_require__(257);
 
 	var _Story8 = _interopRequireDefault(_Story7);
 
-	var _Raft = __webpack_require__(257);
+	var _Raft = __webpack_require__(258);
 
 	var _Raft2 = _interopRequireDefault(_Raft);
 
-	var _Swim = __webpack_require__(258);
+	var _Swim = __webpack_require__(259);
 
 	var _Swim2 = _interopRequireDefault(_Swim);
 
-	var _Mexico = __webpack_require__(259);
+	var _Mexico = __webpack_require__(260);
 
 	var _Mexico2 = _interopRequireDefault(_Mexico);
 
-	var _Hike = __webpack_require__(260);
+	var _Hike = __webpack_require__(261);
 
 	var _Hike2 = _interopRequireDefault(_Hike);
 
-	var _Encounter = __webpack_require__(261);
+	var _Encounter = __webpack_require__(262);
 
 	var _Encounter2 = _interopRequireDefault(_Encounter);
 
-	var _Story9 = __webpack_require__(262);
+	var _Story9 = __webpack_require__(263);
 
 	var _Story10 = _interopRequireDefault(_Story9);
 
-	var _Story11 = __webpack_require__(263);
+	var _Story11 = __webpack_require__(264);
 
 	var _Story12 = _interopRequireDefault(_Story11);
 
-	var _Story13 = __webpack_require__(264);
+	var _Story13 = __webpack_require__(265);
 
 	var _Story14 = _interopRequireDefault(_Story13);
 
-	var _Traffick = __webpack_require__(265);
+	var _Traffick = __webpack_require__(266);
 
 	var _Traffick2 = _interopRequireDefault(_Traffick);
 
-	var _Woman = __webpack_require__(266);
+	var _Woman = __webpack_require__(267);
 
 	var _Woman2 = _interopRequireDefault(_Woman);
 
-	var _Hop = __webpack_require__(267);
+	var _Hop = __webpack_require__(268);
 
 	var _Hop2 = _interopRequireDefault(_Hop);
 
-	var _Safe = __webpack_require__(268);
+	var _Safe = __webpack_require__(269);
 
 	var _Safe2 = _interopRequireDefault(_Safe);
 
-	var _Fall = __webpack_require__(269);
+	var _Fall = __webpack_require__(270);
 
 	var _Fall2 = _interopRequireDefault(_Fall);
 
-	var _Zetas = __webpack_require__(270);
+	var _Zetas = __webpack_require__(271);
 
 	var _Zetas2 = _interopRequireDefault(_Zetas);
 
-	var _Take = __webpack_require__(271);
+	var _Take = __webpack_require__(272);
 
 	var _Take2 = _interopRequireDefault(_Take);
 
-	var _Take3 = __webpack_require__(272);
+	var _Take3 = __webpack_require__(273);
 
 	var _Take4 = _interopRequireDefault(_Take3);
 
-	var _Coyote = __webpack_require__(273);
+	var _Coyote = __webpack_require__(274);
 
 	var _Coyote2 = _interopRequireDefault(_Coyote);
 
-	var _Deal = __webpack_require__(274);
+	var _Deal = __webpack_require__(275);
 
 	var _Deal2 = _interopRequireDefault(_Deal);
 
-	var _Coyote3 = __webpack_require__(275);
+	var _Coyote3 = __webpack_require__(276);
 
 	var _Coyote4 = _interopRequireDefault(_Coyote3);
 
@@ -258,11 +258,11 @@
 
 	var _Form2 = _interopRequireDefault(_Form);
 
-	var _Form3 = __webpack_require__(276);
+	var _Form3 = __webpack_require__(277);
 
 	var _Form4 = _interopRequireDefault(_Form3);
 
-	var _GameOver = __webpack_require__(277);
+	var _GameOver = __webpack_require__(249);
 
 	var _GameOver2 = _interopRequireDefault(_GameOver);
 
@@ -25977,9 +25977,9 @@
 	  window.age = $("#yourAge").val();
 	  window.gender = $('input[name=inlineRadioOptions]:checked').val();
 	  //  window.gender = $("#yourGender").val();
-	  console.log(window.name);
-	  console.log(window.age);
-	  console.log(window.gender);
+	  //  console.log(window.name)
+	  //  console.log(window.age)
+	  //  console.log(window.gender)
 	}
 
 /***/ }),
@@ -26025,11 +26025,12 @@
 	        key: 'componentDidMount',
 	        value: function componentDidMount() {
 	            window.nextDeath = window.people.name1;
+	            // console.log(window.nextDeathPronoun)
 	        }
 	    }, {
 	        key: 'render',
 	        value: function render() {
-	            return _react2.default.createElement(_Main2.default, { text: "Hello, " + window.name + ". You are a " + window.age + " y.o. " + window.gender + " living in " + randomNum, imgUrl: '/assets/ph.png', nextLink: randomNum.replace(/\s/g, '') });
+	            return _react2.default.createElement(_Main2.default, { text: "Hello, " + window.name + ". You are a " + window.age + " y.o. " + window.gender + " living in " + randomNum, imgUrl: '/assets/elsalvador.png', nextLink: randomNum.replace(/\s/g, '') });
 	        }
 	    }]);
 
@@ -26360,7 +26361,7 @@
 	  _createClass(Response, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_MainTwo2.default, { text: 'How do you respond?', imgUrl: '../assets/ph.png', cta1: 'You brush it off.', cta2: 'You confront the men.', oneLink: '/Phone', twoLink: '/Argument' });
+	      return _react2.default.createElement(_MainTwo2.default, { text: 'How do you respond?', imgUrl: '../assets/Response.png', cta1: 'You brush it off.', cta2: 'You confront the men.', oneLink: '/Phone', twoLink: '/Argument' });
 	    }
 	  }]);
 
@@ -26426,7 +26427,7 @@
 	        ),
 	        _react2.default.createElement(
 	          'div',
-	          { className: 'col-5 m-auto' },
+	          { className: 'col-6 m-auto' },
 	          _react2.default.createElement(
 	            _reactRouter.Link,
 	            { className: 'btn btn-dark btn-block', to: this.props.oneLink },
@@ -26435,7 +26436,7 @@
 	        ),
 	        _react2.default.createElement(
 	          'div',
-	          { className: 'col-5 m-auto' },
+	          { className: 'col-6 m-auto' },
 	          _react2.default.createElement(
 	            _reactRouter.Link,
 	            { className: 'btn btn-dark btn-block', to: this.props.twoLink },
@@ -26493,7 +26494,7 @@
 	  _createClass(Elsalvador, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_Main2.default, { text: 'Organized crime, gang violence, and poverty have erupted in your country, a country that you once loved but now fear. A nation that now has one of the highest homicide rates in the world. As these problems have strengthened, you\u2019ve seen a number of your family and friends fall victim to the gang, to Mara Salvatrucha or MS-13, the tattoo-garnished gang responsible for rape, murder, and drug trafficking in your once beloved country. No one is safe. There seems to be no other way than to leave everything you know behind.', imgUrl: '../assets/elsalvador.png', nextLink: '/Story2' });
+	      return _react2.default.createElement(_Main2.default, { text: 'Organized crime, gang violence, and poverty have erupted in the Northern Triangle, which includes your country, a country that you once loved but now fear. A nation that now has one of the highest homicide rates in the world. As these problems have strengthened, you\u2019ve seen a number of your family and friends fall victim to the gang, to Mara Salvatrucha or MS-13, the tattoo-garnished gang responsible for rape, murder, and drug trafficking in your once beloved country. No one is safe. There seems to be no other way than to leave everything you know behind.', imgUrl: '../assets/Story1.png', nextLink: '/Story2' });
 	    }
 	  }]);
 
@@ -26890,7 +26891,7 @@
 	  _createClass(Threat, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_MainThree2.default, { text: "Three days go by. A dead body of a boy " + window.people.name1 + "’s age and height is left outside the front of your home. A warning.", imgUrl: '../assets/004_body.png', cta1: 'It\'s time to leave.', cta2: 'You ignore', cta3: 'You pay', oneLink: '/Flee', twoLink: '/Death', threeLink: '/Death2' });
+	      return _react2.default.createElement(_MainThree2.default, { text: "Three days go by. A dead body of a boy " + window.people.name1 + '\'s age and height is left outside the front of your home. A warning.', imgUrl: '../assets/004_body.png', cta1: 'It\'s time to leave.', cta2: 'You ignore', cta3: 'You pay', oneLink: '/Flee', twoLink: '/Death', threeLink: '/Death2' });
 	    }
 	  }]);
 
@@ -26992,31 +26993,25 @@
 	  _createClass(Death, [{
 	    key: 'componentDidMount',
 	    value: function componentDidMount() {
-	      console.log("kelly");
-	      delete window.people['name1'];
-	      delete window.people['rel1'];
-	      console.log(window.people);
-
-	      if (window.people.name1 == undefined || window.people.name1 == null) {
-	        // console.log(window.nextDeath)
-	        window.nextDeath = window.people.name2;
-	        // return window.nextDeath;
-	      } else {
-	        window.nextDeath = window.people.name1;
-	        // return window.nextDeath;
-	      }
-
-	      return window.nextDeath;
+	      nextDeath();
 	    }
 	  }, {
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_Main2.default, { text: window.people.name1 + " is murdered.", imgUrl: '../assets/004_body.png', nextLink: '/Decision2' });
+	      return _react2.default.createElement(_Main2.default, { text: window.nextDeath + " is murdered.", imgUrl: '../assets/004_body.png', nextLink: '/Decision2' });
 	    }
 	  }]);
 
 	  return Death;
 	}(_react.Component);
+
+	function nextDeath() {
+	  delete window.people.name1;
+	  delete window.people.rel1;
+	  window.nextDeath = window.people.name2;
+	  window.linkNew = "/Coyote";
+	  window.text = "The train slows down. Your group does not hide. Two members of Los Zetas board the train and take " + window.nextDeath + ".";
+	}
 
 	exports.default = Death;
 
@@ -27113,7 +27108,7 @@
 	  _createClass(Flee, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_Main2.default, { text: 'It\u2019s time to leave. You know the journey will be long. Unsafe. You think to yourself, \u201CIf we leave we may die, but if we stay we will die.\u201D You pack what you can carry; a change of clothes, a map, flashlight, a bit of cash found last minute, a little bit of food and water.', imgUrl: '../assets/backpack.png', nextLink: '/Pill' });
+	      return _react2.default.createElement(_Main2.default, { text: 'It\'s time to leave. You know the journey will be long. Unsafe. You think to yourself, \u201CIf we leave we may die, but if we stay we will die.\u201D You pack what you can carry; a change of clothes, a map, flashlight, a bit of cash found last minute, a little bit of food and water.', imgUrl: '../assets/backpack.png', nextLink: '/Pill' });
 	    }
 	  }]);
 
@@ -27266,7 +27261,7 @@
 	  _createClass(Money, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_MainTwo2.default, { text: 'You don\'t have enough money for a coyote, but you have enough to see how far a taxi will get you. How would you like to proceed?', imgUrl: '../assets/money.png', cta1: 'Get a taxi', cta2: 'Take the bus to save money', oneLink: '/Taxi', twoLink: '/Stops' });
+	      return _react2.default.createElement(_MainTwo2.default, { text: 'You don\\u0027t have enough money for a coyote, but you have enough to see how far a taxi will get you. How would you like to proceed?', imgUrl: '../assets/money.png', cta1: 'Get a taxi', cta2: 'Take the bus to save money', oneLink: '/Taxi', twoLink: '/Stops' });
 	    }
 	  }]);
 
@@ -27368,7 +27363,7 @@
 	  _createClass(Rest, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_Main2.default, { text: 'You see in the distance a taxi that resembled the one you took, followed by a truck. The caravan approaches. The tattooed men have caught up to your party, with the help of the taxi driver.', imgUrl: '../assets/ph.png', nextLink: '/Bus' });
+	      return _react2.default.createElement(_Main2.default, { text: 'You see in the distance a taxi that resembled the one you took, followed by a truck. The caravan approaches. The tattooed men have caught up to your party, with the help of the taxi driver.', imgUrl: '../assets/Dust.png', nextLink: '/Bus' });
 	    }
 	  }]);
 
@@ -27395,9 +27390,9 @@
 
 	var _reactRouter = __webpack_require__(159);
 
-	var _Main = __webpack_require__(225);
+	var _GameOver = __webpack_require__(249);
 
-	var _Main2 = _interopRequireDefault(_Main);
+	var _GameOver2 = _interopRequireDefault(_GameOver);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -27419,7 +27414,7 @@
 	  _createClass(Bus, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(GameOver, { text: 'The tattooed men catch up to you. You are ambushed and killed.', imgUrl: '../assets/001a_confront.png', nextLink: '/' });
+	      return _react2.default.createElement(_GameOver2.default, { text: 'The tattooed men catch up to you. You are ambushed and killed.', imgUrl: '../assets/go.png', nextLink: '/' });
 	    }
 	  }]);
 
@@ -27430,6 +27425,89 @@
 
 /***/ }),
 /* 249 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(1);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	var _reactRouter = __webpack_require__(159);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var GameOver = function (_Component) {
+	  _inherits(GameOver, _Component);
+
+	  function GameOver() {
+	    _classCallCheck(this, GameOver);
+
+	    return _possibleConstructorReturn(this, (GameOver.__proto__ || Object.getPrototypeOf(GameOver)).apply(this, arguments));
+	  }
+
+	  _createClass(GameOver, [{
+	    key: 'render',
+	    value: function render() {
+	      return _react2.default.createElement(
+	        'div',
+	        null,
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'col-12' },
+	          _react2.default.createElement('img', { className: 'img thumb', src: this.props.imgUrl })
+	        ),
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'col-12 text-container' },
+	          _react2.default.createElement(
+	            'p',
+	            null,
+	            this.props.text
+	          )
+	        ),
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'col-6 m-auto' },
+	          _react2.default.createElement(
+	            _reactRouter.Link,
+	            { className: 'btn btn-dark btn-block', to: this.props.nextLink },
+	            'Read more about the Northern Triangle'
+	          )
+	        ),
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'col-6 m-auto' },
+	          _react2.default.createElement(
+	            'a',
+	            { className: 'btn btn-primary btn-block', href: 'https://www.facebook.com/sharer/sharer.php?u=http%3A//kellyprudente.com/northern-triangle/', target: '_blank' },
+	            'Share your journey on Facebook \xA0 \xA0 ',
+	            _react2.default.createElement('i', { className: 'fa fa-facebook-official', 'aria-hidden': 'true' })
+	          )
+	        )
+	      );
+	    }
+	  }]);
+
+	  return GameOver;
+	}(_react.Component);
+
+	exports.default = GameOver;
+
+/***/ }),
+/* 250 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -27470,7 +27548,7 @@
 	  _createClass(Stops, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_Main2.default, { text: 'The bus stops on a bus corner on the usual route. Two tattooed faced men board.', imgUrl: '../assets/Stops.png', nextLink: '/Bus' });
+	      return _react2.default.createElement(_Main2.default, { text: 'The bus stops on a bus corner on the usual route. Two tattooed faced men board.', imgUrl: '../assets/001a_confront.png', nextLink: '/Bus' });
 	    }
 	  }]);
 
@@ -27480,7 +27558,7 @@
 	exports.default = Stops;
 
 /***/ }),
-/* 250 */
+/* 251 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -27531,7 +27609,7 @@
 	exports.default = Mid;
 
 /***/ }),
-/* 251 */
+/* 252 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -27572,7 +27650,7 @@
 	  _createClass(Man, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_MainTwo2.default, { text: 'A man is met on the way, walking in the same direction. He soon punches you, hits your brother over the head with his walking stick. He pulls his knife and tells you to give him your bag.', imgUrl: '../assets/007_manwithknife.png', cta1: 'You submit.', cta2: 'You fight.', oneLink: '/Submit', twoLink: '/Death5' });
+	      return _react2.default.createElement(_MainTwo2.default, { text: "A man is met on the way, walking in the same direction. He soon punches you, hits " + window.nextDeath + " over the head with his walking stick. He pulls his knife and tells you to give him your bag.", imgUrl: '../assets/007_manwithknife.png', cta1: 'You submit.', cta2: 'You fight.', oneLink: '/Submit', twoLink: '/Death5' });
 	    }
 	  }]);
 
@@ -27582,7 +27660,7 @@
 	exports.default = Man;
 
 /***/ }),
-/* 252 */
+/* 253 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -27633,7 +27711,7 @@
 	exports.default = Submit;
 
 /***/ }),
-/* 253 */
+/* 254 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -27672,6 +27750,11 @@
 	  }
 
 	  _createClass(Continue, [{
+	    key: 'componentDidMount',
+	    value: function componentDidMount() {
+	      $('#knife').trigger("play");
+	    }
+	  }, {
 	    key: 'render',
 	    value: function render() {
 	      return _react2.default.createElement(_Main2.default, { text: 'Broken, dark and feeling exposed your helps you get back on your feet and continue.', imgUrl: '../assets/009a_Knifeatthroat.png', nextLink: '/Story5' });
@@ -27684,7 +27767,7 @@
 	exports.default = Continue;
 
 /***/ }),
-/* 254 */
+/* 255 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -27735,7 +27818,7 @@
 	exports.default = Walk;
 
 /***/ }),
-/* 255 */
+/* 256 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -27786,7 +27869,7 @@
 	exports.default = River;
 
 /***/ }),
-/* 256 */
+/* 257 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -27837,7 +27920,7 @@
 	exports.default = Story4;
 
 /***/ }),
-/* 257 */
+/* 258 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -27888,7 +27971,7 @@
 	exports.default = Raft;
 
 /***/ }),
-/* 258 */
+/* 259 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -27929,15 +28012,10 @@
 	  _createClass(Swim, [{
 	    key: 'componentDidMount',
 	    value: function componentDidMount() {
-	      if (window.people.name1 == undefined) {
-	        window.nextDeath = window.people.name2;
-	        delete window.people.name2;
-	        delete window.people.rel2;
+	      $('#swim').trigger("play");
+	      if (window.nextDeath = window.people.name1) {
 	        nextDeathOne();
 	      } else {
-	        window.nextDeath = window.people.name1;
-	        delete window.people.name1;
-	        delete window.people.rel1;
 	        nextDeathTwo();
 	      }
 	    }
@@ -27955,16 +28033,22 @@
 
 
 	function nextDeathOne() {
-	  window.nextDeath = window.people.name3;
-	  console.log("ran next death 1");
+	  delete window.people.name1;
+	  delete window.people.rel1;
+	  window.nextDeath = window.people.name2;
+	  window.linkNew = "/Coyote";
+	  window.text = "The train slows down. Your group does not hide. Two members of Los Zetas board the train and take " + window.nextDeath + ".";
 	}
 	function nextDeathTwo() {
-	  window.nextDeath = window.people.name2;
-	  console.log("ran next death 2");
+	  delete window.people.name2;
+	  delete window.people.rel2;
+	  window.nextDeath = window.people.name3;
+	  window.linkNew = "/Coyote";
+	  window.text = "The train slows down. Your group does not hide. Two members of Los Zetas board the train and take " + window.nextDeath + ".";
 	}
 
 /***/ }),
-/* 259 */
+/* 260 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -28015,7 +28099,7 @@
 	exports.default = Mexico;
 
 /***/ }),
-/* 260 */
+/* 261 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -28066,7 +28150,7 @@
 	exports.default = Hike;
 
 /***/ }),
-/* 261 */
+/* 262 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -28117,7 +28201,7 @@
 	exports.default = Encounter;
 
 /***/ }),
-/* 262 */
+/* 263 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -28168,7 +28252,7 @@
 	exports.default = Story5;
 
 /***/ }),
-/* 263 */
+/* 264 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -28219,7 +28303,7 @@
 	exports.default = Story6;
 
 /***/ }),
-/* 264 */
+/* 265 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -28260,20 +28344,13 @@
 	  _createClass(Story7, [{
 	    key: 'componentDidMount',
 	    value: function componentDidMount() {
-	      if (window.nextDeath == window.people.name1) {
-	        // window.nextDeath = window.people.name2
-	        // delete window.people.name2
-	        // delete window.people.rel2
+	      $('#cross').trigger("play");
+	      if (window.nextDeath = window.people.name1) {
 	        nextDeathOne();
-	      } else if (window.nextDeath == window.people.name2) {
-	        // window.nextDeath = window.people.name1
-	        // delete window.people.name1
-	        // delete window.people.rel1
+	      } else if (window.nextDeath = window.people.name2) {
 	        nextDeathTwo();
-	      } else if (window.nextDeath == window.people.name3) {
-	        nextDeathThree();
 	      } else {
-	        nextDeath();
+	        nextDeathThree();
 	      }
 	    }
 	  }, {
@@ -28290,28 +28367,29 @@
 	  delete window.people.name1;
 	  delete window.people.rel1;
 	  window.nextDeath = window.people.name2;
-	  console.log("ran next death 1");
+	  window.linkNew = "/Coyote";
+	  window.text = "The train slows down. Your group does not hide. Two members of Los Zetas board the train and take " + window.nextDeath + ".";
 	}
 	function nextDeathTwo() {
 	  delete window.people.name2;
 	  delete window.people.rel2;
 	  window.nextDeath = window.people.name3;
-	  console.log("ran next death 2");
+	  window.linkNew = "/Coyote";
+	  window.text = "The train slows down. Your group does not hide. Two members of Los Zetas board the train and take " + window.nextDeath + ".";
 	}
+
 	function nextDeathThree() {
 	  delete window.people.name3;
 	  delete window.people.rel3;
 	  window.nextDeath = window.people.name4;
-	  console.log("ran next death 3");
+	  window.linkNew = "/Coyote";
+	  window.text = "The train slows down. Your group does not hide. Two members of Los Zetas board the train and take " + window.nextDeath + ".";
 	}
-	function nextDeath() {
-	  window.nextDeath = window.people.name1;
-	  console.log("ran next death");
-	}
+
 	exports.default = Story7;
 
 /***/ }),
-/* 265 */
+/* 266 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -28362,7 +28440,7 @@
 	exports.default = Traffick;
 
 /***/ }),
-/* 266 */
+/* 267 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -28413,7 +28491,7 @@
 	exports.default = Woman;
 
 /***/ }),
-/* 267 */
+/* 268 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -28442,23 +28520,23 @@
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-	var Woman = function (_Component) {
-	    _inherits(Woman, _Component);
+	var Hop = function (_Component) {
+	    _inherits(Hop, _Component);
 
-	    function Woman() {
-	        _classCallCheck(this, Woman);
+	    function Hop() {
+	        _classCallCheck(this, Hop);
 
-	        return _possibleConstructorReturn(this, (Woman.__proto__ || Object.getPrototypeOf(Woman)).apply(this, arguments));
+	        return _possibleConstructorReturn(this, (Hop.__proto__ || Object.getPrototypeOf(Hop)).apply(this, arguments));
 	    }
 
-	    _createClass(Woman, [{
+	    _createClass(Hop, [{
 	        key: 'render',
 	        value: function render() {
-	            return _react2.default.createElement(_Main2.default, { text: "You hold on tight to " + window.nextDeath + ". For the 1450-mile undertaking you all jump from one moving train to another to another to another. Growing tired you lose count, but it’s somewhere between 10 and 15.", imgUrl: '../assets/hop.png', nextLink: "/" + weighed_list[random_num] });
+	            return _react2.default.createElement(_Main2.default, { text: "You hold on tight to " + window.nextDeath + '. For the 1450-mile undertaking you all jump from one moving train to another to another to another. Growing tired you lose count, but it\'s somewhere between 10 and 15.', imgUrl: '../assets/hop.png', nextLink: "/" + weighed_list[random_num] });
 	        }
 	    }]);
 
-	    return Woman;
+	    return Hop;
 	}(_react.Component);
 
 	var rand = function rand(min, max) {
@@ -28488,10 +28566,10 @@
 
 	var randomNum = weighed_list[random_num];
 
-	exports.default = Woman;
+	exports.default = Hop;
 
 /***/ }),
-/* 268 */
+/* 269 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -28530,6 +28608,19 @@
 	  }
 
 	  _createClass(Safe, [{
+	    key: 'componentDidMount',
+	    value: function componentDidMount() {
+	      if (window.nextDeath == window.people.name1) {
+	        nextDeathOne();
+	      } else if (window.nextDeath == window.people.name2) {
+	        nextDeathTwo();
+	      } else if (window.nextDeath == window.people.name3) {
+	        nextDeathThree();
+	      } else {
+	        nextDeathFour();
+	      }
+	    }
+	  }, {
 	    key: 'render',
 	    value: function render() {
 	      return _react2.default.createElement(_Main2.default, { text: 'Your party is able to stay on the train without injury', imgUrl: '../assets/Safe.png', nextLink: '/Zetas' });
@@ -28539,10 +28630,39 @@
 	  return Safe;
 	}(_react.Component);
 
+	function nextDeathOne() {
+	  delete window.people.name1;
+	  delete window.people.rel1;
+	  window.nextDeath = window.people.name2;
+	  window.linkNew = "/Coyote2";
+	  window.text = "The train slows down. Your group does not hide. Two members of Los Zetas board the train and take " + window.nextDeath + ".";
+	}
+	function nextDeathTwo() {
+	  delete window.people.name2;
+	  delete window.people.rel2;
+	  window.nextDeath = window.people.name3;
+	  window.linkNew = "/Coyote2";
+	  window.text = "The train slows down. Your group does not hide. Two members of Los Zetas board the train and take " + window.nextDeath + ".";
+	}
+	function nextDeathThree() {
+	  delete window.people.name3;
+	  delete window.people.rel3;
+	  window.nextDeath = window.people.name4;
+	  window.linkNew = "/Coyote2";
+	  window.text = "The train slows down. Your group does not hide. Two members of Los Zetas board the train and take " + window.nextDeath + ".";
+	}
+	function nextDeathFour() {
+	  delete window.people.name4;
+	  delete window.people.rel4;
+	  window.nextDeath = "you";
+	  window.linkNew = "/GoCoyote2";
+	  window.text = "The train slows down. Your group does not hide. Two members of Los Zetas board the train and take you.";
+	}
+
 	exports.default = Safe;
 
 /***/ }),
-/* 269 */
+/* 270 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -28583,28 +28703,21 @@
 	  _createClass(Fall, [{
 	    key: 'componentDidMount',
 	    value: function componentDidMount() {
+	      $('#train').trigger("play");
 	      if (window.nextDeath == window.people.name1) {
-	        // window.nextDeath = window.people.name2
-	        // delete window.people.name2
-	        // delete window.people.rel2
 	        nextDeathOne();
 	      } else if (window.nextDeath == window.people.name2) {
-	        // window.nextDeath = window.people.name1
-	        // delete window.people.name1
-	        // delete window.people.rel1
 	        nextDeathTwo();
 	      } else if (window.nextDeath == window.people.name3) {
 	        nextDeathThree();
-	      } else if (window.nextDeath == window.people.name4) {
-	        nextDeathFour();
 	      } else {
-	        nextDeath();
+	        nextDeathFour();
 	      }
 	    }
 	  }, {
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_Main2.default, { text: window.nextDeath + " gets tired and falls off the side of the train.", imgUrl: '../assets/ph.png', nextLink: '/Zetas' });
+	      return _react2.default.createElement(_Main2.default, { text: window.nextDeath + " gets tired and falls off the side of the train.", imgUrl: '../assets/011a_Thrown.png', nextLink: '/Zetas' });
 	    }
 	  }]);
 
@@ -28615,35 +28728,33 @@
 	  delete window.people.name1;
 	  delete window.people.rel1;
 	  window.nextDeath = window.people.name2;
-	  console.log("ran next death 1");
+	  window.text = "The train slows down. Your group does not hide. Two members of Los Zetas board the train and take " + window.nextDeath + ".";
 	}
 	function nextDeathTwo() {
 	  delete window.people.name2;
 	  delete window.people.rel2;
 	  window.nextDeath = window.people.name3;
-	  console.log("ran next death 2");
+	  window.text = "The train slows down. Your group does not hide. Two members of Los Zetas board the train and take " + window.nextDeath + ".";
 	}
 	function nextDeathThree() {
 	  delete window.people.name3;
 	  delete window.people.rel3;
 	  window.nextDeath = window.people.name4;
-	  console.log("ran next death 3");
+	  window.linkNew = "/Coyote";
+	  window.text = "The train slows down. Your group does not hide. Two members of Los Zetas board the train and take " + window.nextDeath + ".";
 	}
 	function nextDeathFour() {
 	  delete window.people.name4;
 	  delete window.people.rel4;
 	  window.nextDeath = "you";
-	  console.log("ran next death 4");
-	}
-	function nextDeath() {
-	  window.nextDeath = window.people.name1;
-	  console.log("ran next death");
+	  window.linkNew = "/GoCoyote2";
+	  window.text = "The train slows down. You do not hide. Two members of Los Zetas board the train and take you.";
 	}
 
 	exports.default = Fall;
 
 /***/ }),
-/* 270 */
+/* 271 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -28720,7 +28831,7 @@
 	exports.default = Zetas;
 
 /***/ }),
-/* 271 */
+/* 272 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -28761,28 +28872,21 @@
 	  _createClass(Take, [{
 	    key: 'componentDidMount',
 	    value: function componentDidMount() {
+	      $('#prop').trigger("play");
 	      if (window.nextDeath == window.people.name1) {
-	        // window.nextDeath = window.people.name2
-	        // delete window.people.name2
-	        // delete window.people.rel2
 	        nextDeathOne();
 	      } else if (window.nextDeath == window.people.name2) {
-	        // window.nextDeath = window.people.name1
-	        // delete window.people.name1
-	        // delete window.people.rel1
 	        nextDeathTwo();
 	      } else if (window.nextDeath == window.people.name3) {
 	        nextDeathThree();
-	      } else if (window.nextDeath == window.people.name4) {
-	        nextDeathFour();
 	      } else {
-	        nextDeath();
+	        nextDeathFour();
 	      }
 	    }
 	  }, {
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_Main2.default, { text: "The train slows down. Your group does not hide. Two members of Los Zetas board the train and take " + window.nextDeath + ".", imgUrl: '../assets/Take.png', nextLink: '/Coyote' });
+	      return _react2.default.createElement(_Main2.default, { text: window.text, imgUrl: '../assets/Take.png', nextLink: window.linkNew });
 	    }
 	  }]);
 
@@ -28793,34 +28897,35 @@
 	  delete window.people.name1;
 	  delete window.people.rel1;
 	  window.nextDeath = window.people.name2;
-	  console.log("ran next death 1");
+	  window.linkNew = "/Coyote2";
+	  window.text = "You have no money, but " + window.nextDeath + " is able to strike up a deal. The coyote approves of the deal and you successfully cross the border, without " + window.nextDeath + '. To uphold the deal they are taken away to pay the coyote\'s debt. They will live the rest of their life in servitude.';
 	}
 	function nextDeathTwo() {
 	  delete window.people.name2;
 	  delete window.people.rel2;
 	  window.nextDeath = window.people.name3;
-	  console.log("ran next death 2");
+	  window.linkNew = "/Coyote2";
+	  window.text = "You have no money, but " + window.nextDeath + " is able to strike up a deal. The coyote approves of the deal and you successfully cross the border, without " + window.nextDeath + '. To uphold the deal they are taken away to pay the coyote\'s debt. They will live the rest of their life in servitude.';
 	}
 	function nextDeathThree() {
 	  delete window.people.name3;
 	  delete window.people.rel3;
 	  window.nextDeath = window.people.name4;
-	  console.log("ran next death 3");
+	  window.linkNew = "/Coyote2";
+	  window.text = "You have no money, but " + window.nextDeath + " is able to strike up a deal. The coyote approves of the deal and you successfully cross the border, without " + window.nextDeath + '. To uphold the deal they are taken away to pay the coyote\'s debt. They will live the rest of their life in servitude.';
 	}
 	function nextDeathFour() {
 	  delete window.people.name4;
 	  delete window.people.rel4;
 	  window.nextDeath = "you";
-	  console.log("ran next death 4");
+	  window.linkNew = "/GoCoyote2";
+	  window.text = 'You have no money, but you\'re able to strike up a deal. The coyote approves of the deal, but to uphold it, you are taken away to pay the coyote\'s debt. You will live the rest of your life in sexual servitude.';
 	}
-	function nextDeath() {
-	  window.nextDeath = window.people.name1;
-	  console.log("ran next death");
-	}
+
 	exports.default = Take;
 
 /***/ }),
-/* 272 */
+/* 273 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -28871,7 +28976,7 @@
 	exports.default = Take;
 
 /***/ }),
-/* 273 */
+/* 274 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -28922,7 +29027,7 @@
 	exports.default = Coyote;
 
 /***/ }),
-/* 274 */
+/* 275 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -28963,32 +29068,15 @@
 	  _createClass(Deal, [{
 	    key: 'componentDidMount',
 	    value: function componentDidMount() {
-	      if (window.nextDeath == "you") {
-	        window.linkNew = "/GoCoyote2";
-	        window.text = "You have no money, but you're is able to strike up a deal. The coyote approves of the deal, but to uphold it, you are taken away to pay the coyote’s debt. You will live the rest of your life in sexual servitude.";
-	        console.log("Death is you");
-	      } else {
-	        window.linkNew = "/Coyote2";
-	        window.text = "You have no money, but " + window.nextDeath + " is able to strike up a deal. The coyote approves of the deal and you successfully cross the border, without " + window.nextDeath + ". To uphold the deal she is taken away to pay the coyote’s debt. She will live the rest of her life in sexual servitude.";
-	        console.log("Death isn;t you");
-	      }
-
+	      $('#accepts').trigger("play");
 	      if (window.nextDeath == window.people.name1) {
-	        // window.nextDeath = window.people.name2
-	        // delete window.people.name2
-	        // delete window.people.rel2
 	        nextDeathOne();
 	      } else if (window.nextDeath == window.people.name2) {
-	        // window.nextDeath = window.people.name1
-	        // delete window.people.name1
-	        // delete window.people.rel1
 	        nextDeathTwo();
 	      } else if (window.nextDeath == window.people.name3) {
 	        nextDeathThree();
-	      } else if (window.nextDeath == window.people.name4) {
-	        nextDeathFour();
 	      } else {
-	        nextDeath();
+	        nextDeathFour();
 	      }
 	    }
 	  }, {
@@ -29005,35 +29093,26 @@
 	  delete window.people.name1;
 	  delete window.people.rel1;
 	  window.nextDeath = window.people.name2;
-	  console.log("ran next death 1");
 	}
 	function nextDeathTwo() {
 	  delete window.people.name2;
 	  delete window.people.rel2;
 	  window.nextDeath = window.people.name3;
-	  console.log("ran next death 2");
 	}
 	function nextDeathThree() {
 	  delete window.people.name3;
 	  delete window.people.rel3;
 	  window.nextDeath = window.people.name4;
-	  console.log("ran next death 3");
 	}
 	function nextDeathFour() {
 	  delete window.people.name4;
 	  delete window.people.rel4;
 	  window.nextDeath = "you";
-	  console.log("ran next death 4");
 	}
-	function nextDeath() {
-	  window.nextDeath = window.people.name1;
-	  console.log("ran next death");
-	}
-
 	exports.default = Deal;
 
 /***/ }),
-/* 275 */
+/* 276 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -29074,7 +29153,7 @@
 	  _createClass(Coyote2, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_MainTwo2.default, { text: 'You jump in the back of the coyote\u2019s truck with others. It is important that you stay low so you are not seen. The coyote asks how far you would like to go?', imgUrl: '../assets/Coyote2.png', cta1: 'All the way to the border', cta2: 'As far as he would recommend', oneLink: '/All', twoLink: '/Drop' });
+	      return _react2.default.createElement(_MainTwo2.default, { text: 'You jump in the back of the coyote\\u0027s truck with others. It is important that you stay low so you are not seen. The coyote asks how far you would like to go?', imgUrl: '../assets/Coyote2.png', cta1: 'All the way to the border', cta2: 'As far as he would recommend', oneLink: '/All', twoLink: '/Drop' });
 	    }
 	  }]);
 
@@ -29084,7 +29163,7 @@
 	exports.default = Coyote2;
 
 /***/ }),
-/* 276 */
+/* 277 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -29155,48 +29234,8 @@
 	              { id: 'rel1', className: 'form-control relation' },
 	              _react2.default.createElement(
 	                'option',
-	                { hidden: true },
-	                'Choose relationship'
-	              ),
-	              _react2.default.createElement(
-	                'option',
 	                null,
-	                'Friend'
-	              ),
-	              _react2.default.createElement(
-	                'option',
-	                null,
-	                'Brother'
-	              ),
-	              _react2.default.createElement(
-	                'option',
-	                null,
-	                'Sister'
-	              ),
-	              _react2.default.createElement(
-	                'option',
-	                null,
-	                'Cousin'
-	              ),
-	              _react2.default.createElement(
-	                'option',
-	                null,
-	                'Son'
-	              ),
-	              _react2.default.createElement(
-	                'option',
-	                null,
-	                'Daughter'
-	              ),
-	              _react2.default.createElement(
-	                'option',
-	                null,
-	                'Dad'
-	              ),
-	              _react2.default.createElement(
-	                'option',
-	                null,
-	                'Mom'
+	                'Guy (Friend, Brother, Cousin)'
 	              )
 	            )
 	          ),
@@ -29213,48 +29252,8 @@
 	              { id: 'rel2', className: 'form-control relation' },
 	              _react2.default.createElement(
 	                'option',
-	                { hidden: true },
-	                'Choose relationship'
-	              ),
-	              _react2.default.createElement(
-	                'option',
 	                null,
-	                'Friend'
-	              ),
-	              _react2.default.createElement(
-	                'option',
-	                null,
-	                'Brother'
-	              ),
-	              _react2.default.createElement(
-	                'option',
-	                null,
-	                'Sister'
-	              ),
-	              _react2.default.createElement(
-	                'option',
-	                null,
-	                'Cousin'
-	              ),
-	              _react2.default.createElement(
-	                'option',
-	                null,
-	                'Son'
-	              ),
-	              _react2.default.createElement(
-	                'option',
-	                null,
-	                'Daughter'
-	              ),
-	              _react2.default.createElement(
-	                'option',
-	                null,
-	                'Dad'
-	              ),
-	              _react2.default.createElement(
-	                'option',
-	                null,
-	                'Mom'
+	                'Girl (Friend, Sister, Cousin)'
 	              )
 	            )
 	          ),
@@ -29271,48 +29270,8 @@
 	              { id: 'rel3', className: 'form-control relation' },
 	              _react2.default.createElement(
 	                'option',
-	                { hidden: true },
-	                'Choose relationship'
-	              ),
-	              _react2.default.createElement(
-	                'option',
 	                null,
-	                'Friend'
-	              ),
-	              _react2.default.createElement(
-	                'option',
-	                null,
-	                'Brother'
-	              ),
-	              _react2.default.createElement(
-	                'option',
-	                null,
-	                'Sister'
-	              ),
-	              _react2.default.createElement(
-	                'option',
-	                null,
-	                'Cousin'
-	              ),
-	              _react2.default.createElement(
-	                'option',
-	                null,
-	                'Son'
-	              ),
-	              _react2.default.createElement(
-	                'option',
-	                null,
-	                'Daughter'
-	              ),
-	              _react2.default.createElement(
-	                'option',
-	                null,
-	                'Dad'
-	              ),
-	              _react2.default.createElement(
-	                'option',
-	                null,
-	                'Mom'
+	                'Guy (Friend, Brother, Cousin)'
 	              )
 	            )
 	          ),
@@ -29329,48 +29288,8 @@
 	              { id: 'rel4', className: 'form-control relation' },
 	              _react2.default.createElement(
 	                'option',
-	                { hidden: true },
-	                'Choose relationship'
-	              ),
-	              _react2.default.createElement(
-	                'option',
 	                null,
-	                'Friend'
-	              ),
-	              _react2.default.createElement(
-	                'option',
-	                null,
-	                'Brother'
-	              ),
-	              _react2.default.createElement(
-	                'option',
-	                null,
-	                'Sister'
-	              ),
-	              _react2.default.createElement(
-	                'option',
-	                null,
-	                'Cousin'
-	              ),
-	              _react2.default.createElement(
-	                'option',
-	                null,
-	                'Son'
-	              ),
-	              _react2.default.createElement(
-	                'option',
-	                null,
-	                'Daughter'
-	              ),
-	              _react2.default.createElement(
-	                'option',
-	                null,
-	                'Dad'
-	              ),
-	              _react2.default.createElement(
-	                'option',
-	                null,
-	                'Mom'
+	                'Girl (Friend, Sister, Cousin)'
 	              )
 	            )
 	          )
@@ -29455,30 +29374,24 @@
 	  return rels[reference][rel];
 	}
 
-	var sentence = returnPronoun('she', 'brother') + ' gave ' + returnPronoun('her', 'friend') + ' an apple.';
+	// var sentence = `${returnPronoun('she', 'brother')} gave ${returnPronoun('her', 'friend')} an apple.`
 
-	console.log(sentence);
+	// console.log(sentence)
 	function captureNames() {
 	  window.people = {};
 
 	  for (var i = 1; i < 5; i++) {
 	    window.people['name' + i] = $('#theirName' + i).val();
-	    window.people['rel' + i] = $('#rel' + i).val();
+	    // window.people[`rel${i}`] = $(`#rel${i}`).val()
+
 	    // window.people[`person${i}`]=[$(`#theirName${i}`).val(),$(`#rel${i}`).val()]
 	  }
-	  console.log(window.people);
-	  //
-	  // window.name1 = $('#theirName1').val();
-	  // window.rel1 = $('#rel1').val();
-	  // window.name2 = $('#theirName2').val();
-	  // window.rel2 = $('#rel2').val();
-	  // window.name3 = $('#theirName3').val();
-	  // window.rel3 = $('#rel3').val();
-	  // window.name4 = $('#theirName4').val();
-	  // window.rel4 = $('#rel4').val();
-
-	  // console.log(window.people.name1)
-	  console.log(returnPronoun('her', 'friend'));
+	  window.people.rel1 = "brother";
+	  window.people.rel2 = "sister";
+	  window.people.rel3 = "brother";
+	  window.people.rel4 = "sister";
+	  // console.log(window.people)
+	  // console.log(returnPronoun('her', 'friend'))
 	}
 
 	function generateNames() {
@@ -29486,85 +29399,12 @@
 	  $('#theirName2').val("Joyce");
 	  $('#theirName3').val("Julian");
 	  $('#theirName4').val("Deb");
-	  $('#rel1').val("Brother");
-	  $('#rel2').val("Sister");
-	  $('#rel3').val("Brother");
-	  $('#rel4').val("Sister");
+	  // $('#rel1').val("Brother");
+	  // $('#rel2').val("Sister");
+	  // $('#rel3').val("Brother");
+	  // $('#rel4').val("Sister");
 	  $('#continue').removeClass('disabled');
 	}
-
-/***/ }),
-/* 277 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	'use strict';
-
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-
-	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-	var _react = __webpack_require__(1);
-
-	var _react2 = _interopRequireDefault(_react);
-
-	var _reactRouter = __webpack_require__(159);
-
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-	var GameOver = function (_Component) {
-	  _inherits(GameOver, _Component);
-
-	  function GameOver() {
-	    _classCallCheck(this, GameOver);
-
-	    return _possibleConstructorReturn(this, (GameOver.__proto__ || Object.getPrototypeOf(GameOver)).apply(this, arguments));
-	  }
-
-	  _createClass(GameOver, [{
-	    key: 'render',
-	    value: function render() {
-	      return _react2.default.createElement(
-	        'div',
-	        null,
-	        _react2.default.createElement(
-	          'div',
-	          { className: 'col-12' },
-	          _react2.default.createElement('img', { className: 'img thumb', src: this.props.imgUrl })
-	        ),
-	        _react2.default.createElement(
-	          'div',
-	          { className: 'col-12 text-container' },
-	          _react2.default.createElement(
-	            'p',
-	            null,
-	            this.props.text
-	          )
-	        ),
-	        _react2.default.createElement(
-	          'div',
-	          { className: 'col-6 m-auto' },
-	          _react2.default.createElement(
-	            _reactRouter.Link,
-	            { className: 'btn btn-dark btn-block', to: this.props.nextLink },
-	            'Read more about the Northern Triangle'
-	          )
-	        )
-	      );
-	    }
-	  }]);
-
-	  return GameOver;
-	}(_react.Component);
-
-	exports.default = GameOver;
 
 /***/ }),
 /* 278 */
@@ -29608,7 +29448,7 @@
 	  _createClass(Argument, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_Main2.default, { text: 'An argument erupts. You see a glint out of the corner of your eye.', imgUrl: '../assets/ph.png', nextLink: '/Death1' });
+	      return _react2.default.createElement(_Main2.default, { text: 'An argument erupts. You see a glint out of the corner of your eye.', imgUrl: '../assets/Argument.png', nextLink: '/Death1' });
 	    }
 	  }]);
 
@@ -29635,7 +29475,7 @@
 
 	var _reactRouter = __webpack_require__(159);
 
-	var _GameOver = __webpack_require__(277);
+	var _GameOver = __webpack_require__(249);
 
 	var _GameOver2 = _interopRequireDefault(_GameOver);
 
@@ -29686,7 +29526,7 @@
 
 	var _reactRouter = __webpack_require__(159);
 
-	var _GameOver = __webpack_require__(277);
+	var _GameOver = __webpack_require__(249);
 
 	var _GameOver2 = _interopRequireDefault(_GameOver);
 
@@ -29710,7 +29550,7 @@
 	  _createClass(Death2, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_GameOver2.default, { text: 'You live another week, but the men want more. You don\'t have any more money to give them so they kill you.', imgUrl: '../assets/go.png', nextLink: '/' });
+	      return _react2.default.createElement(_GameOver2.default, { text: 'You live another week, but the men want more. You don\\u0027t have any more money to give them so they kill you.', imgUrl: '../assets/go.png', nextLink: '/' });
 	    }
 	  }]);
 
@@ -29761,7 +29601,7 @@
 	  _createClass(Dad, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_Main2.default, { text: 'They get your name and say they will look into it.', imgUrl: '../assets/dad.png', nextLink: '/Death3' });
+	      return _react2.default.createElement(_Main2.default, { text: 'They get your name and say they will look into it.', imgUrl: '../assets/003a_callpolice.png', nextLink: '/Death3' });
 	    }
 	  }]);
 
@@ -29788,7 +29628,7 @@
 
 	var _reactRouter = __webpack_require__(159);
 
-	var _GameOver = __webpack_require__(277);
+	var _GameOver = __webpack_require__(249);
 
 	var _GameOver2 = _interopRequireDefault(_GameOver);
 
@@ -29839,7 +29679,7 @@
 
 	var _reactRouter = __webpack_require__(159);
 
-	var _GameOver = __webpack_require__(277);
+	var _GameOver = __webpack_require__(249);
 
 	var _GameOver2 = _interopRequireDefault(_GameOver);
 
@@ -29890,7 +29730,7 @@
 
 	var _reactRouter = __webpack_require__(159);
 
-	var _GameOver = __webpack_require__(277);
+	var _GameOver = __webpack_require__(249);
 
 	var _GameOver2 = _interopRequireDefault(_GameOver);
 
@@ -29941,7 +29781,7 @@
 
 	var _reactRouter = __webpack_require__(159);
 
-	var _GameOver = __webpack_require__(277);
+	var _GameOver = __webpack_require__(249);
 
 	var _GameOver2 = _interopRequireDefault(_GameOver);
 
@@ -30043,7 +29883,7 @@
 
 	var _reactRouter = __webpack_require__(159);
 
-	var _GameOver = __webpack_require__(277);
+	var _GameOver = __webpack_require__(249);
 
 	var _GameOver2 = _interopRequireDefault(_GameOver);
 
@@ -30169,7 +30009,7 @@
 	  _createClass(All, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_Main2.default, { text: 'The truck approaches the border. All of a sudden Immigration spots the truck. The coyote tries to lose them and flips the truck. It\u2019s one of the worst things you\u2019ve ever seen. People are hurt. People are bleeding. A pregnant woman is seen vomiting blood.', imgUrl: '../assets/All.png', nextLink: '/Immigration' });
+	      return _react2.default.createElement(_Main2.default, { text: 'The truck approaches the border. All of a sudden Immigration spots the truck. The coyote tries to lose them and flips the truck. It\\u0027s one of the worst things you\\u0027ve ever seen. People are hurt. People are bleeding. A pregnant woman is seen vomiting blood.', imgUrl: '../assets/All.png', nextLink: '/Immigration' });
 	    }
 	  }]);
 
@@ -30196,7 +30036,7 @@
 
 	var _reactRouter = __webpack_require__(159);
 
-	var _GameOver = __webpack_require__(277);
+	var _GameOver = __webpack_require__(249);
 
 	var _GameOver2 = _interopRequireDefault(_GameOver);
 
@@ -30247,7 +30087,7 @@
 
 	var _reactRouter = __webpack_require__(159);
 
-	var _GameOver = __webpack_require__(277);
+	var _GameOver = __webpack_require__(249);
 
 	var _GameOver2 = _interopRequireDefault(_GameOver);
 
@@ -30322,7 +30162,7 @@
 	  _createClass(Customs, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_MainTwo2.default, { text: 'Immigration and Customs Enforcement meets your party at the border. What do you do?', imgUrl: '../assets/Customs.png', cta1: 'You do not run.', cta2: 'You run.', oneLink: '/Hieleras', twoLink: '/' });
+	      return _react2.default.createElement(_MainTwo2.default, { text: 'Immigration and Customs Enforcement meets your party at the border. What do you do?', imgUrl: '../assets/Customs.png', cta1: 'You do not run.', cta2: 'You run.', oneLink: '/Hieleras', twoLink: '/Run' });
 	    }
 	  }]);
 
@@ -30553,7 +30393,7 @@
 
 	var _reactRouter = __webpack_require__(159);
 
-	var _GameOver = __webpack_require__(277);
+	var _GameOver = __webpack_require__(249);
 
 	var _GameOver2 = _interopRequireDefault(_GameOver);
 
@@ -30628,7 +30468,7 @@
 	  _createClass(Run, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_Main2.default, { text: 'You are not caught, but _________ and ___________ are caught', imgUrl: '../assets/Run.png', nextLink: '/America' });
+	      return _react2.default.createElement(_Main2.default, { text: 'You are not caught, but others are.', imgUrl: '../assets/Run.png', nextLink: '/America' });
 	    }
 	  }]);
 
@@ -30679,7 +30519,7 @@
 	  _createClass(America, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_Main2.default, { text: 'Congratulations you\u2019ve made it to America, the land of the free.', imgUrl: '../assets/ph.png', nextLink: '/Dust' });
+	      return _react2.default.createElement(_Main2.default, { text: 'Congratulations you\\u0027ve made it to America, the land of the free.', imgUrl: '../assets/America.png', nextLink: '/Dust' });
 	    }
 	  }]);
 
@@ -30730,7 +30570,7 @@
 	  _createClass(Dust, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_Main2.default, { text: 'As you walk, you see a group of truck in the distance, kicking up clouds of dust.  Coming closer and closer. Is it help? Is it the help the coyote has sent?', imgUrl: '../assets/ph.png', nextLink: '/Ice2' });
+	      return _react2.default.createElement(_Main2.default, { text: 'As you walk, you see a group of truck in the distance, kicking up clouds of dust. Coming closer and closer. Is it help? Is it the help the coyote has sent?', imgUrl: '../assets/Dust.png', nextLink: '/Ice2' });
 	    }
 	  }]);
 
@@ -30781,7 +30621,7 @@
 	  _createClass(Ice2, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_Main2.default, { text: 'No, it\u2019s Immigration.', imgUrl: '../assets/Customs.png', nextLink: '/Hieleras' });
+	      return _react2.default.createElement(_Main2.default, { text: 'No, it\\u0027s Immigration.', imgUrl: '../assets/Customs.png', nextLink: '/Hieleras' });
 	    }
 	  }]);
 
@@ -30808,7 +30648,7 @@
 
 	var _reactRouter = __webpack_require__(159);
 
-	var _GameOver = __webpack_require__(277);
+	var _GameOver = __webpack_require__(249);
 
 	var _GameOver2 = _interopRequireDefault(_GameOver);
 

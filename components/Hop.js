@@ -5,7 +5,7 @@ import Main from './Main';
 class Hop extends Component {
   render() {
     return (
-      <Main text={"You hold on tight to " + window.nextDeath +". For the 1450-mile undertaking you all jump from one moving train to another to another to another. Growing tired you lose count, but it's somewhere between 10 and 15."} imgUrl="../assets/hop.png" nextLink={"/"+weighed_list[random_num]}/>
+      <Main text={"You hold on tight to " + window.nextDeath +". For the 1450-mile undertaking you all jump from one moving train to another to another to another. Growing tired you lose count, but it\u0027s somewhere between 10 and 15."} imgUrl="../assets/hop.png" nextLink={"/"+weighed_list[random_num]}/>
     );
   }
 }

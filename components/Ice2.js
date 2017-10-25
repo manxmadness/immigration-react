@@ -5,7 +5,7 @@ import Main from './Main';
 class Ice2 extends Component {
   render() {
     return (
-      <Main text="No, it’s Immigration." imgUrl="../assets/Customs.png" nextLink="/Hieleras" />
+      <Main text="No, it\u0027s Immigration." imgUrl="../assets/Customs.png" nextLink="/Hieleras" />
     );
   }
 }

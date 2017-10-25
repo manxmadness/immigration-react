@@ -5,7 +5,7 @@ import GameOver from './GameOver';
 class Death2 extends Component {
   render() {
     return (
-      <GameOver text="You live another week, but the men want more. You don't have any more money to give them so they kill you." imgUrl="../assets/go.png" nextLink="/"/>
+      <GameOver text="You live another week, but the men want more. You don\u0027t have any more money to give them so they kill you." imgUrl="../assets/go.png"/>
     );
   }
 }
