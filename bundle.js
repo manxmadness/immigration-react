@@ -27414,7 +27414,7 @@
 	  _createClass(Bus, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_GameOver2.default, { text: 'The tattooed men catch up to you. You are ambushed and killed.', imgUrl: '../assets/go.png', nextLink: '/' });
+	      return _react2.default.createElement(_GameOver2.default, { text: 'The tattooed men catch up to you. You are ambushed and killed.', imgUrl: '../assets/go.png' });
 	    }
 	  }]);
 
@@ -27482,8 +27482,8 @@
 	          'div',
 	          { className: 'col-6 m-auto' },
 	          _react2.default.createElement(
-	            _reactRouter.Link,
-	            { className: 'btn btn-dark btn-block', to: this.props.nextLink },
+	            'a',
+	            { className: 'btn btn-dark btn-block', href: 'http://kellyprudente.com/northern-triangle/lp/index.html', target: '_blank' },
 	            'Read more about the Northern Triangle'
 	          )
 	        ),
@@ -29499,7 +29499,7 @@
 	  _createClass(Death1, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_GameOver2.default, { text: 'Suddenly you feel hot blow, another and then another. You feel tired and collapse to the ground. Stabbed, left on the corner. Slowly your vision fades to black.', imgUrl: '../assets/death1.png', nextLink: '/' });
+	      return _react2.default.createElement(_GameOver2.default, { text: 'Suddenly you feel hot blow, another and then another. You feel tired and collapse to the ground. Stabbed, left on the corner. Slowly your vision fades to black.', imgUrl: '../assets/death1.png' });
 	    }
 	  }]);
 
@@ -29550,7 +29550,7 @@
 	  _createClass(Death2, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_GameOver2.default, { text: 'You live another week, but the men want more. You don\\u0027t have any more money to give them so they kill you.', imgUrl: '../assets/go.png', nextLink: '/' });
+	      return _react2.default.createElement(_GameOver2.default, { text: 'You live another week, but the men want more. You don\\u0027t have any more money to give them so they kill you.', imgUrl: '../assets/go.png' });
 	    }
 	  }]);
 
@@ -29652,7 +29652,7 @@
 	  _createClass(Death3, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_GameOver2.default, { text: 'On the way home, two officers stop you. You ask, \u201DIs there a problem, officers?\u201D The sound of a blast echoes in your ears. The police car speeds off. You do not return home.', imgUrl: '../assets/go.png', nextLink: '/' });
+	      return _react2.default.createElement(_GameOver2.default, { text: 'On the way home, two officers stop you. You ask, \u201DIs there a problem, officers?\u201D The sound of a blast echoes in your ears. The police car speeds off. You do not return home.', imgUrl: '../assets/go.png' });
 	    }
 	  }]);
 
@@ -29703,7 +29703,7 @@
 	  _createClass(Death4, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_GameOver2.default, { text: 'The tattooed men catch up to you and kill all of the members of your party.', imgUrl: '../assets/go.png', nextLink: '/' });
+	      return _react2.default.createElement(_GameOver2.default, { text: 'The tattooed men catch up to you and kill all of the members of your party.', imgUrl: '../assets/go.png' });
 	    }
 	  }]);
 
@@ -29754,7 +29754,7 @@
 	  _createClass(Death5, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_GameOver2.default, { text: 'You fight. Both of you fall to the ground, he stabs you. Your friends watch you bleed out.', imgUrl: '../assets/go.png', nextLink: '/' });
+	      return _react2.default.createElement(_GameOver2.default, { text: 'You fight. Both of you fall to the ground, he stabs you. Your friends watch you bleed out.', imgUrl: '../assets/go.png' });
 	    }
 	  }]);
 
@@ -29805,7 +29805,7 @@
 	  _createClass(Death6, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_GameOver2.default, { text: 'You plead. You scream for help, for the others to find you, for anyone to find you. Your attacker leaves, but you are unable to sit up. Idly you absorb the trauma and begin to swallow the pain. Everything fades to black.', imgUrl: '../assets/go.png', nextLink: '/' });
+	      return _react2.default.createElement(_GameOver2.default, { text: 'You plead. You scream for help, for the others to find you, for anyone to find you. Your attacker leaves, but you are unable to sit up. Idly you absorb the trauma and begin to swallow the pain. Everything fades to black.', imgUrl: '../assets/go.png' });
 	    }
 	  }]);
 
@@ -29907,7 +29907,7 @@
 	  _createClass(Death7, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_GameOver2.default, { text: 'Sweaty, thirsty and alone you die of heat exhaustion.', imgUrl: '../assets/walk.png', nextLink: '/' });
+	      return _react2.default.createElement(_GameOver2.default, { text: 'Sweaty, thirsty and alone you die of heat exhaustion.', imgUrl: '../assets/walk.png' });
 	    }
 	  }]);
 
@@ -30060,7 +30060,7 @@
 	  _createClass(Immigration, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_GameOver2.default, { text: 'Immigration arrests all of you and you are sent back home.', imgUrl: '../assets/go.png', nextLink: '/' });
+	      return _react2.default.createElement(_GameOver2.default, { text: 'Immigration arrests all of you and you are sent back home.', imgUrl: '../assets/go.png' });
 	    }
 	  }]);
 
@@ -30111,7 +30111,7 @@
 	  _createClass(Hieleras, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_GameOver2.default, { text: 'You are arrested and sent to detainment cells called, \u201Chieleras\u201D or \u201Ciceboxes,\u201D where immigrants are locked until deported.', imgUrl: '../assets/go.png', nextLink: '/' });
+	      return _react2.default.createElement(_GameOver2.default, { text: 'You are arrested and sent to detainment cells called, \u201Chieleras\u201D or \u201Ciceboxes,\u201D where immigrants are locked until deported.', imgUrl: '../assets/go.png' });
 	    }
 	  }]);
 
@@ -30417,7 +30417,7 @@
 	  _createClass(Sent, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_GameOver2.default, { text: 'You are sent back home.', imgUrl: '../assets/go.png', nextLink: '/' });
+	      return _react2.default.createElement(_GameOver2.default, { text: 'You are sent back home.', imgUrl: '../assets/go.png' });
 	    }
 	  }]);
 
@@ -30672,7 +30672,7 @@
 	  _createClass(GoCoyote2, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_GameOver2.default, { text: 'Rest in peace.', imgUrl: '../assets/go.png', nextLink: '/' });
+	      return _react2.default.createElement(_GameOver2.default, { text: 'Rest in peace.', imgUrl: '../assets/go.png' });
 	    }
 	  }]);
 
