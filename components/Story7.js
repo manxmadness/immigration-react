@@ -4,23 +4,16 @@ import Main from './Main';
 
 class Story7 extends Component {
   componentDidMount() {
-      if (window.nextDeath == window.people.name1) {
-        // window.nextDeath = window.people.name2
-        // delete window.people.name2
-        // delete window.people.rel2
+    $('#cross').trigger("play");
+      if (window.nextDeath = window.people.name1) {
         nextDeathOne()
+
       }
-      else if (window.nextDeath == window.people.name2) {
-        // window.nextDeath = window.people.name1
-        // delete window.people.name1
-        // delete window.people.rel1
+      else if (window.nextDeath = window.people.name2) {
         nextDeathTwo()
       }
-      else if (window.nextDeath == window.people.name3){
-        nextDeathThree()
-      }
       else {
-        nextDeath()
+        nextDeathThree()
       }
   }
 
@@ -34,22 +27,23 @@ function nextDeathOne(){
   delete window.people.name1
   delete window.people.rel1
   window.nextDeath = window.people.name2
-  console.log("ran next death 1")
+  window.linkNew = "/Coyote"
+  window.text = "The train slows down. Your group does not hide. Two members of Los Zetas board the train and take " + window.nextDeath + "."
 }
 function nextDeathTwo(){
   delete window.people.name2
   delete window.people.rel2
   window.nextDeath = window.people.name3
-  console.log("ran next death 2")
+  window.linkNew = "/Coyote"
+  window.text = "The train slows down. Your group does not hide. Two members of Los Zetas board the train and take " + window.nextDeath + "."
 }
+
 function nextDeathThree(){
   delete window.people.name3
   delete window.people.rel3
   window.nextDeath = window.people.name4
-  console.log("ran next death 3")
+  window.linkNew = "/Coyote"
+  window.text = "The train slows down. Your group does not hide. Two members of Los Zetas board the train and take " + window.nextDeath + "."
 }
-function nextDeath(){
-  window.nextDeath = window.people.name1
-  console.log("ran next death")
-}
+
 export default Story7;

@@ -9,5 +9,4 @@ class Across extends Component {
     );
   }
 }
-
 export default Across;

@@ -5,7 +5,7 @@ import Main from './Main';
 class Run extends Component {
   render() {
     return (
-      <Main text="You are not caught, but _________ and ___________ are caught" imgUrl="../assets/Run.png" nextLink="/America"/>
+      <Main text="You are not caught, but others are." imgUrl="../assets/Run.png" nextLink="/America"/>
     );
   }
 }

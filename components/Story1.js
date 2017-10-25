@@ -5,10 +5,11 @@ import Main from './Main';
 class Story1 extends Component {
   componentDidMount() {
         window.nextDeath = window.people.name1
+        // console.log(window.nextDeathPronoun)
   }
   render() {
     return (
-      <Main text={"Hello, "+ window.name + ". You are a " + window.age + " y.o. " + window.gender + " living in " + randomNum} imgUrl="/assets/ph.png" nextLink={randomNum.replace(/\s/g, '')}/>
+      <Main text={"Hello, "+ window.name + ". You are a " + window.age + " y.o. " + window.gender + " living in " + randomNum} imgUrl="/assets/elsalvador.png" nextLink={randomNum.replace(/\s/g, '')}/>
     );
   }
 }

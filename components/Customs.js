@@ -5,7 +5,7 @@ import MainTwo from './MainTwo';
 class Customs extends Component {
   render() {
     return (
-      <MainTwo text="Immigration and Customs Enforcement meets your party at the border. What do you do?" imgUrl="../assets/Customs.png" cta1="You do not run." cta2="You run." oneLink="/Hieleras" twoLink="/" />
+      <MainTwo text="Immigration and Customs Enforcement meets your party at the border. What do you do?" imgUrl="../assets/Customs.png" cta1="You do not run." cta2="You run." oneLink="/Hieleras" twoLink="/Run" />
     );
   }
 }

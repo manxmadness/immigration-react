@@ -4,31 +4,21 @@ import Main from './Main';
 
 class Death extends Component {
   componentDidMount() {
-    console.log("kelly")
-    delete window.people['name1']
-    delete window.people['rel1']
-    console.log(window.people)
-
-      if (window.people.name1 == undefined || window.people.name1 == null) {
-        // console.log(window.nextDeath)
-        window.nextDeath = window.people.name2
-        // return window.nextDeath;
-
-      }
-      else {
-        window.nextDeath = window.people.name1
-        // return window.nextDeath;
-      }
-
-    return window.nextDeath;
+    nextDeath()
   }
   render() {
     return (
-      <Main text= {window.people.name1 + " is murdered."} imgUrl="../assets/004_body.png" nextLink="/Decision2"/>
+      <Main text= {window.nextDeath + " is murdered."} imgUrl="../assets/004_body.png" nextLink="/Decision2"/>
     );
   }
 }
 
-
-
+function nextDeath() {
+    delete window.people.name1
+    delete window.people.rel1
+    window.nextDeath =  window.people.name2
+    window.linkNew = "/Coyote"
+    window.text = "The train slows down. Your group does not hide. Two members of Los Zetas board the train and take " + window.nextDeath + "."
+}
+ 
 export default Death;

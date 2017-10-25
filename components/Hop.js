@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 import { Link } from 'react-router'
 import Main from './Main';
 
-class Woman extends Component {
+class Hop extends Component {
   render() {
     return (
-      <Main text={"You hold on tight to " + window.nextDeath +". For the 1450-mile undertaking you all jump from one moving train to another to another to another. Growing tired you lose count, but it’s somewhere between 10 and 15."} imgUrl="../assets/hop.png" nextLink={"/"+weighed_list[random_num]}/>
+      <Main text={"You hold on tight to " + window.nextDeath +". For the 1450-mile undertaking you all jump from one moving train to another to another to another. Growing tired you lose count, but it's somewhere between 10 and 15."} imgUrl="../assets/hop.png" nextLink={"/"+weighed_list[random_num]}/>
     );
   }
 }
@@ -39,4 +39,4 @@ var random_num = rand(0, weighed_list.length-1);
 var randomNum = weighed_list[random_num];
 
 
-export default Woman;
+export default Hop;

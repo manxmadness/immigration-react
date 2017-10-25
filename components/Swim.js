@@ -4,17 +4,11 @@ import Main from './Main';
 
 class Swim extends Component {
   componentDidMount() {
-      if (window.people.name1 == undefined) {
-        window.nextDeath = window.people.name2
-        delete window.people.name2
-        delete window.people.rel2
+    $('#swim').trigger("play");
+      if (window.nextDeath = window.people.name1) {
         nextDeathOne()
-
       }
       else {
-        window.nextDeath = window.people.name1
-        delete window.people.name1
-        delete window.people.rel1
         nextDeathTwo()
       }
   }
@@ -28,10 +22,16 @@ class Swim extends Component {
 export default Swim;
 
 function nextDeathOne(){
-  window.nextDeath = window.people.name3
-  console.log("ran next death 1")
+  delete window.people.name1
+  delete window.people.rel1
+  window.nextDeath = window.people.name2
+  window.linkNew = "/Coyote"
+  window.text = "The train slows down. Your group does not hide. Two members of Los Zetas board the train and take " + window.nextDeath + "."
 }
 function nextDeathTwo(){
-  window.nextDeath = window.people.name2
-  console.log("ran next death 2")
+  delete window.people.name2
+  delete window.people.rel2
+  window.nextDeath = window.people.name3
+  window.linkNew = "/Coyote"
+  window.text = "The train slows down. Your group does not hide. Two members of Los Zetas board the train and take " + window.nextDeath + "."
 }

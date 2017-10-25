@@ -46,7 +46,7 @@ export default Form;
    window.age = $("#yourAge").val();
    window.gender = $('input[name=inlineRadioOptions]:checked').val()
   //  window.gender = $("#yourGender").val();
-   console.log(window.name)
-   console.log(window.age)
-   console.log(window.gender)
+  //  console.log(window.name)
+  //  console.log(window.age)
+  //  console.log(window.gender)
   }
