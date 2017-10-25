@@ -4,7 +4,10 @@ import Main from './Main';
 
 class Safe extends Component {
   componentDidMount() {
-    if (window.nextDeath == window.people.name1) {
+    if (window.people.name1 != null) {
+      markNext()
+    }
+    else if (window.nextDeath == window.people.name1) {
       nextDeathOne()
     }
     else if (window.nextDeath == window.people.name2) {
@@ -22,6 +25,11 @@ class Safe extends Component {
       <Main text="Your party is able to stay on the train without injury" imgUrl="../assets/Safe.png" nextLink="/Zetas"/>
     );
   }
+}
+function markNext() {
+  window.nextDeath = window.people.name1
+  window.linkNew = "/Coyote2"
+  window.text = "The train slows down. Your group does not hide. Two members of Los Zetas board the train and take " + window.nextDeath + "."
 }
 
 function nextDeathOne(){
