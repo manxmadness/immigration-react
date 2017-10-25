@@ -28610,7 +28610,9 @@
 	  _createClass(Safe, [{
 	    key: 'componentDidMount',
 	    value: function componentDidMount() {
-	      if (window.nextDeath == window.people.name1) {
+	      if (window.people.name1 != null) {
+	        markNext();
+	      } else if (window.nextDeath == window.people.name1) {
 	        nextDeathOne();
 	      } else if (window.nextDeath == window.people.name2) {
 	        nextDeathTwo();
@@ -28629,6 +28631,12 @@
 
 	  return Safe;
 	}(_react.Component);
+
+	function markNext() {
+	  window.nextDeath = window.people.name1;
+	  window.linkNew = "/Coyote2";
+	  window.text = "The train slows down. Your group does not hide. Two members of Los Zetas board the train and take " + window.nextDeath + ".";
+	}
 
 	function nextDeathOne() {
 	  delete window.people.name1;
