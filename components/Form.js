@@ -18,14 +18,14 @@ class Form extends Component {
    </div>
    <div className="col-lg-3 col-sm-6 text-left">
       <label htmlFor="yourGender">Your Gender</label><br/>
-      <div className="md-radio md-radio-inline">
-          <input id="3" type="radio" value="male" name="male" />
-          <label htmlFor="3">M</label>
-        </div>
-        <div className="md-radio md-radio-inline">
-          <input id="4" type="radio" value="female" name="female"/>
-          <label htmlFor="4">F</label>
-        </div>
+      <div className="custom-control custom-radio custom-control-inline">
+        <input type="radio" id="customRadioInline1" name="customRadioInline1" value="male" className="custom-control-input"/>
+        <label className="custom-control-label" htmlFor="customRadioInline1">M</label>
+      </div>
+      <div className="custom-control custom-radio custom-control-inline">
+        <input type="radio" id="customRadioInline2" name="customRadioInline1" value="female" className="custom-control-input"/>
+        <label className="custom-control-label" htmlFor="customRadioInline2">F</label>
+      </div>
    </div>
    <div className="col-lg-6 col-md-7 col-12 text-center">
       <Link className="btn btn-dark btn-block" to="/Form2" onClick={captureNameAge}>
