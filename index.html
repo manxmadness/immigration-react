@@ -3,63 +3,16 @@
 <head>
 <meta charset=utf-8/>
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-<!-- <link rel="stylesheet" href="index.css" /> -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous"> -->
+<link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css" crossorigin="anonymous">
+<link rel="stylesheet" href="index.css" />
 <link rel="icon" type="image/png" sizes="16x16" href="./assets/ico_16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="./assets/ico_32.png">
 <link rel="icon" type="image/png" sizes="96x96" href="./assets/ico_96.png">
 
 <title>El Triangulo</title>
-<style>
-body{
-  background: url(assets/paper.jpg);
-  font-size: 1rem;
-}
-.thumb{
-  width:800px;
-  height:618px;
-}
-.text-container {
-  padding: 0 20% 0 20%;
-}
-.btn{
-  margin:5px;
-  border-radius: 0;
-}
-.btn-primary {
-  background:#3b5998;
-  border-color:#3b5998;
-}
-.btn-primary:hover {
-  background:#2F4779;
-  border-color:#2F4779;
-}
 
-.btn-purple {
-  color: #646798;
-  background-color: #f5b55b;
-  border-color: #f5b55b;
-}
-
-.form-control {
-  margin-bottom: 5px;
-}
-.form-control:focus {
-  border-color: #646798 !important;
-}
-
-#icon {
-  width:16px;
-  height:16px;
-  border-radius: 100%;
-  background:#f5b55b;
-  /*padding:100px*/
-  margin:15px;
-  position: fixed; bottom: 0px; right: 0px;
-}
-
-
-</style>
 </head>
 <body>
   <nav class="navbar navbar-expand-md navbar-light fixed-top justify-content-center">
@@ -71,10 +24,10 @@ body{
   </nav>
 
 <div class="container text-center page">
-  <div id="app" class="row justify-content-center"></div>
+  <div id="app" class=""></div>
 </div>
-<div>
-  <i id="icon" class="fa fa-volume-up float-right" aria-hidden="true"></i>
+<div class="btn btn-purple" id="icon">
+  <i class="fa fa-volume-up float-right" aria-hidden="true"></i>
 </div>
 
 <audio class="audio" id="train">
@@ -100,18 +53,22 @@ body{
 <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 <script src="https://use.fontawesome.com/6018c83ef2.js"></script>
-<script type="text/javascript" src="https://gender-api.com/js/jquery/gender.min.js"></script>
-<script src="bundle.js"></script>
-<script>
+<script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js" integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U" crossorigin="anonymous"></script>
+<!-- <script type="text/javascript" src="https://gender-api.com/js/jquery/gender.min.js"></script> -->
+<script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js" crossorigin="anonymous"></script>
 
+
+<script src="bundle.js"></script>
+<script>$(document).ready(function() { $('body').bootstrapMaterialDesign(); });</script>
+<script>
 
   var navHeight = $('.navbar').outerHeight();
   $('.page').css('padding-top', navHeight)
   $('#icon').click(function()
     {
-         $('#icon').toggleClass('fa-volume-up fa-volume-off'); //Adds 'a', removes 'b' and vice versa
+         $('#icon i').toggleClass('fa-volume-up fa-volume-off'); //Adds 'a', removes 'b' and vice versa
 
-        if($('#icon').hasClass("fa-volume-up")){
+        if($('#icon i').hasClass("fa-volume-up")){
           $('.audio').trigger("play");
          //  $('input').val('Unmute')
         } else {

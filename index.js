@@ -2,6 +2,7 @@ import React from 'react'
 import { render } from 'react-dom'
 import { Router, Route, hashHistory } from 'react-router'
 import App from './components/App'
+import Intro from './components/Intro'
 import Story1 from './components/Story1'
 import Story2 from './components/Story2'
 import Guatemala from './components/Guatemala'
@@ -83,6 +84,7 @@ import GoCoyote2 from './components/GoCoyote2'
 render((
   <Router history={hashHistory}>
     <Route path="/" component={App}/>
+    <Route path="/Intro" component={Intro}/>
     <Route path="/Story1" component={Story1}/>
     <Route path="/Story2" component={Story2}/>
     <Route path="/Honduras" component={Honduras}/>

@@ -1,13 +1,128 @@
+@keyframes ripple {
+  0% {
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0);
+  }
+  50% {
+    box-shadow: 0px 0px 0px 15px rgba(0, 0, 0, 0.1);
+  }
+  100% {
+    box-shadow: 0px 0px 0px 15px rgba(0, 0, 0, 0);
+  }
+}
+.md-radio {
+  margin: 16px 0;
+}
+.md-radio.md-radio-inline {
+  display: inline-block;
+}
+.md-radio input[type="radio"] {
+  display: none;
+}
+.md-radio input[type="radio"]:checked + label:before {
+  border-color: #646798;
+  animation: ripple 0.2s linear forwards;
+}
+.md-radio input[type="radio"]:checked + label:after {
+  transform: scale(1);
+}
+.md-radio label {
+  display: inline-block;
+  height: 20px;
+  position: relative;
+  padding: 0 30px;
+  margin-bottom: 0;
+  cursor: pointer;
+  vertical-align: bottom;
+}
+.md-radio label:before, .md-radio label:after {
+  position: absolute;
+  content: '';
+  border-radius: 50%;
+  transition: all .3s ease;
+  transition-property: transform, border-color;
+}
+.md-radio label:before {
+  left: 0;
+  top: 0;
+  width: 20px;
+  height: 20px;
+  border: 2px solid rgba(0, 0, 0, 0.54);
+}
+.md-radio label:after {
+  top: 5px;
+  left: 5px;
+  width: 10px;
+  height: 10px;
+  transform: scale(0);
+  background: #646798;
+}
 body{
   background: url(assets/paper.jpg);
-  /*background-size: cover;*/
+  font-size: 1rem;
 }
-
 .thumb{
-  height:450px;
+  /* width:800px; */
+  max-height:618px;
+}
+.text-container {
+  padding: 0 20% 0 20%;
+}
+.btn{
+  margin:5px;
+  border-radius: 0;
+}
+.btn-primary {
+  color:#3b5998 !important;
+  background:#3b5998;
+  border-color:#3b5998;
+}
+.btn-primary:hover {
+  background:#2F4779;
+  border-color:#2F4779;
 }
 
-.page {
-  height: 100%;
-  /*position: fixed;*/
+.btn-purple {
+  color: #646798;
+  background-color: #f5b55b;
+  border-color: #f5b55b;
+}
+.btn-purple:hover {
+  color: #646798;
+  background-color: #F4AE4D;
+  border-color: #F4AE4D;
+}
+.btn-purple:focus,.btn-purple.focus, .btn-purple:active,.btn-purple.active {
+   box-shadow: 0 0 0 3px rgba(245,181,91,.5);
+ }
+.prompt {
+  padding-bottom:1.5rem;
+}
+.form-control {
+  margin-bottom: 5px;
+}
+.form-control:focus {
+  border-color: #646798 !important;
+}
+
+.row-top {
+  padding-top:5rem;
+}
+.navbar-brand .ripple-container {
+  display: none;
+}
+#icon {
+  /* width:16px;
+  height:16px; */
+  border-radius: 100%;
+  /* background:#f5b55b; */
+  padding:10px;
+  margin:15px;
+  position: fixed; bottom: 0px; right: 0px;
+}
+#icon i {
+  width:15px;
+  height:15px;
+}
+.navbar {
+  background:white;
 }
