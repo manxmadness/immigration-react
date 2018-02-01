@@ -5,7 +5,10 @@
 }
 body{
   background: url(assets/paper.jpg);
-  font-size: 1rem;
+  font-size: .875rem;
+}
+.height-50 {
+  /* height: 50vh; */
 }
 .thumb{
   /* width:800px; */
@@ -71,5 +74,6 @@ body{
   height:15px;
 }
 .navbar {
-  background:white;
+  /* background:white; */
+  box-shadow: none;
 }

@@ -8,7 +8,7 @@ class MainTwo extends Component {
         <div className="col-12">
           <img className="img img-fluid thumb" src={this.props.imgUrl}/>
         </div>
-        <div className="col-12 text-container">
+        <div className="col-lg-8 col-md-8 col-12">
           <p>{this.props.text}</p>
         </div>
         <div className="col-lg-6 col-md-7 col-12 text-center">

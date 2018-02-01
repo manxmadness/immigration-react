@@ -5,7 +5,7 @@ class Form2 extends Component {
   render() {
     return (
       <div className="row row-top justify-content-center">
-        <div className="col=12">
+        <div className="col-12">
           <p className="prompt text-center">{"Thanks " + window.name + ", just one more step. Please enter the names of a few people who you are close to"}</p>
         </div>
         <div className="col-6 text-left">
