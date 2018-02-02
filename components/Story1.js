@@ -9,7 +9,7 @@ class Story1 extends Component {
   }
   render() {
     return (
-      <Main text={"Hello, "+ window.name + ". You are a " + window.age + " y.o. " + window.gender + " living in " + randomNum} imgUrl="/assets/elsalvador.png" nextLink={randomNum.replace(/\s/g, '')}/>
+      <Main text={"Hello, "+ window.name + ". You are a " + window.age + " y.o. " + window.gender + " living in " + randomNum} imgUrl="../assets/elsalvador.png" nextLink={randomNum.replace(/\s/g, '')}/>
     );
   }
 }

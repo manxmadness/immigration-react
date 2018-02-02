@@ -58,6 +58,10 @@
 
 	var _App2 = _interopRequireDefault(_App);
 
+	var _Intro = __webpack_require__(223);
+
+	var _Intro2 = _interopRequireDefault(_Intro);
+
 	var _Story = __webpack_require__(224);
 
 	var _Story2 = _interopRequireDefault(_Story);
@@ -254,11 +258,11 @@
 
 	var _Coyote4 = _interopRequireDefault(_Coyote3);
 
-	var _Form = __webpack_require__(223);
+	var _Form = __webpack_require__(277);
 
 	var _Form2 = _interopRequireDefault(_Form);
 
-	var _Form3 = __webpack_require__(277);
+	var _Form3 = __webpack_require__(278);
 
 	var _Form4 = _interopRequireDefault(_Form3);
 
@@ -266,105 +270,109 @@
 
 	var _GameOver2 = _interopRequireDefault(_GameOver);
 
-	var _Argument = __webpack_require__(278);
+	var _Argument = __webpack_require__(279);
 
 	var _Argument2 = _interopRequireDefault(_Argument);
 
-	var _Death3 = __webpack_require__(279);
+	var _Death3 = __webpack_require__(280);
 
 	var _Death4 = _interopRequireDefault(_Death3);
 
-	var _Death5 = __webpack_require__(280);
+	var _Death5 = __webpack_require__(281);
 
 	var _Death6 = _interopRequireDefault(_Death5);
 
-	var _Police = __webpack_require__(281);
+	var _Police = __webpack_require__(282);
 
 	var _Police2 = _interopRequireDefault(_Police);
 
-	var _Death7 = __webpack_require__(282);
+	var _Death7 = __webpack_require__(283);
 
 	var _Death8 = _interopRequireDefault(_Death7);
 
-	var _Death9 = __webpack_require__(283);
+	var _Death9 = __webpack_require__(284);
 
 	var _Death10 = _interopRequireDefault(_Death9);
 
-	var _Death11 = __webpack_require__(284);
+	var _Death11 = __webpack_require__(285);
 
 	var _Death12 = _interopRequireDefault(_Death11);
 
-	var _Death13 = __webpack_require__(285);
+	var _Death13 = __webpack_require__(286);
 
 	var _Death14 = _interopRequireDefault(_Death13);
 
-	var _Heat = __webpack_require__(286);
+	var _Heat = __webpack_require__(287);
 
 	var _Heat2 = _interopRequireDefault(_Heat);
 
-	var _Death15 = __webpack_require__(287);
+	var _Death15 = __webpack_require__(288);
 
 	var _Death16 = _interopRequireDefault(_Death15);
 
-	var _Dad = __webpack_require__(288);
+	var _Dad = __webpack_require__(289);
 
 	var _Dad2 = _interopRequireDefault(_Dad);
 
-	var _All = __webpack_require__(289);
+	var _All = __webpack_require__(290);
 
 	var _All2 = _interopRequireDefault(_All);
 
-	var _Immigration = __webpack_require__(290);
+	var _Immigration = __webpack_require__(291);
 
 	var _Immigration2 = _interopRequireDefault(_Immigration);
 
-	var _Hieleras = __webpack_require__(291);
+	var _Hieleras = __webpack_require__(292);
 
 	var _Hieleras2 = _interopRequireDefault(_Hieleras);
 
-	var _Customs = __webpack_require__(292);
+	var _Customs = __webpack_require__(293);
 
 	var _Customs2 = _interopRequireDefault(_Customs);
 
-	var _Across = __webpack_require__(293);
+	var _Across = __webpack_require__(294);
 
 	var _Across2 = _interopRequireDefault(_Across);
 
-	var _Drop = __webpack_require__(294);
+	var _Drop = __webpack_require__(295);
 
 	var _Drop2 = _interopRequireDefault(_Drop);
 
-	var _Wait = __webpack_require__(295);
+	var _Wait = __webpack_require__(296);
 
 	var _Wait2 = _interopRequireDefault(_Wait);
 
-	var _Ice = __webpack_require__(296);
+	var _Ice = __webpack_require__(297);
 
 	var _Ice2 = _interopRequireDefault(_Ice);
 
-	var _Sent = __webpack_require__(297);
+	var _Sent = __webpack_require__(298);
 
 	var _Sent2 = _interopRequireDefault(_Sent);
 
-	var _Run = __webpack_require__(298);
+	var _Run = __webpack_require__(299);
 
 	var _Run2 = _interopRequireDefault(_Run);
 
-	var _America = __webpack_require__(299);
+	var _America = __webpack_require__(300);
 
 	var _America2 = _interopRequireDefault(_America);
 
-	var _Dust = __webpack_require__(300);
+	var _Dust = __webpack_require__(301);
 
 	var _Dust2 = _interopRequireDefault(_Dust);
 
-	var _Ice3 = __webpack_require__(301);
+	var _Ice3 = __webpack_require__(302);
 
 	var _Ice4 = _interopRequireDefault(_Ice3);
 
-	var _GoCoyote = __webpack_require__(302);
+	var _GoCoyote = __webpack_require__(303);
 
 	var _GoCoyote2 = _interopRequireDefault(_GoCoyote);
+
+	var _Warning = __webpack_require__(304);
+
+	var _Warning2 = _interopRequireDefault(_Warning);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -372,6 +380,8 @@
 	  _reactRouter.Router,
 	  { history: _reactRouter.hashHistory },
 	  _react2.default.createElement(_reactRouter.Route, { path: '/', component: _App2.default }),
+	  _react2.default.createElement(_reactRouter.Route, { path: '/Warning', component: _Warning2.default }),
+	  _react2.default.createElement(_reactRouter.Route, { path: '/Intro', component: _Intro2.default }),
 	  _react2.default.createElement(_reactRouter.Route, { path: '/Story1', component: _Story2.default }),
 	  _react2.default.createElement(_reactRouter.Route, { path: '/Story2', component: _Story4.default }),
 	  _react2.default.createElement(_reactRouter.Route, { path: '/Honduras', component: _Honduras2.default }),
@@ -15108,7 +15118,7 @@
 	 *
 	 * @providesModule shallowEqual
 	 * @typechecks
-	 * 
+	 *
 	 */
 
 	'use strict';
@@ -25820,9 +25830,9 @@
 
 	var _reactRouter = __webpack_require__(159);
 
-	var _Form = __webpack_require__(223);
+	var _Intro = __webpack_require__(223);
 
-	var _Form2 = _interopRequireDefault(_Form);
+	var _Intro2 = _interopRequireDefault(_Intro);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -25844,7 +25854,7 @@
 	  _createClass(App, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_Form2.default, null);
+	      return _react2.default.createElement(_Intro2.default, null);
 	    }
 	  }]);
 
@@ -25879,107 +25889,202 @@
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-	var Form = function (_Component) {
-	  _inherits(Form, _Component);
+	// import quizQuestions from './api/quizQuestions';
 
-	  function Form() {
-	    _classCallCheck(this, Form);
+	var Intro = function (_React$Component) {
+	  _inherits(Intro, _React$Component);
 
-	    return _possibleConstructorReturn(this, (Form.__proto__ || Object.getPrototypeOf(Form)).apply(this, arguments));
+	  function Intro() {
+	    _classCallCheck(this, Intro);
+
+	    // this.state = {
+	    // counter: 0,
+	    // questionId: 1,
+	    // question: '',
+	    //      data:[
+	    //         {
+	    //            component: 'Tens of thousands of Salvadorans, Guatemalans, and Hondurans, many of them unaccompanied minors, have arrived in the United States in recent years, seeking asylum from the region\u0027s skyrocketing violence.',
+	    //            id: 1
+	    //         },
+	    //         {
+	    //            component: 'Their countries, which form a region known as the Northern Triangle, were rocked by civil wars in the 1980s, leaving a legacy of violence and fragile institutions.',
+	    //            id: 2
+	    //         },
+	    //         {
+	    //            component: 'The region remains menaced by corruption, drug trafficking, and gang violence despite tough police and judicial reforms.' ,
+	    //            id: 3
+	    //         }
+	    //      ]
+	    //   }
+	    var _this = _possibleConstructorReturn(this, (Intro.__proto__ || Object.getPrototypeOf(Intro)).call(this));
+
+	    _this.state = {
+	      data: [{
+	        text: 'Tens of thousands of Salvadorans, Guatemalans, and Hondurans, many of them unaccompanied minors, have arrived in the United States in recent years, seeking asylum from the region\u0027s skyrocketing violence.',
+	        id: 1
+	      }, {
+	        text: 'Their countries, which form a region known as the Northern Triangle, were rocked by civil wars in the 1980s, leaving a legacy of violence and fragile institutions.',
+	        id: 2
+	      }, {
+	        text: 'The region remains menaced by corruption, drug trafficking, and gang violence despite tough police and judicial reforms.',
+	        id: 3
+	      }],
+	      counter: 0,
+	      text: ''
+	    };
+	    return _this;
 	  }
 
-	  _createClass(Form, [{
+	  _createClass(Intro, [{
+	    key: 'componentDidMount',
+	    value: function componentDidMount() {
+
+	      loadUp();
+	    }
+	  }, {
 	    key: 'render',
 	    value: function render() {
+	      var _this2 = this;
+
+	      if (this.state.counter < 2) {
+	        this.state.text = this.state.data[this.state.counter].text;
+	      } else if (this.state.counter === 2) {
+	        this.state.text = this.state.data[this.state.counter].text;
+	        $('#next').addClass('d-none');
+	        $('#continue').removeClass('d-none');
+	      }
 	      return _react2.default.createElement(
 	        'div',
 	        null,
 	        _react2.default.createElement(
-	          'p',
-	          { className: 'text-center' },
-	          'To create a more personalized experience, please enter your name and age.'
+	          'div',
+	          { id: 'logo', className: 'mx-auto' },
+	          _react2.default.createElement('img', { src: 'assets/000_Title.png' })
 	        ),
 	        _react2.default.createElement(
 	          'div',
-	          { className: 'row' },
+	          { id: 'tumbleweed' },
+	          _react2.default.createElement('img', { src: 'assets/tumbleweed.png' })
+	        ),
+	        _react2.default.createElement(
+	          'div',
+	          { id: 'shrub1' },
+	          _react2.default.createElement('img', { src: 'assets/shrub1.png' })
+	        ),
+	        _react2.default.createElement(
+	          'div',
+	          { id: 'shrub2' },
+	          _react2.default.createElement('img', { src: 'assets/shrub2.png' })
+	        ),
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'row justify-content-center', id: 'quiz' },
+	          _react2.default.createElement('div', { className: 'col-12 height-50' }),
 	          _react2.default.createElement(
 	            'div',
-	            { className: 'col-lg-6 col-sm-12 text-left' },
+	            { className: 'col-lg-8 col-md-8 col-12' },
 	            _react2.default.createElement(
-	              'label',
-	              { htmlFor: 'yourName' },
-	              'Your Name'
-	            ),
-	            _react2.default.createElement('input', { type: 'email', className: 'form-control', id: 'yourName' })
-	          ),
-	          _react2.default.createElement(
-	            'div',
-	            { className: 'col-lg-3 col-sm-6 text-left' },
-	            _react2.default.createElement(
-	              'label',
-	              { htmlFor: 'yourAge' },
-	              'Your Age'
-	            ),
-	            _react2.default.createElement('input', { type: 'number', className: 'form-control', id: 'yourAge' })
-	          ),
-	          _react2.default.createElement(
-	            'div',
-	            { className: 'col-lg-3 col-sm-6 text-left' },
-	            _react2.default.createElement(
-	              'label',
-	              { htmlFor: 'yourGender' },
-	              'Your Gender'
-	            ),
-	            _react2.default.createElement('br', null),
-	            _react2.default.createElement(
-	              'div',
-	              { className: 'form-check form-check-inline' },
+	              'p',
+	              null,
+	              this.state.text,
 	              _react2.default.createElement(
-	                'label',
-	                { className: 'form-check-label' },
-	                _react2.default.createElement('input', { className: 'form-check-input', type: 'radio', name: 'inlineRadioOptions', id: 'inlineRadio1', value: 'male' }),
-	                ' M'
-	              )
-	            ),
-	            _react2.default.createElement(
-	              'div',
-	              { className: 'form-check form-check-inline' },
-	              _react2.default.createElement(
-	                'label',
-	                { className: 'form-check-label' },
-	                _react2.default.createElement('input', { className: 'form-check-input', type: 'radio', name: 'inlineRadioOptions', id: 'inlineRadio2', value: 'female' }),
-	                ' F'
+	                'a',
+	                { href: 'https://www.cfr.org/backgrounder/central-americas-violent-northern-triangle', target: '_blank' },
+	                _react2.default.createElement(
+	                  'sup',
+	                  null,
+	                  '[1]'
+	                )
 	              )
 	            )
-	          )
-	        ),
-	        _react2.default.createElement(
-	          'div',
-	          { className: 'col-5 m-auto' },
+	          ),
 	          _react2.default.createElement(
-	            _reactRouter.Link,
-	            { className: 'btn btn-dark btn-block', to: '/Form2', onClick: captureNameAge },
-	            'Continue'
+	            'div',
+	            { className: 'col-lg-6 col-md-7 col-12 text-center', id: 'next' },
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'btn btn-dark btn-block', onClick: function onClick() {
+	                  return _this2.setState({ counter: _this2.state.counter + 1 });
+	                } },
+	              'Next'
+	            )
+	          ),
+	          _react2.default.createElement('div', { className: 'w-100' }),
+	          _react2.default.createElement(
+	            'div',
+	            { id: 'continue', className: 'col-lg-6 col-md-7 d-none col-12 text-center' },
+	            _react2.default.createElement(
+	              _reactRouter.Link,
+	              { className: 'btn btn-dark btn-block', to: '/Warning', onClick: changeNav },
+	              'Continue to game'
+	            )
 	          )
 	        )
 	      );
 	    }
 	  }]);
 
-	  return Form;
-	}(_react.Component);
+	  return Intro;
+	}(_react2.default.Component);
 
-	exports.default = Form;
+	var Content = function (_React$Component2) {
+	  _inherits(Content, _React$Component2);
 
+	  function Content() {
+	    _classCallCheck(this, Content);
 
-	function captureNameAge() {
-	  window.name = $("#yourName").val();
-	  window.age = $("#yourAge").val();
-	  window.gender = $('input[name=inlineRadioOptions]:checked').val();
-	  //  window.gender = $("#yourGender").val();
-	  //  console.log(window.name)
-	  //  console.log(window.age)
-	  //  console.log(window.gender)
+	    return _possibleConstructorReturn(this, (Content.__proto__ || Object.getPrototypeOf(Content)).apply(this, arguments));
+	  }
+
+	  _createClass(Content, [{
+	    key: 'render',
+	    value: function render() {
+	      return _react2.default.createElement(
+	        'div',
+	        null,
+	        _react2.default.createElement(
+	          'div',
+	          null,
+	          this.props.componentData.component
+	        ),
+	        _react2.default.createElement(
+	          'div',
+	          null,
+	          this.props.componentData.id
+	        )
+	      );
+	    }
+	  }]);
+
+	  return Content;
+	}(_react2.default.Component);
+
+	exports.default = Intro;
+
+	function changeNav() {
+	  $('nav').css('display', 'flex');
+	}
+
+	function loadUp() {
+	  $('nav').css('display', 'none');
+	  // window.onload = function(){
+	  function goUp() {
+	    TweenLite.to(tumbleweed, 1, { width: '100px', height: '100px', top: "100px", onComplete: goRight });
+	  }
+	  function goLeft() {
+	    TweenLite.to(tumbleweed, 8, { left: "-250px", onComplete: goUp });
+	  }
+	  function goDown() {
+	    TweenLite.to(tumbleweed, 1, { width: '200px', height: '200px', top: "632px", onComplete: goLeft });
+	  }
+
+	  function goRight() {
+	    TweenLite.to(tumbleweed, 8, { left: "100%", onComplete: goDown });
+	  }
+	  var tumbleweed = $("#tumbleweed");
+	  goRight();
+	  // }
+
 	}
 
 /***/ }),
@@ -26030,7 +26135,7 @@
 	    }, {
 	        key: 'render',
 	        value: function render() {
-	            return _react2.default.createElement(_Main2.default, { text: "Hello, " + window.name + ". You are a " + window.age + " y.o. " + window.gender + " living in " + randomNum, imgUrl: '/assets/elsalvador.png', nextLink: randomNum.replace(/\s/g, '') });
+	            return _react2.default.createElement(_Main2.default, { text: "Hello, " + window.name + ". You are a " + window.age + " y.o. " + window.gender + " living in " + randomNum, imgUrl: './assets/elsalvador.png', nextLink: randomNum.replace(/\s/g, '') });
 	        }
 	    }]);
 
@@ -26106,15 +26211,15 @@
 	    value: function render() {
 	      return _react2.default.createElement(
 	        'div',
-	        null,
+	        { className: 'row justify-content-center' },
 	        _react2.default.createElement(
 	          'div',
-	          { className: 'col-12' },
-	          _react2.default.createElement('img', { className: 'img thumb', src: this.props.imgUrl })
+	          { className: 'col-12 height-50' },
+	          _react2.default.createElement('img', { className: 'img img-fluid thumb', src: this.props.imgUrl })
 	        ),
 	        _react2.default.createElement(
 	          'div',
-	          { className: 'col-12 text-container' },
+	          { className: 'col-lg-8 col-md-8 col-12' },
 	          _react2.default.createElement(
 	            'p',
 	            null,
@@ -26123,7 +26228,7 @@
 	        ),
 	        _react2.default.createElement(
 	          'div',
-	          { className: 'col-5 m-auto' },
+	          { className: 'col-lg-6 col-md-7 col-12 text-center' },
 	          _react2.default.createElement(
 	            _reactRouter.Link,
 	            { className: 'btn btn-dark btn-block', to: this.props.nextLink },
@@ -26181,7 +26286,23 @@
 	    _createClass(Story2, [{
 	        key: 'render',
 	        value: function render() {
-	            return _react2.default.createElement(_Main2.default, { text: window.people.name1 + " and " + window.people.name2 + " come to you one day and tell you about a few men they encountered on their walk home. Men with tattoos all over their face and bodies that followed them. Told " + window.people.name1 + " how one day he would be one of them. Told " + window.people.name2 + " that she would be his girlfriend.", imgUrl: '../assets/001a_confront.png', nextLink: '/Response' });
+	            return _react2.default.createElement(_Main2.default, { text: [window.people.name1 + " and " + window.people.name2 + " come to you one day and tell you about a few men they encountered on their walk home. Men with tattoos all over their face and bodies that followed them. Told " + window.people.name1 + " how one day he would be one of them", _react2.default.createElement(
+	                    'sup',
+	                    null,
+	                    _react2.default.createElement(
+	                        'a',
+	                        { href: 'https://www.theglobeandmail.com/news/world/menaced-by-gangs-el-salvadors-children-are-running-for-their-lives/article26151568/', target: 'blank' },
+	                        '[3]'
+	                    )
+	                ), ". Told " + window.people.name2 + " that she would be his girlfriend", _react2.default.createElement(
+	                    'sup',
+	                    null,
+	                    _react2.default.createElement(
+	                        'a',
+	                        { href: 'https://www.theguardian.com/global-development/2016/nov/23/central-america-gangs-migrants-sexual-exploitation-prostitution', target: '_blank' },
+	                        '[4]'
+	                    )
+	                ), "."], imgUrl: './assets/001a_confront.png', nextLink: '/Response' });
 	        }
 	    }]);
 
@@ -26361,7 +26482,7 @@
 	  _createClass(Response, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_MainTwo2.default, { text: 'How do you respond?', imgUrl: '../assets/Response.png', cta1: 'You brush it off.', cta2: 'You confront the men.', oneLink: '/Phone', twoLink: '/Argument' });
+	      return _react2.default.createElement(_MainTwo2.default, { text: 'How do you respond?', imgUrl: './assets/Response.png', cta1: 'You brush it off.', cta2: 'You confront the men.', oneLink: '/Phone', twoLink: '/Argument' });
 	    }
 	  }]);
 
@@ -26410,15 +26531,15 @@
 	    value: function render() {
 	      return _react2.default.createElement(
 	        'div',
-	        null,
+	        { className: 'row justify-content-center' },
 	        _react2.default.createElement(
 	          'div',
 	          { className: 'col-12' },
-	          _react2.default.createElement('img', { className: 'img thumb', src: this.props.imgUrl })
+	          _react2.default.createElement('img', { className: 'img img-fluid thumb', src: this.props.imgUrl })
 	        ),
 	        _react2.default.createElement(
 	          'div',
-	          { className: 'col-12 text-container' },
+	          { className: 'col-lg-8 col-md-8 col-12' },
 	          _react2.default.createElement(
 	            'p',
 	            null,
@@ -26427,16 +26548,17 @@
 	        ),
 	        _react2.default.createElement(
 	          'div',
-	          { className: 'col-6 m-auto' },
+	          { className: 'col-lg-6 col-md-7 col-12 text-center' },
 	          _react2.default.createElement(
 	            _reactRouter.Link,
 	            { className: 'btn btn-dark btn-block', to: this.props.oneLink },
 	            this.props.cta1
 	          )
 	        ),
+	        _react2.default.createElement('div', { className: 'w-100' }),
 	        _react2.default.createElement(
 	          'div',
-	          { className: 'col-6 m-auto' },
+	          { className: 'col-lg-6 col-md-7 col-12 text-center' },
 	          _react2.default.createElement(
 	            _reactRouter.Link,
 	            { className: 'btn btn-dark btn-block', to: this.props.twoLink },
@@ -26494,7 +26616,15 @@
 	  _createClass(Elsalvador, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_Main2.default, { text: 'Organized crime, gang violence, and poverty have erupted in the Northern Triangle, which includes your country, a country that you once loved but now fear. A nation that now has one of the highest homicide rates in the world. As these problems have strengthened, you\u2019ve seen a number of your family and friends fall victim to the gang, to Mara Salvatrucha or MS-13, the tattoo-garnished gang responsible for rape, murder, and drug trafficking in your once beloved country. No one is safe. There seems to be no other way than to leave everything you know behind.', imgUrl: '../assets/Story1.png', nextLink: '/Story2' });
+	      return _react2.default.createElement(_Main2.default, { text: ["Organized crime, gang violence, and poverty have erupted in your country, a country that you once loved but now fear. A nation that now has one of the highest homicide rates in the world. As these problems have strengthened, you\u0027ve seen a number of your family and friends fall victim to the gang, to MS-13", _react2.default.createElement(
+	          'a',
+	          { href: 'https://en.wikipedia.org/wiki/MS-13', target: '_blank' },
+	          _react2.default.createElement(
+	            'sup',
+	            null,
+	            '[2]'
+	          )
+	        ), ", the tattoo-garnished gang responsible for rape, murder, and drug trafficking in your once beloved country. No one is safe. There seems to be no other way than to leave everything you know behind."], imgUrl: './assets/Story1.png', nextLink: '/Story2' });
 	    }
 	  }]);
 
@@ -26545,7 +26675,7 @@
 	  _createClass(MS13, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_MainTwo2.default, { text: 'One of them harasses you, demands you be his girlfriend. He is relentless.', imgUrl: '../assets/ms13.png', cta1: 'Run home', oneLink: '/Phone' });
+	      return _react2.default.createElement(_MainTwo2.default, { text: 'One of them harasses you, demands you be his girlfriend. He is relentless.', imgUrl: './assets/ms13.png', cta1: 'Run home', oneLink: '/Phone' });
 	    }
 	  }]);
 
@@ -26596,7 +26726,15 @@
 	  _createClass(Phone, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_Main2.default, { text: 'Death threats started soon after. Anonymous phone calls at all hours. A gruff voice at the other end, \u201CGive me $400 by the end of the week or you and your family die.\u201D', imgUrl: '../assets/002_phonecalls.png', nextLink: '/Response2' });
+	      return _react2.default.createElement(_Main2.default, { text: ["Death threats started soon after", _react2.default.createElement(
+	          'a',
+	          { href: 'http://digitaledition.baltimoresun.com/tribune/article_popover.aspx?guid=a68d0407-db5c-47c8-b9a4-2fc6d8a9268a', target: '_blank' },
+	          _react2.default.createElement(
+	            'sup',
+	            null,
+	            '[6]'
+	          )
+	        ), ". Anonymous phone calls at all hours. A gruff voice at the other end, \u0022Give me $400 by the end of the week or you and your family die.\u0022"], imgUrl: './assets/002_phonecalls.png', nextLink: '/Response2' });
 	    }
 	  }]);
 
@@ -26647,7 +26785,7 @@
 	  _createClass(Response2, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_MainThree2.default, { text: 'How do you respond?', imgUrl: '../assets/002_phonecalls.png', cta1: 'You ignore the threats.', cta2: 'You pay up.', cta3: 'You change your number', oneLink: '/Brother', twoLink: '/Death2', threeLink: '/Phone2' });
+	      return _react2.default.createElement(_MainThree2.default, { text: 'How do you respond?', imgUrl: './assets/002_phonecalls.png', cta1: 'You ignore the threats.', cta2: 'You pay up.', cta3: 'You change your number', oneLink: '/Brother', twoLink: '/Death2', threeLink: '/Phone2' });
 	    }
 	  }]);
 
@@ -26682,29 +26820,29 @@
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-	var MainTwo = function (_Component) {
-	  _inherits(MainTwo, _Component);
+	var MainThree = function (_Component) {
+	  _inherits(MainThree, _Component);
 
-	  function MainTwo() {
-	    _classCallCheck(this, MainTwo);
+	  function MainThree() {
+	    _classCallCheck(this, MainThree);
 
-	    return _possibleConstructorReturn(this, (MainTwo.__proto__ || Object.getPrototypeOf(MainTwo)).apply(this, arguments));
+	    return _possibleConstructorReturn(this, (MainThree.__proto__ || Object.getPrototypeOf(MainThree)).apply(this, arguments));
 	  }
 
-	  _createClass(MainTwo, [{
+	  _createClass(MainThree, [{
 	    key: 'render',
 	    value: function render() {
 	      return _react2.default.createElement(
 	        'div',
-	        null,
+	        { className: 'row justify-content-center' },
 	        _react2.default.createElement(
 	          'div',
 	          { className: 'col-12' },
-	          _react2.default.createElement('img', { className: 'img thumb', src: this.props.imgUrl })
+	          _react2.default.createElement('img', { className: 'img img-fluid thumb', src: this.props.imgUrl })
 	        ),
 	        _react2.default.createElement(
 	          'div',
-	          { className: 'col-12 text-container' },
+	          { className: 'col-lg-8 col-md-8 col-12' },
 	          _react2.default.createElement(
 	            'p',
 	            null,
@@ -26713,25 +26851,27 @@
 	        ),
 	        _react2.default.createElement(
 	          'div',
-	          { className: 'col-5 m-auto' },
+	          { className: 'col-lg-6 col-md-7 col-12 text-center' },
 	          _react2.default.createElement(
 	            _reactRouter.Link,
 	            { className: 'btn btn-dark btn-block', to: this.props.oneLink },
 	            this.props.cta1
 	          )
 	        ),
+	        _react2.default.createElement('div', { className: 'w-100' }),
 	        _react2.default.createElement(
 	          'div',
-	          { className: 'col-5 m-auto' },
+	          { className: 'col-lg-6 col-md-7 col-12 text-center' },
 	          _react2.default.createElement(
 	            _reactRouter.Link,
 	            { className: 'btn btn-dark btn-block', to: this.props.twoLink },
 	            this.props.cta2
 	          )
 	        ),
+	        _react2.default.createElement('div', { className: 'w-100' }),
 	        _react2.default.createElement(
 	          'div',
-	          { className: 'col-5 m-auto' },
+	          { className: 'col-lg-6 col-md-7 col-12 text-center' },
 	          _react2.default.createElement(
 	            _reactRouter.Link,
 	            { className: 'btn btn-dark btn-block', to: this.props.threeLink },
@@ -26742,10 +26882,10 @@
 	    }
 	  }]);
 
-	  return MainTwo;
+	  return MainThree;
 	}(_react.Component);
 
-	exports.default = MainTwo;
+	exports.default = MainThree;
 
 /***/ }),
 /* 236 */
@@ -26789,7 +26929,7 @@
 	  _createClass(Phone2, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_Main2.default, { text: 'The calls stop for a little bit, but they eventually find your new number and continue to bombard you with calls.', imgUrl: '../assets/002_phonecalls.png', nextLink: '/Brother' });
+	      return _react2.default.createElement(_Main2.default, { text: 'The calls stop for a little bit, but they eventually find your new number and continue to bombard you with calls.', imgUrl: './assets/002_phonecalls.png', nextLink: '/Brother' });
 	    }
 	  }]);
 
@@ -26840,7 +26980,7 @@
 	  _createClass(Brother, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_MainThree2.default, { text: "A week later " + window.people.name1 + " comes home, bruised and beaten by the same men that followed him. He managed to fight them off, this time. How do you respond?", imgUrl: '../assets/003_brotherbeat.png', cta1: 'You ignore', cta2: 'You ask your dad to confront them', cta3: 'You call the police', oneLink: '/Threat', twoLink: '/Dad', threeLink: '/Police' });
+	      return _react2.default.createElement(_MainThree2.default, { text: "A week later " + window.people.name1 + " comes home, bruised and beaten by the same men that followed him. He managed to fight them off, this time. How do you respond?", imgUrl: './assets/003_brotherbeat.png', cta1: 'You ignore', cta2: 'You ask your dad to confront them', cta3: 'You call the police', oneLink: '/Threat', twoLink: '/Dad', threeLink: '/Police' });
 	    }
 	  }]);
 
@@ -26891,7 +27031,7 @@
 	  _createClass(Threat, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_MainThree2.default, { text: "Three days go by. A dead body of a boy " + window.people.name1 + '\'s age and height is left outside the front of your home. A warning.', imgUrl: '../assets/004_body.png', cta1: 'It\'s time to leave.', cta2: 'You ignore', cta3: 'You pay', oneLink: '/Flee', twoLink: '/Death', threeLink: '/Death2' });
+	      return _react2.default.createElement(_MainThree2.default, { text: "Three days go by. A dead body of a boy " + window.people.name1 + '\'s age and height is left outside the front of your home. A warning.', imgUrl: './assets/004_body.png', cta1: 'It\'s time to leave.', cta2: 'You ignore', cta3: 'You pay', oneLink: '/Flee', twoLink: '/Death', threeLink: '/Death2' });
 	    }
 	  }]);
 
@@ -26942,7 +27082,7 @@
 	  _createClass(Decision, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_MainThree2.default, { text: 'This event leaves you at a crossroads. What will you do?', imgUrl: '../assets/Decision.png', cta1: 'Ignore', cta2: 'Join', cta3: 'Flee', oneLink: '/', twoLink: '/', threeLink: '/Flee' });
+	      return _react2.default.createElement(_MainThree2.default, { text: 'This event leaves you at a crossroads. What will you do?', imgUrl: './assets/Decision.png', cta1: 'Ignore', cta2: 'Join', cta3: 'Flee', oneLink: '/', twoLink: '/', threeLink: '/Flee' });
 	    }
 	  }]);
 
@@ -26998,7 +27138,7 @@
 	  }, {
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_Main2.default, { text: window.nextDeath + " is murdered.", imgUrl: '../assets/004_body.png', nextLink: '/Decision2' });
+	      return _react2.default.createElement(_Main2.default, { text: window.nextDeath + " is murdered.", imgUrl: './assets/004_body.png', nextLink: '/Decision2' });
 	    }
 	  }]);
 
@@ -27057,7 +27197,7 @@
 	  _createClass(Decision2, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_MainTwo2.default, { text: 'Now what will you do?', imgUrl: '../assets/Decision.png', cta1: 'It\'s time to leave', cta2: 'Pay', oneLink: '/Flee', twoLink: '/Death2' });
+	      return _react2.default.createElement(_MainTwo2.default, { text: 'Now what will you do?', imgUrl: './assets/Decision.png', cta1: 'It\'s time to leave', cta2: 'Pay', oneLink: '/Flee', twoLink: '/Death2' });
 	    }
 	  }]);
 
@@ -27108,7 +27248,7 @@
 	  _createClass(Flee, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_Main2.default, { text: 'It\'s time to leave. You know the journey will be long. Unsafe. You think to yourself, \u201CIf we leave we may die, but if we stay we will die.\u201D You pack what you can carry; a change of clothes, a map, flashlight, a bit of cash found last minute, a little bit of food and water.', imgUrl: '../assets/backpack.png', nextLink: '/Pill' });
+	      return _react2.default.createElement(_Main2.default, { text: 'It\'s time to leave. You know the journey will be long. Unsafe. You think to yourself, \u201CIf we leave we may die, but if we stay we will die.\u201D You pack what you can carry; a change of clothes, a map, flashlight, a bit of cash found last minute, a little bit of food and water.', imgUrl: './assets/backpack.png', nextLink: '/Pill' });
 	    }
 	  }]);
 
@@ -27159,7 +27299,33 @@
 	  _createClass(Pill, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_Main2.default, { text: "Before you leave you, " + window.people.name2 + ", and " + window.people.name4 + " take the pill. During your travels you may come across bad men that want more from you than you want to give. They may choose force, but that is part of the cost to a safe place.", imgUrl: '../assets/005a_birthcontrol.png', nextLink: '/Story3' });
+	      return _react2.default.createElement(_Main2.default, { text: window.gender == 'male' ? ["Before you leave, " + window.people.name2 + ", and " + window.people.name4 + " take the pill", _react2.default.createElement(
+	          'sup',
+	          null,
+	          _react2.default.createElement(
+	            'a',
+	            { href: 'http://www.slate.com/news-and-politics/2018/01/trump-uses-people-of-color-as-cover-for-his-anti-immigrant-policies.html', target: '_blank' },
+	            '[8]'
+	          ),
+	          _react2.default.createElement(
+	            'a',
+	            { href: 'https://www.theguardian.com/world/2015/oct/28/refugee-crisis-grows-in-latin-america-women-children', target: '_blank' },
+	            '[9]'
+	          )
+	        ), ". During your travels you may come across bad men. They may choose force, but that is part of the cost to a safe place."] : ["Before you leave, you, " + window.people.name2 + ", and " + window.people.name4 + " take the pill", _react2.default.createElement(
+	          'sup',
+	          null,
+	          _react2.default.createElement(
+	            'a',
+	            { href: 'http://www.slate.com/news-and-politics/2018/01/trump-uses-people-of-color-as-cover-for-his-anti-immigrant-policies.html', target: '_blank' },
+	            '[5]'
+	          ),
+	          _react2.default.createElement(
+	            'a',
+	            { href: 'https://www.theguardian.com/world/2015/oct/28/refugee-crisis-grows-in-latin-america-women-children', target: '_blank' },
+	            '[6]'
+	          )
+	        ), ". During your travels you may come across bad men that want more from you than you want to give. They may choose force, but that is part of the cost to a safe place."], imgUrl: './assets/005a_birthcontrol.png', nextLink: '/Story3' });
 	    }
 	  }]);
 
@@ -27210,7 +27376,7 @@
 	  _createClass(Story3, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_MainThree2.default, { text: 'How would you like to proceed?', imgUrl: '../assets/Decision2.png', cta1: 'Hire a coyote', cta2: 'Get a taxi', cta3: 'Take the bus to save money', oneLink: '/Money', twoLink: '/Taxi', threeLink: '/Stops' });
+	      return _react2.default.createElement(_MainThree2.default, { text: 'How would you like to proceed?', imgUrl: './assets/Decision2.png', cta1: 'Hire a coyote', cta2: 'Get a taxi', cta3: 'Take the bus to save money', oneLink: '/Money', twoLink: '/Taxi', threeLink: '/Stops' });
 	    }
 	  }]);
 
@@ -27261,7 +27427,15 @@
 	  _createClass(Money, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_MainTwo2.default, { text: 'You don\\u0027t have enough money for a coyote, but you have enough to see how far a taxi will get you. How would you like to proceed?', imgUrl: '../assets/money.png', cta1: 'Get a taxi', cta2: 'Take the bus to save money', oneLink: '/Taxi', twoLink: '/Stops' });
+	      return _react2.default.createElement(_MainTwo2.default, { text: ['You don\'t have enough money for a coyote', _react2.default.createElement(
+	          'sup',
+	          null,
+	          _react2.default.createElement(
+	            'a',
+	            { href: 'https://en.wikipedia.org/wiki/Coyotaje', target: '_blank' },
+	            '[10]'
+	          )
+	        ), ", but you have enough to see how far a taxi will get you. How would you like to proceed?"], imgUrl: './assets/money.png', cta1: 'Get a taxi', cta2: 'Take the bus to save money', oneLink: '/Taxi', twoLink: '/Stops' });
 	    }
 	  }]);
 
@@ -27312,7 +27486,7 @@
 	  _createClass(Taxi, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_Main2.default, { text: 'You give the taxi driver all the money you have.', imgUrl: '../assets/006_Taxi.png', nextLink: '/Mid' });
+	      return _react2.default.createElement(_Main2.default, { text: 'You give the taxi driver all the money you have.', imgUrl: './assets/006_Taxi.png', nextLink: '/Mid' });
 	    }
 	  }]);
 
@@ -27363,7 +27537,7 @@
 	  _createClass(Rest, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_Main2.default, { text: 'You see in the distance a taxi that resembled the one you took, followed by a truck. The caravan approaches. The tattooed men have caught up to your party, with the help of the taxi driver.', imgUrl: '../assets/Dust.png', nextLink: '/Bus' });
+	      return _react2.default.createElement(_Main2.default, { text: 'You see in the distance a taxi that resembled the one you took, followed by a truck. The caravan approaches. The tattooed men have caught up to your party, with the help of the taxi driver.', imgUrl: './assets/Dust.png', nextLink: '/Bus' });
 	    }
 	  }]);
 
@@ -27414,7 +27588,7 @@
 	  _createClass(Bus, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_GameOver2.default, { text: 'The tattooed men catch up to you. You are ambushed and killed.', imgUrl: '../assets/go.png' });
+	      return _react2.default.createElement(_GameOver2.default, { text: 'The tattooed men catch up to you. You are ambushed and killed.', imgUrl: './assets/go.png' });
 	    }
 	  }]);
 
@@ -27455,19 +27629,44 @@
 	  function GameOver() {
 	    _classCallCheck(this, GameOver);
 
-	    return _possibleConstructorReturn(this, (GameOver.__proto__ || Object.getPrototypeOf(GameOver)).apply(this, arguments));
+	    var _this = _possibleConstructorReturn(this, (GameOver.__proto__ || Object.getPrototypeOf(GameOver)).call(this));
+
+	    _this.onClick = _this.handleClick.bind(_this);
+	    return _this;
 	  }
 
 	  _createClass(GameOver, [{
+	    key: 'handleClick',
+	    value: function handleClick(event) {
+	      var FBDesc = 'I just played, and you should, too!';
+	      var FBTitle = 'El Triangulo';
+	      var FBLink = 'http://kellyprudente.com/northern-triangle/';
+	      var FBPic = 'https://s3.amazonaws.com/kellyprudente.com/northern-triangle/assets/el-triangulo-logo.png';
+	      FB.ui({
+	        method: 'share_open_graph',
+	        action_type: 'og.shares',
+	        action_properties: JSON.stringify({
+	          object: {
+	            'og:url': FBLink,
+	            'og:title': FBTitle,
+	            'og:description': FBDesc,
+	            'og:image': FBPic
+	          }
+	        })
+	      }, function (response) {
+	        // Action after response
+	      });
+	    }
+	  }, {
 	    key: 'render',
 	    value: function render() {
 	      return _react2.default.createElement(
 	        'div',
-	        null,
+	        { className: 'row justify-content-center' },
 	        _react2.default.createElement(
 	          'div',
 	          { className: 'col-12' },
-	          _react2.default.createElement('img', { className: 'img thumb', src: this.props.imgUrl })
+	          _react2.default.createElement('img', { className: 'img img-fluid thumb', src: this.props.imgUrl })
 	        ),
 	        _react2.default.createElement(
 	          'div',
@@ -27480,19 +27679,20 @@
 	        ),
 	        _react2.default.createElement(
 	          'div',
-	          { className: 'col-6 m-auto' },
+	          { className: 'col-lg-6 col-md-7 col-12 text-center' },
 	          _react2.default.createElement(
 	            'a',
-	            { className: 'btn btn-dark btn-block', href: 'http://kellyprudente.com/northern-triangle/lp/index.html', target: '_blank' },
-	            'Read more about the Northern Triangle'
+	            { className: 'btn btn-dark btn-block', href: 'https://www.wola.org/analysis/people-leaving-central-americas-northern-triangle/', target: '_blank' },
+	            'Donate and Learn more'
 	          )
 	        ),
+	        _react2.default.createElement('div', { className: 'w-100' }),
 	        _react2.default.createElement(
 	          'div',
-	          { className: 'col-6 m-auto' },
+	          { className: 'col-lg-6 col-md-7 col-12 text-center' },
 	          _react2.default.createElement(
-	            'a',
-	            { className: 'btn btn-primary btn-block', href: 'https://www.facebook.com/sharer/sharer.php?u=http%3A//kellyprudente.com/northern-triangle/', target: '_blank' },
+	            'div',
+	            { id: 'shareBtn', className: 'btn btn-primary btn-block', onClick: this.onClick },
 	            'Share your journey on Facebook \xA0 \xA0 ',
 	            _react2.default.createElement('i', { className: 'fa fa-facebook-official', 'aria-hidden': 'true' })
 	          )
@@ -27548,7 +27748,20 @@
 	  _createClass(Stops, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_Main2.default, { text: 'The bus stops on a bus corner on the usual route. Two tattooed faced men board.', imgUrl: '../assets/001a_confront.png', nextLink: '/Bus' });
+	      return _react2.default.createElement(_Main2.default, { text: ["The bus stops on a bus corner on the usual route. Two tattooed faced men board", _react2.default.createElement(
+	          'sup',
+	          null,
+	          _react2.default.createElement(
+	            'a',
+	            { href: 'https://www.npr.org/sections/parallels/2016/04/14/473934734/city-interrupted-how-gang-killings-brought-san-salvadors-bus-service-to-a-halt', target: '_blank' },
+	            '[11]'
+	          ),
+	          _react2.default.createElement(
+	            'a',
+	            { href: 'https://www.nytimes.com/2016/11/21/world/americas/el-salvador-drugs-gang-ms-13.html', target: '_blank' },
+	            '[12]'
+	          )
+	        ), "."], imgUrl: './assets/001a_confront.png', nextLink: '/Bus' });
 	    }
 	  }]);
 
@@ -27599,7 +27812,7 @@
 	  _createClass(Mid, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_MainTwo2.default, { text: 'You run out of cash in Chiquirines, about 45 km away from the Suchiate River. The taxi driver points you in the right direction. You watch the car drive away down the country road.', imgUrl: '../assets/006a_road.png', cta1: 'You and your party start walking.', cta2: 'You take the day to rest.', oneLink: '/Man', twoLink: '/Rest' });
+	      return _react2.default.createElement(_MainTwo2.default, { text: 'You run out of cash in Chiquirines, about 45 km away from the Suchiate River. The taxi driver points you in the right direction. You watch the car drive away down the country road.', imgUrl: './assets/006a_road.png', cta1: 'You and your party start walking.', cta2: 'You take the day to rest.', oneLink: '/Man', twoLink: '/Rest' });
 	    }
 	  }]);
 
@@ -27650,7 +27863,7 @@
 	  _createClass(Man, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_MainTwo2.default, { text: "A man is met on the way, walking in the same direction. He soon punches you, hits " + window.nextDeath + " over the head with his walking stick. He pulls his knife and tells you to give him your bag.", imgUrl: '../assets/007_manwithknife.png', cta1: 'You submit.', cta2: 'You fight.', oneLink: '/Submit', twoLink: '/Death5' });
+	      return _react2.default.createElement(_MainTwo2.default, { text: "A man is met on the way, walking in the same direction. He soon punches you, hits " + window.nextDeath + " over the head with his walking stick. He pulls his knife and tells you to give him your bag.", imgUrl: './assets/007_manwithknife.png', cta1: 'You submit.', cta2: 'You fight.', oneLink: '/Submit', twoLink: '/Death5' });
 	    }
 	  }]);
 
@@ -27701,7 +27914,7 @@
 	  _createClass(Submit, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_Main2.default, { text: 'He leaves with your bag.', imgUrl: '../assets/submit.png', nextLink: '/Walk' });
+	      return _react2.default.createElement(_Main2.default, { text: 'He leaves with your bag.', imgUrl: './assets/submit.png', nextLink: '/Walk' });
 	    }
 	  }]);
 
@@ -27757,7 +27970,7 @@
 	  }, {
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_Main2.default, { text: 'Broken, dark and feeling exposed your helps you get back on your feet and continue.', imgUrl: '../assets/009a_Knifeatthroat.png', nextLink: '/Story5' });
+	      return _react2.default.createElement(_Main2.default, { text: 'Broken, dark and feeling exposed your helps you get back on your feet and continue.', imgUrl: './assets/009a_Knifeatthroat.png', nextLink: '/Story5' });
 	    }
 	  }]);
 
@@ -27808,7 +28021,7 @@
 	  _createClass(Walk, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_Main2.default, { text: 'You keep walking. The sun is hot. Your party is thirsty and tired. You are all growing weary.', imgUrl: '../assets/walk.png', nextLink: '/River' });
+	      return _react2.default.createElement(_Main2.default, { text: 'You keep walking. The sun is hot. Your party is thirsty and tired. You are all growing weary.', imgUrl: './assets/walk.png', nextLink: '/River' });
 	    }
 	  }]);
 
@@ -27859,7 +28072,7 @@
 	  _createClass(River, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_MainTwo2.default, { text: 'Finally you reach the Suchiate River, the barrier between you and Mexico. How will you get across?', imgUrl: '../assets/008_River.png', cta1: 'Make a raft', cta2: 'Swim', oneLink: '/Raft', twoLink: '/Swim' });
+	      return _react2.default.createElement(_MainTwo2.default, { text: 'Finally you reach the Suchiate River, the barrier between you and Mexico. How will you get across?', imgUrl: './assets/008_River.png', cta1: 'Make a raft', cta2: 'Swim', oneLink: '/Raft', twoLink: '/Swim' });
 	    }
 	  }]);
 
@@ -27910,7 +28123,7 @@
 	  _createClass(Story4, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_MainTwo2.default, { text: 'How will you get across?', imgUrl: '../assets/ph.png', cta1: 'Make a raft', cta2: 'Swim', oneLink: '/Raft', twoLink: '/Swim' });
+	      return _react2.default.createElement(_MainTwo2.default, { text: 'How will you get across?', imgUrl: './assets/ph.png', cta1: 'Make a raft', cta2: 'Swim', oneLink: '/Raft', twoLink: '/Swim' });
 	    }
 	  }]);
 
@@ -27961,7 +28174,7 @@
 	  _createClass(Raft, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_Main2.default, { text: 'Together you decided to make a raft out of old tires and a few scraps of wood. This will take you a day to make. The next day you row over to the other side together.', imgUrl: '../assets/008a_raft.png', nextLink: '/Mexico' });
+	      return _react2.default.createElement(_Main2.default, { text: 'Together you decided to make a raft out of old tires and a few scraps of wood. This will take you a day to make. The next day you row over to the other side together.', imgUrl: './assets/008a_raft.png', nextLink: '/Mexico' });
 	    }
 	  }]);
 
@@ -28022,7 +28235,7 @@
 	  }, {
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_Main2.default, { text: window.nextDeath + " is not a strong swimmer and is weak. The current takes them under. They bob up once, but only once.", imgUrl: '../assets/008b_drowning.png', nextLink: '/Mexico' });
+	      return _react2.default.createElement(_Main2.default, { text: window.nextDeath + " is not a strong swimmer and is weak. The current takes them under. They bob up once, but only once.", imgUrl: './assets/008b_drowning.png', nextLink: '/Mexico' });
 	    }
 	  }]);
 
@@ -28089,7 +28302,7 @@
 	  _createClass(Mexico, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_Main2.default, { text: 'Your party has reached the Mexican side of the Suchiate River.', imgUrl: '../assets/Mexico.png', nextLink: '/Hike' });
+	      return _react2.default.createElement(_Main2.default, { text: 'Your party has reached the Mexican side of the Suchiate River.', imgUrl: './assets/Mexico.png', nextLink: '/Hike' });
 	    }
 	  }]);
 
@@ -28140,7 +28353,7 @@
 	  _createClass(Hike, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_Main2.default, { text: 'For the next three days you hike with little sleep. You trudge about 250 km.', imgUrl: '../assets/Hike.png', nextLink: '/Encounter' });
+	      return _react2.default.createElement(_Main2.default, { text: 'For the next three days you hike with little sleep. You trudge about 250 km.', imgUrl: './assets/Hike.png', nextLink: '/Encounter' });
 	    }
 	  }]);
 
@@ -28191,7 +28404,7 @@
 	  _createClass(Encounter, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_MainTwo2.default, { text: 'Along the way you come across a group of men. One tells you that you have pretty face and then forces himself on you. What do you do?', imgUrl: '../assets/009_threemen.png', cta1: 'Scream for help.', cta2: 'Lay there silently until he finishes.', oneLink: '/Death6', twoLink: '/Continue' });
+	      return _react2.default.createElement(_MainTwo2.default, { text: 'Along the way you come across a group of men. One tells you that you have pretty face and then forces himself on you. What do you do?', imgUrl: './assets/009_threemen.png', cta1: 'Scream for help.', cta2: 'Lay there silently until he finishes.', oneLink: '/Death6', twoLink: '/Continue' });
 	    }
 	  }]);
 
@@ -28242,7 +28455,7 @@
 	  _createClass(Story5, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_Main2.default, { text: 'At the end of the day, you finally reach the train in Tapachula, known to most as El Tren De La Muerte. Many have fallen of the train to their deaths or have been injured. Some have been pushed off. Other have been shot or stabbed on their passage.', imgUrl: '../assets/010_Train.png', nextLink: '/Story6' });
+	      return _react2.default.createElement(_Main2.default, { text: 'At the end of the day, you finally reach the train in Tapachula, known to most as El Tren De La Muerte. Many have fallen of the train to their deaths or have been injured. Some have been pushed off. Other have been shot or stabbed on their passage.', imgUrl: './assets/010_Train.png', nextLink: '/Story6' });
 	    }
 	  }]);
 
@@ -28293,7 +28506,7 @@
 	  _createClass(Story6, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_MainTwo2.default, { text: 'A few miles in to your ride a man comes around looking for fares. What do you do?', imgUrl: '../assets/011_manontrain.png', cta1: 'Offer to do him a favor.', cta2: 'Ignore the man, you don\'t have any money', oneLink: '/Traffick', twoLink: '/Story7' });
+	      return _react2.default.createElement(_MainTwo2.default, { text: 'A few miles in to your ride a man comes around looking for fares. What do you do?', imgUrl: './assets/011_manontrain.png', cta1: 'Offer to do him a favor.', cta2: 'Ignore the man, you don\'t have any money', oneLink: '/Traffick', twoLink: '/Story7' });
 	    }
 	  }]);
 
@@ -28356,7 +28569,7 @@
 	  }, {
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_Main2.default, { text: window.nextDeath + " is thrown off. You see their still body grow smaller in the distance.", imgUrl: '../assets/011a_Thrown.png', nextLink: '/Hop' });
+	      return _react2.default.createElement(_Main2.default, { text: window.nextDeath + " is thrown off. You see their still body grow smaller in the distance.", imgUrl: './assets/011a_Thrown.png', nextLink: '/Hop' });
 	    }
 	  }]);
 
@@ -28430,7 +28643,7 @@
 	  _createClass(Traffick, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_Main2.default, { text: window.nextDeath + " is now trafficking drugs for the man.", imgUrl: '../assets/004a_paymoney.png', nextLink: '/Hop' });
+	      return _react2.default.createElement(_Main2.default, { text: window.nextDeath + " is now trafficking drugs for the man.", imgUrl: './assets/004a_paymoney.png', nextLink: '/Hop' });
 	    }
 	  }]);
 
@@ -28481,7 +28694,7 @@
 	  _createClass(Woman, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_Main2.default, { text: 'You meet another woman from around your area with her 13-year-old boy. They have tried to escape before to the north, to safety. She says she can try to help you along the way.', imgUrl: '../assets/012_womanandboy.png', nextLink: '/Hop' });
+	      return _react2.default.createElement(_Main2.default, { text: 'You meet another woman from around your area with her 13-year-old boy. They have tried to escape before to the north, to safety. She says she can try to help you along the way.', imgUrl: './assets/012_womanandboy.png', nextLink: '/Hop' });
 	    }
 	  }]);
 
@@ -28532,7 +28745,7 @@
 	    _createClass(Hop, [{
 	        key: 'render',
 	        value: function render() {
-	            return _react2.default.createElement(_Main2.default, { text: "You hold on tight to " + window.nextDeath + '. For the 1450-mile undertaking you all jump from one moving train to another to another to another. Growing tired you lose count, but it\'s somewhere between 10 and 15.', imgUrl: '../assets/hop.png', nextLink: "/" + weighed_list[random_num] });
+	            return _react2.default.createElement(_Main2.default, { text: "You hold on tight to " + window.nextDeath + '. For the 1450-mile undertaking you all jump from one moving train to another to another to another. Growing tired you lose count, but it\'s somewhere between 10 and 15.', imgUrl: './assets/hop.png', nextLink: "/" + weighed_list[random_num] });
 	        }
 	    }]);
 
@@ -28625,7 +28838,7 @@
 	  }, {
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_Main2.default, { text: 'Your party is able to stay on the train without injury', imgUrl: '../assets/Safe.png', nextLink: '/Zetas' });
+	      return _react2.default.createElement(_Main2.default, { text: 'Your party is able to stay on the train without injury', imgUrl: './assets/Safe.png', nextLink: '/Zetas' });
 	    }
 	  }]);
 
@@ -28725,7 +28938,7 @@
 	  }, {
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_Main2.default, { text: window.nextDeath + " gets tired and falls off the side of the train.", imgUrl: '../assets/011a_Thrown.png', nextLink: '/Zetas' });
+	      return _react2.default.createElement(_Main2.default, { text: window.nextDeath + " gets tired and falls off the side of the train.", imgUrl: './assets/011a_Thrown.png', nextLink: '/Zetas' });
 	    }
 	  }]);
 
@@ -28805,7 +29018,7 @@
 	    _createClass(Zetas, [{
 	        key: 'render',
 	        value: function render() {
-	            return _react2.default.createElement(_Main2.default, { text: 'Along the way, you pass through many areas ruled by Los Zetas, one of the most dangerous drug cartels. Los Zetas have been known to board the train kidnapping riders.', imgUrl: '../assets/013_Zetas.png', nextLink: '/Take' });
+	            return _react2.default.createElement(_Main2.default, { text: 'Along the way, you pass through many areas ruled by Los Zetas, one of the most dangerous drug cartels. Los Zetas have been known to board the train kidnapping riders.', imgUrl: './assets/013_Zetas.png', nextLink: '/Take' });
 	        }
 	    }]);
 
@@ -28896,7 +29109,7 @@
 	  }, {
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_Main2.default, { text: window.text, imgUrl: '../assets/Take.png', nextLink: window.linkNew });
+	      return _react2.default.createElement(_Main2.default, { text: window.text, imgUrl: './assets/Take.png', nextLink: window.linkNew });
 	    }
 	  }]);
 
@@ -28976,7 +29189,7 @@
 	  _createClass(Take, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_Main2.default, { text: 'The train slows down. Your group hides. Two members of Los Zetas board but did not find you, but has taken five teen girls.', imgUrl: '../assets/Take.png', nextLink: '/Coyote' });
+	      return _react2.default.createElement(_Main2.default, { text: 'The train slows down. Your group hides. Two members of Los Zetas board but did not find you, but has taken five teen girls.', imgUrl: './assets/Take.png', nextLink: '/Coyote' });
 	    }
 	  }]);
 
@@ -29027,7 +29240,7 @@
 	  _createClass(Coyote, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_MainTwo2.default, { text: 'The remains of your group arrive at the last train stop. You are approached by a coyote, also know as a human smuggler, that says he can help you cross the border, but for a price. You have no money.', imgUrl: '../assets/Coyote.png', cta1: 'You know you cannot afford the coyote and decline.', cta2: 'Try to strike up a deal', oneLink: 'Heat', twoLink: '/Deal' });
+	      return _react2.default.createElement(_MainTwo2.default, { text: 'The remains of your group arrive at the last train stop. You are approached by a coyote, also know as a human smuggler, that says he can help you cross the border, but for a price. You have no money.', imgUrl: './assets/Coyote.png', cta1: 'You know you cannot afford the coyote and decline.', cta2: 'Try to strike up a deal', oneLink: 'Heat', twoLink: '/Deal' });
 	    }
 	  }]);
 
@@ -29163,7 +29376,7 @@
 	  _createClass(Coyote2, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_MainTwo2.default, { text: 'You jump in the back of the coyote\\u0027s truck with others. It is important that you stay low so you are not seen. The coyote asks how far you would like to go?', imgUrl: '../assets/Coyote2.png', cta1: 'All the way to the border', cta2: 'As far as he would recommend', oneLink: '/All', twoLink: '/Drop' });
+	      return _react2.default.createElement(_MainTwo2.default, { text: 'You jump in the back of the coyote\\u0027s truck with others. It is important that you stay low so you are not seen. The coyote asks how far you would like to go?', imgUrl: './assets/Coyote2.png', cta1: 'All the way to the border', cta2: 'As far as he would recommend', oneLink: '/All', twoLink: '/Drop' });
 	    }
 	  }]);
 
@@ -29198,124 +29411,286 @@
 
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-	var Form2 = function (_Component) {
-	  _inherits(Form2, _Component);
+	var Form = function (_Component) {
+	  _inherits(Form, _Component);
 
-	  function Form2() {
-	    _classCallCheck(this, Form2);
+	  function Form(props) {
+	    _classCallCheck(this, Form);
 
-	    return _possibleConstructorReturn(this, (Form2.__proto__ || Object.getPrototypeOf(Form2)).apply(this, arguments));
+	    var _this = _possibleConstructorReturn(this, (Form.__proto__ || Object.getPrototypeOf(Form)).call(this, props));
+
+	    _this.state = { value: '' };
+
+	    _this.handleChange = _this.handleChange.bind(_this);
+	    return _this;
 	  }
 
-	  _createClass(Form2, [{
+	  _createClass(Form, [{
+	    key: 'handleChange',
+	    value: function handleChange(event) {
+	      this.setState({ value: event.target.value });
+	      $("input").each(function () {
+	        $('#continue').addClass('disabled');
+	        if ($(this).val() == "") {} else {
+	          $('#continue').removeClass('disabled');
+	        }
+	      });
+	    }
+	  }, {
 	    key: 'render',
 	    value: function render() {
 	      return _react2.default.createElement(
 	        'div',
-	        null,
+	        { className: 'row row-top justify-content-center' },
 	        _react2.default.createElement(
-	          'p',
-	          { className: 'text-center' },
-	          "Thanks " + window.name + ", just one more step. Please enter the names of a few people who you are close to"
+	          'div',
+	          { className: 'col-12' },
+	          _react2.default.createElement(
+	            'p',
+	            { className: 'prompt text-center' },
+	            'To create a more personalized experience, please enter your name and age.'
+	          )
 	        ),
 	        _react2.default.createElement(
 	          'div',
-	          { className: 'row' },
+	          { className: 'col-lg-6 col-sm-12 text-left' },
+	          _react2.default.createElement(
+	            'label',
+	            { htmlFor: 'yourName' },
+	            'Your Name'
+	          ),
+	          _react2.default.createElement('input', { onChange: this.handleChange, type: 'text', className: 'form-control', id: 'yourName' })
+	        ),
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'col-lg-3 col-sm-6 text-left' },
+	          _react2.default.createElement(
+	            'label',
+	            { htmlFor: 'yourAge' },
+	            'Your Age'
+	          ),
+	          _react2.default.createElement('input', { type: 'number', className: 'form-control', id: 'yourAge' })
+	        ),
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'col-lg-3 col-sm-6 text-left' },
+	          _react2.default.createElement(
+	            'label',
+	            { htmlFor: 'yourGender' },
+	            'Your Gender'
+	          ),
+	          _react2.default.createElement('br', null),
 	          _react2.default.createElement(
 	            'div',
-	            { className: 'col-6 text-left' },
+	            { className: 'custom-control custom-radio custom-control-inline' },
+	            _react2.default.createElement('input', { type: 'radio', id: 'customRadioInline1', name: 'inlineRadioOptions', value: 'male', className: 'custom-control-input' }),
 	            _react2.default.createElement(
 	              'label',
-	              { htmlFor: 'theirName1' },
-	              'Relative'
-	            ),
-	            _react2.default.createElement('input', { type: 'text', className: 'form-control name', id: 'theirName1' })
+	              { className: 'custom-control-label', htmlFor: 'customRadioInline1' },
+	              'M'
+	            )
 	          ),
 	          _react2.default.createElement(
 	            'div',
-	            { className: 'col-6 text-left' },
+	            { className: 'custom-control custom-radio custom-control-inline' },
+	            _react2.default.createElement('input', { type: 'radio', id: 'customRadioInline2', name: 'inlineRadioOptions', value: 'female', className: 'custom-control-input' }),
 	            _react2.default.createElement(
 	              'label',
-	              { htmlFor: 'option1' },
-	              'Relationship'
-	            ),
-	            _react2.default.createElement(
-	              'select',
-	              { id: 'rel1', className: 'form-control relation' },
-	              _react2.default.createElement(
-	                'option',
-	                null,
-	                'Guy (Friend, Brother, Cousin)'
-	              )
-	            )
-	          ),
-	          _react2.default.createElement(
-	            'div',
-	            { className: 'col-6 text-left' },
-	            _react2.default.createElement('input', { type: 'text', className: 'form-control name', id: 'theirName2' })
-	          ),
-	          _react2.default.createElement(
-	            'div',
-	            { className: 'col-6 text-left' },
-	            _react2.default.createElement(
-	              'select',
-	              { id: 'rel2', className: 'form-control relation' },
-	              _react2.default.createElement(
-	                'option',
-	                null,
-	                'Girl (Friend, Sister, Cousin)'
-	              )
-	            )
-	          ),
-	          _react2.default.createElement(
-	            'div',
-	            { className: 'col-6 text-left' },
-	            _react2.default.createElement('input', { type: 'text', className: 'form-control name', id: 'theirName3' })
-	          ),
-	          _react2.default.createElement(
-	            'div',
-	            { className: 'col-6 text-left' },
-	            _react2.default.createElement(
-	              'select',
-	              { id: 'rel3', className: 'form-control relation' },
-	              _react2.default.createElement(
-	                'option',
-	                null,
-	                'Guy (Friend, Brother, Cousin)'
-	              )
-	            )
-	          ),
-	          _react2.default.createElement(
-	            'div',
-	            { className: 'col-6 text-left' },
-	            _react2.default.createElement('input', { type: 'text', className: 'form-control name', id: 'theirName4' })
-	          ),
-	          _react2.default.createElement(
-	            'div',
-	            { className: 'col-6 text-left' },
-	            _react2.default.createElement(
-	              'select',
-	              { id: 'rel4', className: 'form-control relation' },
-	              _react2.default.createElement(
-	                'option',
-	                null,
-	                'Girl (Friend, Sister, Cousin)'
-	              )
+	              { className: 'custom-control-label', htmlFor: 'customRadioInline2' },
+	              'F'
 	            )
 	          )
 	        ),
 	        _react2.default.createElement(
 	          'div',
-	          { className: 'col-6 m-auto' },
+	          { className: 'col-lg-6 col-md-7 col-12 text-center' },
+	          _react2.default.createElement(
+	            _reactRouter.Link,
+	            { id: 'continue', className: 'disabled btn btn-dark btn-block', to: '/Form2', onClick: captureNameAge },
+	            'Continue'
+	          )
+	        )
+	      );
+	    }
+	  }]);
+
+	  return Form;
+	}(_react.Component);
+
+	exports.default = Form;
+
+
+	function captureNameAge() {
+	  window.name = $("#yourName").val();
+	  window.age = $("#yourAge").val();
+	  window.gender = $('input[name=inlineRadioOptions]:checked').val();
+	  //  window.gender = $("#yourGender").val();
+	  //  console.log(window.name)
+	  //  console.log(window.age)
+	  //  console.log(window.gender)
+	}
+
+/***/ }),
+/* 278 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(1);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	var _reactRouter = __webpack_require__(159);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var Form2 = function (_Component) {
+	  _inherits(Form2, _Component);
+
+	  function Form2(props) {
+	    _classCallCheck(this, Form2);
+
+	    var _this = _possibleConstructorReturn(this, (Form2.__proto__ || Object.getPrototypeOf(Form2)).call(this, props));
+
+	    _this.state = { value: '' };
+
+	    _this.handleChange = _this.handleChange.bind(_this);
+	    return _this;
+	  }
+
+	  _createClass(Form2, [{
+	    key: 'handleChange',
+	    value: function handleChange(event) {
+	      this.setState({ value: event.target.value });
+	      $("input").each(function () {
+	        $('#continue').addClass('disabled');
+	        if ($(this).val() == "") {} else {
+	          $('#continue').removeClass('disabled');
+	        }
+	      });
+	    }
+	  }, {
+	    key: 'render',
+	    value: function render() {
+	      return _react2.default.createElement(
+	        'div',
+	        { className: 'row row-top justify-content-center' },
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'col-12' },
+	          _react2.default.createElement(
+	            'p',
+	            { className: 'prompt text-center' },
+	            "Thanks " + window.name + ", just one more step. Please enter the names of a few people who you are close to"
+	          )
+	        ),
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'col-6 text-left' },
+	          _react2.default.createElement(
+	            'label',
+	            { htmlFor: 'theirName1' },
+	            'Relative'
+	          ),
+	          _react2.default.createElement('input', { onChange: this.handleChange, type: 'text', className: 'form-control name', id: 'theirName1' })
+	        ),
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'col-6 text-left' },
+	          _react2.default.createElement(
+	            'label',
+	            { htmlFor: 'option1' },
+	            'Relationship'
+	          ),
+	          _react2.default.createElement(
+	            'select',
+	            { id: 'rel1', className: 'form-control relation' },
+	            _react2.default.createElement(
+	              'option',
+	              null,
+	              'Guy (Friend, Brother, Cousin)'
+	            )
+	          )
+	        ),
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'col-6 text-left' },
+	          _react2.default.createElement('input', { onChange: this.handleChange, type: 'text', className: 'form-control name', id: 'theirName2' })
+	        ),
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'col-6 text-left' },
+	          _react2.default.createElement(
+	            'select',
+	            { id: 'rel2', className: 'form-control relation' },
+	            _react2.default.createElement(
+	              'option',
+	              null,
+	              'Girl (Friend, Sister, Cousin)'
+	            )
+	          )
+	        ),
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'col-6 text-left' },
+	          _react2.default.createElement('input', { onChange: this.handleChange, type: 'text', className: 'form-control name', id: 'theirName3' })
+	        ),
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'col-6 text-left' },
+	          _react2.default.createElement(
+	            'select',
+	            { id: 'rel3', className: 'form-control relation' },
+	            _react2.default.createElement(
+	              'option',
+	              null,
+	              'Guy (Friend, Brother, Cousin)'
+	            )
+	          )
+	        ),
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'col-6 text-left' },
+	          _react2.default.createElement('input', { onChange: this.handleChange, type: 'text', className: 'form-control name', id: 'theirName4' })
+	        ),
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'col-6 text-left' },
+	          _react2.default.createElement(
+	            'select',
+	            { id: 'rel4', className: 'form-control relation' },
+	            _react2.default.createElement(
+	              'option',
+	              null,
+	              'Girl (Friend, Sister, Cousin)'
+	            )
+	          )
+	        ),
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'col-lg-6 col-md-7 col-12 text-center' },
 	          _react2.default.createElement(
 	            'button',
 	            { className: 'btn btn-dark btn-block', onClick: generateNames },
 	            'Randomly Generate'
 	          )
 	        ),
+	        _react2.default.createElement('div', { className: 'w-100' }),
 	        _react2.default.createElement(
 	          'div',
-	          { className: 'col-6 m-auto' },
+	          { className: 'col-lg-6 col-md-7 col-12 text-center' },
 	          _react2.default.createElement(
 	            _reactRouter.Link,
 	            { id: 'continue', className: 'btn btn-dark btn-block disabled', to: '/Story1', onClick: captureNames },
@@ -29332,25 +29707,9 @@
 	exports.default = Form2;
 
 
-	function buttonState() {
-	  $("input").each(function () {
-	    $('#continue').addClass('disabled');
-	    if ($(this).val() == "") return false;
-	    $('#continue').removeClass('disabled');
-	  });
-	  // $("#theirName1").genderApi({
-	  //     key: 'epHoxmloSHGQKzuWbW'
-	  // }).on('gender-found', function(e, result) {
-	  //
-	  //     if (result.accuracy >= 60) {
-	  //         alert('Gender found: ' + result.gender);
-	  //     }
-	  // });
-	}
-
 	$(function () {
 	  $('#continue').addClass('disabled');
-	  $('input').change(buttonState);
+	  // $('input').change(buttonState);
 	});
 
 	function returnPronoun(reference, rel) {
@@ -29417,7 +29776,7 @@
 	}
 
 /***/ }),
-/* 278 */
+/* 279 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -29458,7 +29817,7 @@
 	  _createClass(Argument, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_Main2.default, { text: 'An argument erupts. You see a glint out of the corner of your eye.', imgUrl: '../assets/Argument.png', nextLink: '/Death1' });
+	      return _react2.default.createElement(_Main2.default, { text: 'An argument erupts. You see a glint out of the corner of your eye.', imgUrl: './assets/Argument.png', nextLink: '/Death1' });
 	    }
 	  }]);
 
@@ -29468,7 +29827,7 @@
 	exports.default = Argument;
 
 /***/ }),
-/* 279 */
+/* 280 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -29509,7 +29868,7 @@
 	  _createClass(Death1, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_GameOver2.default, { text: 'Suddenly you feel hot blow, another and then another. You feel tired and collapse to the ground. Stabbed, left on the corner. Slowly your vision fades to black.', imgUrl: '../assets/death1.png' });
+	      return _react2.default.createElement(_GameOver2.default, { text: 'Suddenly you feel hot blow, another and then another. You feel tired and collapse to the ground. Stabbed, left on the corner. Slowly your vision fades to black.', imgUrl: './assets/death1.png' });
 	    }
 	  }]);
 
@@ -29519,7 +29878,7 @@
 	exports.default = Death1;
 
 /***/ }),
-/* 280 */
+/* 281 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -29560,7 +29919,15 @@
 	  _createClass(Death2, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_GameOver2.default, { text: 'You live another week, but the men want more. You don\\u0027t have any more money to give them so they kill you.', imgUrl: '../assets/go.png' });
+	      return _react2.default.createElement(_GameOver2.default, { text: ['You live another week, but the men want more. You don\'t have any more money to give them so they kill you', _react2.default.createElement(
+	          'sup',
+	          null,
+	          _react2.default.createElement(
+	            'a',
+	            { href: 'https://www.unicef.org/infobycountry/elsalvador_101032.html', target: '_blank' },
+	            '[5]'
+	          )
+	        ), "."], imgUrl: './assets/go.png' });
 	    }
 	  }]);
 
@@ -29570,7 +29937,7 @@
 	exports.default = Death2;
 
 /***/ }),
-/* 281 */
+/* 282 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -29611,7 +29978,7 @@
 	  _createClass(Dad, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_Main2.default, { text: 'They get your name and say they will look into it.', imgUrl: '../assets/003a_callpolice.png', nextLink: '/Death3' });
+	      return _react2.default.createElement(_Main2.default, { text: 'They get your name and say they will look into it.', imgUrl: './assets/003a_callpolice.png', nextLink: '/Death3' });
 	    }
 	  }]);
 
@@ -29621,7 +29988,7 @@
 	exports.default = Dad;
 
 /***/ }),
-/* 282 */
+/* 283 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -29662,7 +30029,15 @@
 	  _createClass(Death3, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_GameOver2.default, { text: 'On the way home, two officers stop you. You ask, \u201DIs there a problem, officers?\u201D The sound of a blast echoes in your ears. The police car speeds off. You do not return home.', imgUrl: '../assets/go.png' });
+	      return _react2.default.createElement(_GameOver2.default, { text: ["On the way home, two officers stop you. You ask, ”Is there a problem, officers?” The sound of a blast echoes in your ears. The police car speeds off. You do not return home", _react2.default.createElement(
+	          'a',
+	          { href: 'https://www.insightcrime.org/investigations/corruption-in-el-salvador-politicians-police-and-transportistas/', target: 'blank' },
+	          _react2.default.createElement(
+	            'sup',
+	            null,
+	            '[7]'
+	          )
+	        ), "."], imgUrl: './assets/go.png' });
 	    }
 	  }]);
 
@@ -29672,7 +30047,7 @@
 	exports.default = Death3;
 
 /***/ }),
-/* 283 */
+/* 284 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -29713,7 +30088,7 @@
 	  _createClass(Death4, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_GameOver2.default, { text: 'The tattooed men catch up to you and kill all of the members of your party.', imgUrl: '../assets/go.png' });
+	      return _react2.default.createElement(_GameOver2.default, { text: 'The tattooed men catch up to you and kill all of the members of your party.', imgUrl: './assets/go.png' });
 	    }
 	  }]);
 
@@ -29723,7 +30098,7 @@
 	exports.default = Death4;
 
 /***/ }),
-/* 284 */
+/* 285 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -29764,7 +30139,7 @@
 	  _createClass(Death5, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_GameOver2.default, { text: 'You fight. Both of you fall to the ground, he stabs you. Your friends watch you bleed out.', imgUrl: '../assets/go.png' });
+	      return _react2.default.createElement(_GameOver2.default, { text: 'You fight. Both of you fall to the ground, he stabs you. Your friends watch you bleed out.', imgUrl: './assets/go.png' });
 	    }
 	  }]);
 
@@ -29774,7 +30149,7 @@
 	exports.default = Death5;
 
 /***/ }),
-/* 285 */
+/* 286 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -29815,7 +30190,7 @@
 	  _createClass(Death6, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_GameOver2.default, { text: 'You plead. You scream for help, for the others to find you, for anyone to find you. Your attacker leaves, but you are unable to sit up. Idly you absorb the trauma and begin to swallow the pain. Everything fades to black.', imgUrl: '../assets/go.png' });
+	      return _react2.default.createElement(_GameOver2.default, { text: 'You plead. You scream for help, for the others to find you, for anyone to find you. Your attacker leaves, but you are unable to sit up. Idly you absorb the trauma and begin to swallow the pain. Everything fades to black.', imgUrl: './assets/go.png' });
 	    }
 	  }]);
 
@@ -29825,7 +30200,7 @@
 	exports.default = Death6;
 
 /***/ }),
-/* 286 */
+/* 287 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -29866,7 +30241,7 @@
 	  _createClass(Heat, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_Main2.default, { text: 'Your party sets off again into the heat.', imgUrl: '../assets/walk.png', nextLink: '/Death7' });
+	      return _react2.default.createElement(_Main2.default, { text: 'Your party sets off again into the heat.', imgUrl: './assets/walk.png', nextLink: '/Death7' });
 	    }
 	  }]);
 
@@ -29876,7 +30251,7 @@
 	exports.default = Heat;
 
 /***/ }),
-/* 287 */
+/* 288 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -29917,7 +30292,7 @@
 	  _createClass(Death7, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_GameOver2.default, { text: 'Sweaty, thirsty and alone you die of heat exhaustion.', imgUrl: '../assets/walk.png' });
+	      return _react2.default.createElement(_GameOver2.default, { text: 'Sweaty, thirsty and alone you die of heat exhaustion.', imgUrl: './assets/walk.png' });
 	    }
 	  }]);
 
@@ -29927,7 +30302,7 @@
 	exports.default = Death7;
 
 /***/ }),
-/* 288 */
+/* 289 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -29968,7 +30343,7 @@
 	  _createClass(Dad, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_Main2.default, { text: 'Your dad never returns home.', imgUrl: '../assets/dad.png', nextLink: '/Threat' });
+	      return _react2.default.createElement(_Main2.default, { text: 'Your dad never returns home.', imgUrl: './assets/dad.png', nextLink: '/Threat' });
 	    }
 	  }]);
 
@@ -29978,7 +30353,7 @@
 	exports.default = Dad;
 
 /***/ }),
-/* 289 */
+/* 290 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -30019,7 +30394,7 @@
 	  _createClass(All, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_Main2.default, { text: 'The truck approaches the border. All of a sudden Immigration spots the truck. The coyote tries to lose them and flips the truck. It\\u0027s one of the worst things you\\u0027ve ever seen. People are hurt. People are bleeding. A pregnant woman is seen vomiting blood.', imgUrl: '../assets/All.png', nextLink: '/Immigration' });
+	      return _react2.default.createElement(_Main2.default, { text: 'The truck approaches the border. All of a sudden Immigration spots the truck. The coyote tries to lose them and flips the truck. It\\u0027s one of the worst things you\\u0027ve ever seen. People are hurt. People are bleeding. A pregnant woman is seen vomiting blood.', imgUrl: './assets/All.png', nextLink: '/Immigration' });
 	    }
 	  }]);
 
@@ -30029,7 +30404,7 @@
 	exports.default = All;
 
 /***/ }),
-/* 290 */
+/* 291 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -30070,7 +30445,7 @@
 	  _createClass(Immigration, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_GameOver2.default, { text: 'Immigration arrests all of you and you are sent back home.', imgUrl: '../assets/go.png' });
+	      return _react2.default.createElement(_GameOver2.default, { text: 'Immigration arrests all of you and you are sent back home.', imgUrl: './assets/go.png' });
 	    }
 	  }]);
 
@@ -30080,7 +30455,7 @@
 	exports.default = Immigration;
 
 /***/ }),
-/* 291 */
+/* 292 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -30121,7 +30496,7 @@
 	  _createClass(Hieleras, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_GameOver2.default, { text: 'You are arrested and sent to detainment cells called, \u201Chieleras\u201D or \u201Ciceboxes,\u201D where immigrants are locked until deported.', imgUrl: '../assets/go.png' });
+	      return _react2.default.createElement(_GameOver2.default, { text: 'You are arrested and sent to detainment cells called, \u201Chieleras\u201D or \u201Ciceboxes,\u201D where immigrants are locked until deported.', imgUrl: './assets/go.png' });
 	    }
 	  }]);
 
@@ -30131,7 +30506,7 @@
 	exports.default = Hieleras;
 
 /***/ }),
-/* 292 */
+/* 293 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -30172,7 +30547,7 @@
 	  _createClass(Customs, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_MainTwo2.default, { text: 'Immigration and Customs Enforcement meets your party at the border. What do you do?', imgUrl: '../assets/Customs.png', cta1: 'You do not run.', cta2: 'You run.', oneLink: '/Hieleras', twoLink: '/Run' });
+	      return _react2.default.createElement(_MainTwo2.default, { text: 'Immigration and Customs Enforcement meets your party at the border. What do you do?', imgUrl: './assets/Customs.png', cta1: 'You do not run.', cta2: 'You run.', oneLink: '/Hieleras', twoLink: '/Run' });
 	    }
 	  }]);
 
@@ -30182,7 +30557,7 @@
 	exports.default = Customs;
 
 /***/ }),
-/* 293 */
+/* 294 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -30233,7 +30608,7 @@
 	exports.default = Across;
 
 /***/ }),
-/* 294 */
+/* 295 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -30274,7 +30649,7 @@
 	  _createClass(Drop, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_MainTwo2.default, { text: 'The coyote leaves your party a mile from the border. He says another party will be there tomorrow with a raft. You can see the Rio Grande and America in the distance and walk to the river. It is not as big as you imagined. How will you proceed?', imgUrl: '../assets/drop.png', cta1: 'You walk across.', cta2: 'You decide to wait for the party.', oneLink: '/Across', twoLink: '/Wait' });
+	      return _react2.default.createElement(_MainTwo2.default, { text: 'The coyote leaves your party a mile from the border. He says another party will be there tomorrow with a raft. You can see the Rio Grande and America in the distance and walk to the river. It is not as big as you imagined. How will you proceed?', imgUrl: './assets/drop.png', cta1: 'You walk across.', cta2: 'You decide to wait for the party.', oneLink: '/Across', twoLink: '/Wait' });
 	    }
 	  }]);
 
@@ -30284,7 +30659,7 @@
 	exports.default = Drop;
 
 /***/ }),
-/* 295 */
+/* 296 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -30325,7 +30700,7 @@
 	  _createClass(Wait, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_Main2.default, { text: 'The desert becomes cold in the evening and brings rain. You are without shelter. It is the coldest you have ever been.', imgUrl: '../assets/Wait.png', nextLink: '/Ice' });
+	      return _react2.default.createElement(_Main2.default, { text: 'The desert becomes cold in the evening and brings rain. You are without shelter. It is the coldest you have ever been.', imgUrl: './assets/Wait.png', nextLink: '/Ice' });
 	    }
 	  }]);
 
@@ -30335,7 +30710,7 @@
 	exports.default = Wait;
 
 /***/ }),
-/* 296 */
+/* 297 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -30376,7 +30751,7 @@
 	  _createClass(Ice, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_Main2.default, { text: 'Immigration and Customs Enforcement comes are you are arrested.', imgUrl: '../assets/Customs.png', nextLink: '/Sent' });
+	      return _react2.default.createElement(_Main2.default, { text: 'Immigration and Customs Enforcement comes are you are arrested.', imgUrl: './assets/Customs.png', nextLink: '/Sent' });
 	    }
 	  }]);
 
@@ -30386,7 +30761,7 @@
 	exports.default = Ice;
 
 /***/ }),
-/* 297 */
+/* 298 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -30427,7 +30802,7 @@
 	  _createClass(Sent, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_GameOver2.default, { text: 'You are sent back home.', imgUrl: '../assets/go.png' });
+	      return _react2.default.createElement(_GameOver2.default, { text: 'You are sent back home.', imgUrl: './assets/go.png' });
 	    }
 	  }]);
 
@@ -30437,7 +30812,7 @@
 	exports.default = Sent;
 
 /***/ }),
-/* 298 */
+/* 299 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -30478,7 +30853,7 @@
 	  _createClass(Run, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_Main2.default, { text: 'You are not caught, but others are.', imgUrl: '../assets/Run.png', nextLink: '/America' });
+	      return _react2.default.createElement(_Main2.default, { text: 'You are not caught, but others are.', imgUrl: './assets/Run.png', nextLink: '/America' });
 	    }
 	  }]);
 
@@ -30488,7 +30863,7 @@
 	exports.default = Run;
 
 /***/ }),
-/* 299 */
+/* 300 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -30529,7 +30904,7 @@
 	  _createClass(America, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_Main2.default, { text: 'Congratulations you\\u0027ve made it to America, the land of the free.', imgUrl: '../assets/America.png', nextLink: '/Dust' });
+	      return _react2.default.createElement(_Main2.default, { text: 'Congratulations you\\u0027ve made it to America, the land of the free.', imgUrl: './assets/America.png', nextLink: '/Dust' });
 	    }
 	  }]);
 
@@ -30539,7 +30914,7 @@
 	exports.default = America;
 
 /***/ }),
-/* 300 */
+/* 301 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -30580,7 +30955,7 @@
 	  _createClass(Dust, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_Main2.default, { text: 'As you walk, you see a group of truck in the distance, kicking up clouds of dust. Coming closer and closer. Is it help? Is it the help the coyote has sent?', imgUrl: '../assets/Dust.png', nextLink: '/Ice2' });
+	      return _react2.default.createElement(_Main2.default, { text: 'As you walk, you see a group of truck in the distance, kicking up clouds of dust. Coming closer and closer. Is it help? Is it the help the coyote has sent?', imgUrl: './assets/Dust.png', nextLink: '/Ice2' });
 	    }
 	  }]);
 
@@ -30590,7 +30965,7 @@
 	exports.default = Dust;
 
 /***/ }),
-/* 301 */
+/* 302 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -30631,7 +31006,7 @@
 	  _createClass(Ice2, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_Main2.default, { text: 'No, it\\u0027s Immigration.', imgUrl: '../assets/Customs.png', nextLink: '/Hieleras' });
+	      return _react2.default.createElement(_Main2.default, { text: 'No, it\\u0027s Immigration.', imgUrl: './assets/Customs.png', nextLink: '/Hieleras' });
 	    }
 	  }]);
 
@@ -30641,7 +31016,7 @@
 	exports.default = Ice2;
 
 /***/ }),
-/* 302 */
+/* 303 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -30682,7 +31057,7 @@
 	  _createClass(GoCoyote2, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_GameOver2.default, { text: 'Rest in peace.', imgUrl: '../assets/go.png' });
+	      return _react2.default.createElement(_GameOver2.default, { text: 'Rest in peace.', imgUrl: './assets/go.png' });
 	    }
 	  }]);
 
@@ -30690,6 +31065,83 @@
 	}(_react.Component);
 
 	exports.default = GoCoyote2;
+
+/***/ }),
+/* 304 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(1);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	var _reactRouter = __webpack_require__(159);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var Main = function (_Component) {
+	  _inherits(Main, _Component);
+
+	  function Main() {
+	    _classCallCheck(this, Main);
+
+	    return _possibleConstructorReturn(this, (Main.__proto__ || Object.getPrototypeOf(Main)).apply(this, arguments));
+	  }
+
+	  _createClass(Main, [{
+	    key: 'render',
+	    value: function render() {
+	      return _react2.default.createElement(
+	        'div',
+	        { className: 'row row-top justify-content-center' },
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'col-12 height-50' },
+	          _react2.default.createElement(
+	            'h1',
+	            null,
+	            'Trigger Warning'
+	          )
+	        ),
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'col-lg-8 col-md-8 col-12' },
+	          _react2.default.createElement(
+	            'p',
+	            null,
+	            'This game contains themes of violence, including rape.'
+	          )
+	        ),
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'col-lg-6 col-md-7 col-12 text-center' },
+	          _react2.default.createElement(
+	            _reactRouter.Link,
+	            { className: 'btn btn-dark btn-block', to: '/Form' },
+	            'Continue'
+	          )
+	        )
+	      );
+	    }
+	  }]);
+
+	  return Main;
+	}(_react.Component);
+
+	exports.default = Main;
 
 /***/ })
 /******/ ]);

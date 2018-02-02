@@ -43,6 +43,10 @@ class Intro extends React.Component {
        text:''
      }
    }
+   componentDidMount() {
+
+    loadUp()
+   }
 
    render(){
         if (this.state.counter < 2) {
@@ -90,4 +94,28 @@ class Content extends React.Component {
 export default Intro;
 function changeNav() {
   $('nav').css('display','flex')
+}
+
+function loadUp() {
+  $('nav').css('display','none')
+  // window.onload = function(){
+    function goUp(){
+      TweenLite.to(tumbleweed, 1, {width:'100px',height:'100px',top:"100px",onComplete:goRight});
+    }
+    function goLeft(){
+      TweenLite.to(tumbleweed, 8, {left:"-250px",onComplete:goUp});
+    }
+    function goDown(){
+      TweenLite.to(tumbleweed, 1, {width:'200px',height:'200px',top:"632px",onComplete:goLeft});
+    }
+
+    function goRight() {
+    TweenLite.to(tumbleweed, 8, {left:"100%",onComplete:goDown});
+    }
+    var tumbleweed = $("#tumbleweed");
+    goRight()
+  // }
+
+
+
 }

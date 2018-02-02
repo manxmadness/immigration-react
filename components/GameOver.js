@@ -38,7 +38,7 @@ class GameOver extends Component {
           <p>{this.props.text}</p>
         </div>
         <div className="col-lg-6 col-md-7 col-12 text-center">
-          <a className="btn btn-dark btn-block" href="http://kellyprudente.com/northern-triangle/lp/index.html" target="_blank">Read more about the Northern Triangle</a>
+          <a className="btn btn-dark btn-block" href="https://www.wola.org/analysis/people-leaving-central-americas-northern-triangle/" target="_blank">Donate and Learn more</a>
         </div>
         <div className="w-100"></div>
       <div className="col-lg-6 col-md-7 col-12 text-center">

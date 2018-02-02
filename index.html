@@ -152,28 +152,7 @@ z-index: 4;
 <!-- <script>$(document).ready(function() { $('body').bootstrapMaterialDesign(); });</script> -->
 <script>
 
-if ( $( "#quiz" ).length ) {
-  // window.onload = function(){
-  	function goUp(){
-  		TweenLite.to(tumbleweed, 1, {width:'100px',height:'100px',top:"100px",onComplete:goRight});
-  	}
-  	function goLeft(){
-  		TweenLite.to(tumbleweed, 8, {left:"-250px",onComplete:goUp});
-  	}
-  	function goDown(){
-  		TweenLite.to(tumbleweed, 1, {width:'200px',height:'200px',top:"632px",onComplete:goLeft});
-  	}
 
-  	function goRight() {
-  	TweenLite.to(tumbleweed, 8, {left:"100%",onComplete:goDown});
-  	}
-  	var tumbleweed = $("#tumbleweed");
-  	goRight()
-  // }
-
-  $('nav').css('display','none')
-
-}
 
   var navHeight = $('.navbar').outerHeight();
   $('.page').css('padding-top', navHeight)
