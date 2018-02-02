@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router'
-import Form from './Form';
+import Intro from './Intro';
 
 class App extends Component {
   render() {
     return (
-      <Form />
+      <Intro />
     );
   }
 }

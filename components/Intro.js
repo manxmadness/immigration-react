@@ -45,9 +45,10 @@ class Intro extends React.Component {
    }
 
    render(){
-        if (this.state.counter < 3) {
+        if (this.state.counter < 2) {
           this.state.text = this.state.data[this.state.counter].text
-        } else {
+        } else if (this.state.counter === 2) {
+          this.state.text = this.state.data[this.state.counter].text
           $('#next').addClass('d-none')
           $('#continue').removeClass('d-none')
         }
