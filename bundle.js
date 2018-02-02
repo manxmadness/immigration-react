@@ -30463,7 +30463,7 @@
 	  _createClass(All, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_Main2.default, { text: 'The truck approaches the border. All of a sudden Immigration spots the truck. The coyote tries to lose them and flips the truck. It\\u0027s one of the worst things you\\u0027ve ever seen. People are hurt. People are bleeding. A pregnant woman is seen vomiting blood.', imgUrl: './assets/All.png', nextLink: '/Immigration' });
+	      return _react2.default.createElement(_Main2.default, { text: 'The truck approaches the border. All of a sudden Immigration spots the truck. The coyote tries to lose them and flips the truck. It\u0027s one of the worst things you\u0027ve ever seen. People are hurt. People are bleeding. A pregnant woman is seen vomiting blood.', imgUrl: './assets/All.png', nextLink: '/Immigration' });
 	    }
 	  }]);
 
@@ -30565,7 +30565,15 @@
 	  _createClass(Hieleras, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_GameOver2.default, { text: 'You are arrested and sent to detainment cells called, \u201Chieleras\u201D or \u201Ciceboxes,\u201D where immigrants are locked until deported.', imgUrl: './assets/go.png' });
+	      return _react2.default.createElement(_GameOver2.default, { text: ["You are arrested and sent to detainment cells called, \u0022hieleras\u0022 or \u0022iceboxes,\u0022 where immigrants are locked until deported", _react2.default.createElement(
+	          'sup',
+	          null,
+	          _react2.default.createElement(
+	            'a',
+	            { href: 'https://www.nilc.org/issues/immigration-enforcement/hieleras/', target: '_blank' },
+	            '[21]'
+	          )
+	        ), "."], imgUrl: './assets/go.png' });
 	    }
 	  }]);
 
@@ -30667,7 +30675,7 @@
 	  _createClass(Across, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_Main2.default, { text: 'You have crossed the border.', imgUrl: './assets/Across.png', nextLink: '/Customs' });
+	      return _react2.default.createElement(_Main2.default, { text: 'You have crossed the border.', imgUrl: '/assets/Across.png', nextLink: '/Customs' });
 	    }
 	  }]);
 

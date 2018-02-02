@@ -11,7 +11,7 @@ class Intro extends React.Component {
     // question: '',
     //      data:[
     //         {
-    //            component: 'Tens of thousands of Salvadorans, Guatemalans, and Hondurans, many of them unaccompanied minors, have arrived in the United States in recent years, seeking asylum from the region’s skyrocketing violence.',
+    //            component: 'Tens of thousands of Salvadorans, Guatemalans, and Hondurans, many of them unaccompanied minors, have arrived in the United States in recent years, seeking asylum from the region\u0027s skyrocketing violence.',
     //            id: 1
     //         },
     //         {
@@ -27,7 +27,7 @@ class Intro extends React.Component {
      this.state= {
        data:[
              {
-                text: 'Tens of thousands of Salvadorans, Guatemalans, and Hondurans, many of them unaccompanied minors, have arrived in the United States in recent years, seeking asylum from the region’s skyrocketing violence.',
+                text: 'Tens of thousands of Salvadorans, Guatemalans, and Hondurans, many of them unaccompanied minors, have arrived in the United States in recent years, seeking asylum from the region\u0027s skyrocketing violence.',
                 id: 1
              },
              {

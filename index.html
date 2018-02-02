@@ -34,7 +34,7 @@
 </script>
   <nav class="navbar navbar-expand-md navbar-light fixed-top justify-content-center">
        <a class="navbar-brand" href="#"><img src="./assets/000_Title.png" width="100"/></a>
-       <audio class="audio" autoplay>
+       <audio id="theme" class="audio" autoplay>
          <source src="./assets/TheFlowing.mp3" type="audio/mpeg">
        Your browser does not support the audio element.
        </audio>
@@ -43,7 +43,7 @@
 <div class="container text-center page">
   <div id="app" class=""></div>
 </div>
-<div class="btn btn-purple" id="icon">
+<div class="btn btn-purple" id="icon" style="z-index:100">
   <i class="fa fa-volume-up float-right" aria-hidden="true"></i>
 </div>
 
@@ -90,10 +90,10 @@
          $('#icon i').toggleClass('fa-volume-up fa-volume-off'); //Adds 'a', removes 'b' and vice versa
 
         if($('#icon i').hasClass("fa-volume-up")){
-          $('.audio').trigger("play");
+          $('#theme').trigger("play");
          //  $('input').val('Unmute')
         } else {
-          $('.audio').trigger("pause");
+          $('#theme').trigger("pause");
          //  $('input').val('Mute')
         }
 
