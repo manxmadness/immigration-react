@@ -80,10 +80,12 @@ import America from './components/America'
 import Dust from './components/Dust'
 import Ice2 from './components/Ice2'
 import GoCoyote2 from './components/GoCoyote2'
+import Warning from './components/Warning'
 
 render((
   <Router history={hashHistory}>
     <Route path="/" component={App}/>
+    <Route path="/Warning" component={Warning}/>
     <Route path="/Intro" component={Intro}/>
     <Route path="/Story1" component={Story1}/>
     <Route path="/Story2" component={Story2}/>

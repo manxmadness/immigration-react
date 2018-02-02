@@ -62,14 +62,14 @@ class Intro extends React.Component {
              <div className="col-12 height-50">
              </div>
              <div className="col-lg-8 col-md-8 col-12">
-               <p>{this.state.text}<sup>[1]</sup></p>
+               <p>{this.state.text}<a href="https://www.cfr.org/backgrounder/central-americas-violent-northern-triangle" target="_blank"><sup>[1]</sup></a></p>
              </div>
              <div className="col-lg-6 col-md-7 col-12 text-center" id="next">
                <div className="btn btn-dark btn-block" onClick= {() => this.setState({counter: this.state.counter + 1})}>Next</div>
              </div>
              <div className="w-100"></div>
                <div id="continue" className="col-lg-6 col-md-7 d-none col-12 text-center">
-                <Link className="btn btn-dark btn-block" to="/Form" onClick={changeNav}>Continue to game</Link>
+                <Link className="btn btn-dark btn-block" to="/Warning" onClick={changeNav}>Continue to game</Link>
                </div>
             </div>
             </div>

@@ -2,6 +2,25 @@ import React, { Component } from 'react';
 import { Link } from 'react-router'
 
 class Form2 extends Component {
+  constructor(props) {
+  super(props);
+  this.state = {value: ''};
+
+  this.handleChange = this.handleChange.bind(this);
+}
+
+handleChange(event) {
+  this.setState({value: event.target.value});
+  $("input").each(function() {
+      $('#continue').addClass('disabled');
+      if ($(this).val() == "") {
+
+      } else {
+        $('#continue').removeClass('disabled');
+      }
+
+  })
+}
   render() {
     return (
       <div className="row row-top justify-content-center">
@@ -10,7 +29,7 @@ class Form2 extends Component {
         </div>
         <div className="col-6 text-left">
           <label htmlFor="theirName1">Relative</label>
-          <input type="text" className="form-control name" id="theirName1"/>
+          <input onChange={this.handleChange} type="text" className="form-control name" id="theirName1"/>
         </div>
         <div className="col-6 text-left">
           <label htmlFor="option1">Relationship</label>
@@ -28,7 +47,7 @@ class Form2 extends Component {
           </select>
         </div>
         <div className="col-6 text-left">
-          <input type="text" className="form-control name" id="theirName2"/>
+          <input onChange={this.handleChange} type="text" className="form-control name" id="theirName2"/>
         </div>
         <div className="col-6 text-left">
           <select id="rel2" className="form-control relation">
@@ -45,7 +64,7 @@ class Form2 extends Component {
           </select>
         </div>
         <div className="col-6 text-left">
-          <input type="text" className="form-control name" id="theirName3"/>
+          <input onChange={this.handleChange} type="text" className="form-control name" id="theirName3"/>
         </div>
         <div className="col-6 text-left">
           <select id="rel3" className="form-control relation">
@@ -62,7 +81,7 @@ class Form2 extends Component {
           </select>
         </div>
         <div className="col-6 text-left">
-          <input type="text" className="form-control name" id="theirName4"/>
+          <input onChange={this.handleChange} type="text" className="form-control name" id="theirName4"/>
         </div>
         <div className="col-6 text-left">
           <select id="rel4" className="form-control relation">
@@ -93,25 +112,10 @@ class Form2 extends Component {
 
 export default Form2;
 
-function buttonState() {
-    $("input").each(function() {
-        $('#continue').addClass('disabled');
-        if ($(this).val() == "") return false;
-        $('#continue').removeClass('disabled');
-    })
-    // $("#theirName1").genderApi({
-    //     key: 'epHoxmloSHGQKzuWbW'
-    // }).on('gender-found', function(e, result) {
-    //
-    //     if (result.accuracy >= 60) {
-    //         alert('Gender found: ' + result.gender);
-    //     }
-    // });
-}
 
 $(function() {
     $('#continue').addClass('disabled');
-    $('input').change(buttonState);
+    // $('input').change(buttonState);
 })
 
 function returnPronoun(reference, rel){
