@@ -12,7 +12,8 @@ body{
 }
 .thumb{
   /* width:800px; */
-  max-height:618px;
+  /* max-height:618px; */
+  max-height:500px;
 }
 .text-container {
   padding: 0 20% 0 20%;

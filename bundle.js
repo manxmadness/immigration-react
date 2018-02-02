@@ -25920,7 +25920,7 @@
 
 	    _this.state = {
 	      data: [{
-	        text: 'Tens of thousands of Salvadorans, Guatemalans, and Hondurans, many of them unaccompanied minors, have arrived in the United States in recent years, seeking asylum from the region\u0027s skyrocketing violence.',
+	        text: 'Tens of thousands of Salvadorans, Guatemalans, and Hondurans, many of them unaccompanied minors, have arrived in the United States in recent years, seeking asylum from the region\'s skyrocketing violence.',
 	        id: 1
 	      }, {
 	        text: 'Their countries, which form a region known as the Northern Triangle, were rocked by civil wars in the 1980s, leaving a legacy of violence and fragile institutions.',
@@ -26616,7 +26616,7 @@
 	  _createClass(Elsalvador, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_Main2.default, { text: ["Organized crime, gang violence, and poverty have erupted in your country, a country that you once loved but now fear. A nation that now has one of the highest homicide rates in the world. As these problems have strengthened, you\u0027ve seen a number of your family and friends fall victim to the gang, to MS-13", _react2.default.createElement(
+	      return _react2.default.createElement(_Main2.default, { text: ['Organized crime, gang violence, and poverty have erupted in your country, a country that you once loved but now fear. A nation that now has one of the highest homicide rates in the world. As these problems have strengthened, you\'ve seen a number of your family and friends fall victim to the gang, to MS-13', _react2.default.createElement(
 	          'a',
 	          { href: 'https://en.wikipedia.org/wiki/MS-13', target: '_blank' },
 	          _react2.default.createElement(
@@ -26734,7 +26734,7 @@
 	            null,
 	            '[6]'
 	          )
-	        ), ". Anonymous phone calls at all hours. A gruff voice at the other end, \u0022Give me $400 by the end of the week or you and your family die.\u0022"], imgUrl: './assets/002_phonecalls.png', nextLink: '/Response2' });
+	        ), '. Anonymous phone calls at all hours. A gruff voice at the other end, "Give me $400 by the end of the week or you and your family die."'], imgUrl: './assets/002_phonecalls.png', nextLink: '/Response2' });
 	    }
 	  }]);
 
@@ -27248,7 +27248,7 @@
 	  _createClass(Flee, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_Main2.default, { text: ["It's time to leave. You know the journey will be long. Unsafe. You think to yourself, \u0022If we leave we may die, but if we stay we will die.\u0022 You pack what you can carry", _react2.default.createElement(
+	      return _react2.default.createElement(_Main2.default, { text: ['It\'s time to leave. You know the journey will be long. Unsafe. You think to yourself, "If we leave we may die, but if we stay we will die." You pack what you can carry', _react2.default.createElement(
 	          'sup',
 	          null,
 	          _react2.default.createElement(
@@ -29445,7 +29445,7 @@
 	  _createClass(Coyote2, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_MainTwo2.default, { text: 'You jump in the back of the coyote\u0027s truck with others. It is important that you stay low so you are not seen. The coyote asks how far you would like to go?', imgUrl: './assets/Coyote2.png', cta1: 'All the way to the border', cta2: 'As far as he would recommend', oneLink: '/All', twoLink: '/Drop' });
+	      return _react2.default.createElement(_MainTwo2.default, { text: 'You jump in the back of the coyote\'s truck with others. It is important that you stay low so you are not seen. The coyote asks how far you would like to go?', imgUrl: './assets/Coyote2.png', cta1: 'All the way to the border', cta2: 'As far as he would recommend', oneLink: '/All', twoLink: '/Drop' });
 	    }
 	  }]);
 
@@ -30098,7 +30098,7 @@
 	  _createClass(Death3, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_GameOver2.default, { text: ["On the way home, two officers stop you. You ask, \u0022Is there a problem, officers?\u0022 The sound of a blast echoes in your ears. The police car speeds off. You do not return home", _react2.default.createElement(
+	      return _react2.default.createElement(_GameOver2.default, { text: ['On the way home, two officers stop you. You ask, "Is there a problem, officers?" The sound of a blast echoes in your ears. The police car speeds off. You do not return home', _react2.default.createElement(
 	          'a',
 	          { href: 'https://www.insightcrime.org/investigations/corruption-in-el-salvador-politicians-police-and-transportistas/', target: 'blank' },
 	          _react2.default.createElement(
@@ -30463,7 +30463,15 @@
 	  _createClass(All, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_Main2.default, { text: 'The truck approaches the border. All of a sudden Immigration spots the truck. The coyote tries to lose them and flips the truck. It\u0027s one of the worst things you\u0027ve ever seen. People are hurt. People are bleeding. A pregnant woman is seen vomiting blood.', imgUrl: './assets/All.png', nextLink: '/Immigration' });
+	      return _react2.default.createElement(_Main2.default, { text: ['The truck approaches the border. All of a sudden Immigration spots the truck. The coyote tries to lose them and flips the truck. It\'s one of the worst things you\'ve ever seen. People are hurt. People are bleeding. A pregnant woman is seen vomiting blood', _react2.default.createElement(
+	          'sup',
+	          null,
+	          _react2.default.createElement(
+	            'a',
+	            { href: 'http://www.mysanantonio.com/news/us-world/border-mexico/article/Van-carrying-32-undocumented-immigrants-flips-9198050.php', target: 'blank' },
+	            '[22]'
+	          )
+	        ), "."], imgUrl: './assets/All.png', nextLink: '/Immigration' });
 	    }
 	  }]);
 
@@ -30565,7 +30573,7 @@
 	  _createClass(Hieleras, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_GameOver2.default, { text: ["You are arrested and sent to detainment cells called, \u0022hieleras\u0022 or \u0022iceboxes,\u0022 where immigrants are locked until deported", _react2.default.createElement(
+	      return _react2.default.createElement(_GameOver2.default, { text: ['You are arrested and sent to detainment cells called, "hieleras" or "iceboxes," where immigrants are locked until deported', _react2.default.createElement(
 	          'sup',
 	          null,
 	          _react2.default.createElement(
@@ -30981,7 +30989,7 @@
 	  _createClass(America, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_Main2.default, { text: 'Congratulations you\u0027ve made it to America, the land of the free.', imgUrl: './assets/America.png', nextLink: '/Dust' });
+	      return _react2.default.createElement(_Main2.default, { text: 'Congratulations you\\u0027ve made it to America, the land of the free.', imgUrl: './assets/America.png', nextLink: '/Dust' });
 	    }
 	  }]);
 
@@ -31083,7 +31091,7 @@
 	  _createClass(Ice2, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_Main2.default, { text: 'No, it\u0027s Immigration.', imgUrl: './assets/Customs.png', nextLink: '/Hieleras' });
+	      return _react2.default.createElement(_Main2.default, { text: 'No, it\\u0027s Immigration.', imgUrl: './assets/Customs.png', nextLink: '/Hieleras' });
 	    }
 	  }]);
 

@@ -80,7 +80,15 @@
 <script src="bundle.js"></script>
 <!-- <script>$(document).ready(function() { $('body').bootstrapMaterialDesign(); });</script> -->
 <script>
-
+//preload images so they are already cached when navigating from scene-to-scene
+var myimages=new Array()
+function preloadimages(){
+for (i=0;i<preloadimages.arguments.length;i++){
+myimages[i]=new Image()
+myimages[i].src=preloadimages.arguments[i]
+}
+}
+preloadimages("assets/000_Title.png","assets/001_Brother.png","assets/001_brothersister.png","assets/001a_confront.png","assets/002_phonecalls.png","assets/003_brotherbeat.png","assets/003a_callpolice.png","assets/004_body.png","assets/004a_paymoney.png","assets/005_backpack.png","assets/005a_birthcontrol.png","assets/006_Taxi.png","assets/006a_road.png","assets/007_manwithknife.png","assets/008_River.png","assets/008a_raft.png","assets/008b_drowning.png","assets/009_threemen.png","assets/009a_Knifeatthroat.png","assets/010_Train.png","assets/011_manontrain.png","assets/011a_Thrown.png","assets/012_womanandboy.png","assets/012a_trainjump.png","assets/013_Zetas.png","assets/Across.png","assets/All.png","assets/America.png","assets/Argument.png","assets/Coyote.png","assets/Coyote2.png","assets/Customs.png","assets/Deal.png","assets/Decision.png","assets/Decision2.png","assets/Dust.png","assets/Hike.png","assets/Mexico.png","assets/Response.png","assets/Run.png","assets/Safe.png","assets/Story1.png","assets/Take.png","assets/Wait.png","assets/background.png","assets/backpack.png","assets/canvas.jpg","assets/canvas.png","assets/clock.png","assets/dad.png","assets/death1.png","assets/drop.png","assets/elsalvador.png","assets/gameover.png","assets/go.png","assets/hop.png","assets/ico_16.png","assets/ico_32.png","assets/ico_96.png","assets/money.png","assets/ms13.png","assets/paper.jpg","assets/ph.png","assets/shrub1.png","assets/shrub2.png","assets/submit.png","assets/tumbleweed.png","assets/walk.png")
 
 
   var navHeight = $('.navbar').outerHeight();
