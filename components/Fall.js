@@ -20,7 +20,7 @@ class Fall extends Component {
   }
   render() {
     return (
-      <Main text={window.nextDeath + " gets tired and falls off the side of the train."} imgUrl="../assets/011a_Thrown.png" nextLink="/Zetas"/>
+      <Main text={[window.nextDeath + " gets tired and falls off the side of the train",<sup><a href='http://www.sandiegouniontribune.com/news/border-baja-california/sdut-la-bestia-victims-2016jun27-story.html' target='_blank'>[17]</a></sup>,"."]} imgUrl="../assets/011a_Thrown.png" nextLink="/Zetas"/>
     );
   }
 }

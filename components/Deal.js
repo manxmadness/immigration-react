@@ -21,7 +21,7 @@ class Deal extends Component {
 
   render() {
     return (
-      <Main text={ window.text } imgUrl="/assets/Deal.png" nextLink={window.linkNew}/>
+      <Main text={ window.text } imgUrl="../assets/Deal.png" nextLink={window.linkNew}/>
     );
   }
 }

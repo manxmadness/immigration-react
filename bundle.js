@@ -27248,7 +27248,15 @@
 	  _createClass(Flee, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_Main2.default, { text: 'It\'s time to leave. You know the journey will be long. Unsafe. You think to yourself, \u201CIf we leave we may die, but if we stay we will die.\u201D You pack what you can carry; a change of clothes, a map, flashlight, a bit of cash found last minute, a little bit of food and water.', imgUrl: './assets/backpack.png', nextLink: '/Pill' });
+	      return _react2.default.createElement(_Main2.default, { text: ["It's time to leave. You know the journey will be long. Unsafe. You think to yourself, \u0022If we leave we may die, but if we stay we will die.\u0022 You pack what you can carry", _react2.default.createElement(
+	          'sup',
+	          null,
+	          _react2.default.createElement(
+	            'a',
+	            { href: 'https://www.nytimes.com/2016/11/13/world/americas/fleeing-gangs-central-american-families-surge-toward-us.html', target: '_blank' },
+	            '[7]'
+	          )
+	        ), "; a change of clothes, a map, flashlight, a bit of cash found last minute, a little bit of food and water."], imgUrl: './assets/backpack.png', nextLink: '/Pill' });
 	    }
 	  }]);
 
@@ -27305,12 +27313,12 @@
 	          _react2.default.createElement(
 	            'a',
 	            { href: 'http://www.slate.com/news-and-politics/2018/01/trump-uses-people-of-color-as-cover-for-his-anti-immigrant-policies.html', target: '_blank' },
-	            '[8]'
+	            '[9]'
 	          ),
 	          _react2.default.createElement(
 	            'a',
 	            { href: 'https://www.theguardian.com/world/2015/oct/28/refugee-crisis-grows-in-latin-america-women-children', target: '_blank' },
-	            '[9]'
+	            '[10]'
 	          )
 	        ), ". During your travels you may come across bad men. They may choose force, but that is part of the cost to a safe place."] : ["Before you leave, you, " + window.people.name2 + ", and " + window.people.name4 + " take the pill", _react2.default.createElement(
 	          'sup',
@@ -27433,7 +27441,7 @@
 	          _react2.default.createElement(
 	            'a',
 	            { href: 'https://en.wikipedia.org/wiki/Coyotaje', target: '_blank' },
-	            '[10]'
+	            '[11]'
 	          )
 	        ), ", but you have enough to see how far a taxi will get you. How would you like to proceed?"], imgUrl: './assets/money.png', cta1: 'Get a taxi', cta2: 'Take the bus to save money', oneLink: '/Taxi', twoLink: '/Stops' });
 	    }
@@ -27754,12 +27762,12 @@
 	          _react2.default.createElement(
 	            'a',
 	            { href: 'https://www.npr.org/sections/parallels/2016/04/14/473934734/city-interrupted-how-gang-killings-brought-san-salvadors-bus-service-to-a-halt', target: '_blank' },
-	            '[11]'
+	            '[12]'
 	          ),
 	          _react2.default.createElement(
 	            'a',
 	            { href: 'https://www.nytimes.com/2016/11/21/world/americas/el-salvador-drugs-gang-ms-13.html', target: '_blank' },
-	            '[12]'
+	            '[13]'
 	          )
 	        ), "."], imgUrl: './assets/001a_confront.png', nextLink: '/Bus' });
 	    }
@@ -28072,7 +28080,7 @@
 	  _createClass(River, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_MainTwo2.default, { text: 'Finally you reach the Suchiate River, the barrier between you and Mexico. How will you get across?', imgUrl: './assets/008_River.png', cta1: 'Make a raft', cta2: 'Swim', oneLink: '/Raft', twoLink: '/Swim' });
+	      return _react2.default.createElement(_MainTwo2.default, { text: "Finally you reach the Suchiate River, the barrier between you and Mexico. How will you get across?", imgUrl: './assets/008_River.png', cta1: 'Make a raft', cta2: 'Swim', oneLink: '/Raft', twoLink: '/Swim' });
 	    }
 	  }]);
 
@@ -28174,7 +28182,15 @@
 	  _createClass(Raft, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_Main2.default, { text: 'Together you decided to make a raft out of old tires and a few scraps of wood. This will take you a day to make. The next day you row over to the other side together.', imgUrl: './assets/008a_raft.png', nextLink: '/Mexico' });
+	      return _react2.default.createElement(_Main2.default, { text: ["Together you decided to make a raft out of old tires and a few scraps of wood. This will take you a day to make. The next day you row over to the other side together", _react2.default.createElement(
+	          'sup',
+	          null,
+	          _react2.default.createElement(
+	            'a',
+	            { href: 'https://www.economist.com/news/americas/21725601-donald-trump-hardens-united-states-border-more-asylum-seekers-opt-stay', target: '_blank' },
+	            '[13]'
+	          )
+	        ), "."], imgUrl: './assets/008a_raft.png', nextLink: '/Mexico' });
 	    }
 	  }]);
 
@@ -28235,7 +28251,15 @@
 	  }, {
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_Main2.default, { text: window.nextDeath + " is not a strong swimmer and is weak. The current takes them under. They bob up once, but only once.", imgUrl: './assets/008b_drowning.png', nextLink: '/Mexico' });
+	      return _react2.default.createElement(_Main2.default, { text: [window.nextDeath + " is not a strong swimmer and is weak. The current takes them under. They bob up once, but only once", _react2.default.createElement(
+	          'sup',
+	          null,
+	          _react2.default.createElement(
+	            'a',
+	            { href: 'https://books.google.com/books?id=PLOmAgAAQBAJ&pg=PT285&lpg=PT285&dq=drown+suchiate+river&source=bl&ots=5WRJ34eTpf&sig=Ya2zZdocPd8fi2XMngCX6WDKsrM&hl=en&sa=X&ved=0ahUKEwiZt6Pji4jZAhWI21MKHUmqDkcQ6AEIWzAL#v=snippet&q=river&f=false', target: '_blank' },
+	            '[14]'
+	          )
+	        ), "."], imgUrl: './assets/008b_drowning.png', nextLink: '/Mexico' });
 	    }
 	  }]);
 
@@ -28404,7 +28428,15 @@
 	  _createClass(Encounter, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_MainTwo2.default, { text: 'Along the way you come across a group of men. One tells you that you have pretty face and then forces himself on you. What do you do?', imgUrl: './assets/009_threemen.png', cta1: 'Scream for help.', cta2: 'Lay there silently until he finishes.', oneLink: '/Death6', twoLink: '/Continue' });
+	      return _react2.default.createElement(_MainTwo2.default, { text: ["Along the way you come across a group of men. One tells you that you have pretty face and then forces himself on you", _react2.default.createElement(
+	          'sup',
+	          null,
+	          _react2.default.createElement(
+	            'a',
+	            { href: 'https://broadly.vice.com/en_us/article/evgg9j/i-didnt-have-anywhere-to-run-migrant-women-are-facing-a-rape-epidemic', target: '_blank' },
+	            '[15]'
+	          )
+	        ), ". What do you do?"], imgUrl: './assets/009_threemen.png', cta1: 'Scream for help.', cta2: 'Lay there silently until he finishes.', oneLink: '/Death6', twoLink: '/Continue' });
 	    }
 	  }]);
 
@@ -28455,7 +28487,15 @@
 	  _createClass(Story5, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_Main2.default, { text: 'At the end of the day, you finally reach the train in Tapachula, known to most as El Tren De La Muerte. Many have fallen of the train to their deaths or have been injured. Some have been pushed off. Other have been shot or stabbed on their passage.', imgUrl: './assets/010_Train.png', nextLink: '/Story6' });
+	      return _react2.default.createElement(_Main2.default, { text: ["At the end of the day, you finally reach the train in Tapachula, known to most as El Tren De La Muerte", _react2.default.createElement(
+	          'sup',
+	          null,
+	          _react2.default.createElement(
+	            'a',
+	            { href: 'https://en.wikipedia.org/wiki/El_tren_de_la_muerte', target: '_blank' },
+	            '[16]'
+	          )
+	        ), ". Many have fallen of the train to their deaths or have been injured. Some have been pushed off. Other have been shot or stabbed on their passage."], imgUrl: './assets/010_Train.png', nextLink: '/Story6' });
 	    }
 	  }]);
 
@@ -28938,7 +28978,15 @@
 	  }, {
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_Main2.default, { text: window.nextDeath + " gets tired and falls off the side of the train.", imgUrl: './assets/011a_Thrown.png', nextLink: '/Zetas' });
+	      return _react2.default.createElement(_Main2.default, { text: [window.nextDeath + " gets tired and falls off the side of the train", _react2.default.createElement(
+	          'sup',
+	          null,
+	          _react2.default.createElement(
+	            'a',
+	            { href: 'http://www.sandiegouniontribune.com/news/border-baja-california/sdut-la-bestia-victims-2016jun27-story.html', target: '_blank' },
+	            '[17]'
+	          )
+	        ), "."], imgUrl: './assets/011a_Thrown.png', nextLink: '/Zetas' });
 	    }
 	  }]);
 
@@ -29018,7 +29066,20 @@
 	    _createClass(Zetas, [{
 	        key: 'render',
 	        value: function render() {
-	            return _react2.default.createElement(_Main2.default, { text: 'Along the way, you pass through many areas ruled by Los Zetas, one of the most dangerous drug cartels. Los Zetas have been known to board the train kidnapping riders.', imgUrl: './assets/013_Zetas.png', nextLink: '/Take' });
+	            return _react2.default.createElement(_Main2.default, { text: ["Along the way, you pass through many areas ruled by Los Zetas, one of the most dangerous drug cartels. Los Zetas have been known to board the train kidnapping riders", _react2.default.createElement(
+	                    'sup',
+	                    null,
+	                    _react2.default.createElement(
+	                        'a',
+	                        { href: 'https://en.wikipedia.org/wiki/Los_Zetas', target: '_blank' },
+	                        '[18]'
+	                    ),
+	                    _react2.default.createElement(
+	                        'a',
+	                        { href: 'https://www.migrationpolicy.org/article/central-american-migrants-and-%E2%80%9Cla-bestia%E2%80%9D-route-dangers-and-government-responses', target: '_blank' },
+	                        '[19]'
+	                    )
+	                ), "."], imgUrl: './assets/013_Zetas.png', nextLink: '/Take' });
 	        }
 	    }]);
 
@@ -29240,7 +29301,15 @@
 	  _createClass(Coyote, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_MainTwo2.default, { text: 'The remains of your group arrive at the last train stop. You are approached by a coyote, also know as a human smuggler, that says he can help you cross the border, but for a price. You have no money.', imgUrl: './assets/Coyote.png', cta1: 'You know you cannot afford the coyote and decline.', cta2: 'Try to strike up a deal', oneLink: 'Heat', twoLink: '/Deal' });
+	      return _react2.default.createElement(_MainTwo2.default, { text: ["The remains of your group arrive at the last train stop. You are approached by a coyote, also know as a human smuggler, that says he can help you cross the border, but for a price. You have no money", _react2.default.createElement(
+	          'sup',
+	          null,
+	          _react2.default.createElement(
+	            'a',
+	            { href: 'http://harvardpolitics.com/world/perilous-journey-northern-triangle/', target: '_blank' },
+	            '[20]'
+	          )
+	        ), "."], imgUrl: './assets/Coyote.png', cta1: 'You know you cannot afford the coyote and decline.', cta2: 'Try to strike up a deal', oneLink: 'Heat', twoLink: '/Deal' });
 	    }
 	  }]);
 
@@ -29305,7 +29374,7 @@
 	  }, {
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_Main2.default, { text: window.text, imgUrl: '/assets/Deal.png', nextLink: window.linkNew });
+	      return _react2.default.createElement(_Main2.default, { text: window.text, imgUrl: './assets/Deal.png', nextLink: window.linkNew });
 	    }
 	  }]);
 
@@ -29376,7 +29445,7 @@
 	  _createClass(Coyote2, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_MainTwo2.default, { text: 'You jump in the back of the coyote\\u0027s truck with others. It is important that you stay low so you are not seen. The coyote asks how far you would like to go?', imgUrl: './assets/Coyote2.png', cta1: 'All the way to the border', cta2: 'As far as he would recommend', oneLink: '/All', twoLink: '/Drop' });
+	      return _react2.default.createElement(_MainTwo2.default, { text: 'You jump in the back of the coyote\u0027s truck with others. It is important that you stay low so you are not seen. The coyote asks how far you would like to go?', imgUrl: './assets/Coyote2.png', cta1: 'All the way to the border', cta2: 'As far as he would recommend', oneLink: '/All', twoLink: '/Drop' });
 	    }
 	  }]);
 
@@ -30029,13 +30098,13 @@
 	  _createClass(Death3, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_GameOver2.default, { text: ["On the way home, two officers stop you. You ask, ”Is there a problem, officers?” The sound of a blast echoes in your ears. The police car speeds off. You do not return home", _react2.default.createElement(
+	      return _react2.default.createElement(_GameOver2.default, { text: ["On the way home, two officers stop you. You ask, \u0022Is there a problem, officers?\u0022 The sound of a blast echoes in your ears. The police car speeds off. You do not return home", _react2.default.createElement(
 	          'a',
 	          { href: 'https://www.insightcrime.org/investigations/corruption-in-el-salvador-politicians-police-and-transportistas/', target: 'blank' },
 	          _react2.default.createElement(
 	            'sup',
 	            null,
-	            '[7]'
+	            '[8]'
 	          )
 	        ), "."], imgUrl: './assets/go.png' });
 	    }
@@ -30598,7 +30667,7 @@
 	  _createClass(Across, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_Main2.default, { text: 'You have crossed the border.', imgUrl: '/assets/Across.png', nextLink: '/Customs' });
+	      return _react2.default.createElement(_Main2.default, { text: 'You have crossed the border.', imgUrl: './assets/Across.png', nextLink: '/Customs' });
 	    }
 	  }]);
 
@@ -30904,7 +30973,7 @@
 	  _createClass(America, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_Main2.default, { text: 'Congratulations you\\u0027ve made it to America, the land of the free.', imgUrl: './assets/America.png', nextLink: '/Dust' });
+	      return _react2.default.createElement(_Main2.default, { text: 'Congratulations you\u0027ve made it to America, the land of the free.', imgUrl: './assets/America.png', nextLink: '/Dust' });
 	    }
 	  }]);
 
@@ -31006,7 +31075,7 @@
 	  _createClass(Ice2, [{
 	    key: 'render',
 	    value: function render() {
-	      return _react2.default.createElement(_Main2.default, { text: 'No, it\\u0027s Immigration.', imgUrl: './assets/Customs.png', nextLink: '/Hieleras' });
+	      return _react2.default.createElement(_Main2.default, { text: 'No, it\u0027s Immigration.', imgUrl: './assets/Customs.png', nextLink: '/Hieleras' });
 	    }
 	  }]);
 
